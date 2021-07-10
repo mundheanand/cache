@@ -1,0 +1,29 @@
+<div class="col-md-9">
+<h4>Contact Us</h4>
+<hr/>
+<div class="">
+<div class="alert alert-danger" id="error_msg" role="alert" style="display: none;"></div>
+<form action="" class="form-horizontal" id="form1" method="post" name="form1">
+<input id="token" name="token" type="hidden" value=""/>
+<div class="form-group">
+<label class="col-md-2 control-label">Email</label>
+<div class="col-md-6"><input class="form-control" id="email" name="email" type="text" value=""/></div>
+</div>
+<div class="form-group">
+<label class="col-md-2 control-label">Comments</label>
+<div class="col-md-6"><textarea class="form-control" id="comments" name="comments" rows="7"></textarea></div>
+</div>
+<div class="form-group">
+<div class="col-md-offset-2 col-md-6">
+<div class="g-recaptcha" data-sitekey="6LdngZYUAAAAADs8Y6-eR30JorryKTyxv7qw0SeA"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="col-md-offset-2 col-md-6">
+<input class="btn btn-primary" id="login_button" name="login_button" onclick="return validateCommentsForm();" type="submit" value="Send"/>
+</div>
+</div>
+</form>
+<script type="text/javascript">$('#email').focus();</script>
+</div>
+</div>

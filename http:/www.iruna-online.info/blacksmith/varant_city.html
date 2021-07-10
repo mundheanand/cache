@@ -1,0 +1,344 @@
+<div class="col-md-9">
+<h4>Varant City Blacksmith</h4>
+<hr/>
+<div class="">
+<form class="form-horizontal table-condensed" id="form1" method="post" name="form1">
+<input id="token" name="token" type="hidden" value=""/>
+<div class="form-group">
+<div class="col-md-4">
+<select class="form-control" id="zone_name" name="zone_name" onchange="updateZone();">
+<option value="Anniversary Event">Anniversary Event</option>
+<option value="Aplide Village">Aplide Village</option>
+<option value="Aqruf Town">Aqruf Town</option>
+<option value="Caldera Village">Caldera Village</option>
+<option value="Capital City Elban">Capital City Elban</option>
+<option value="Capital City Eldan">Capital City Eldan</option>
+<option value="Capital City Saterica">Capital City Saterica</option>
+<option value="Capital City Sofya">Capital City Sofya</option>
+<option value="Deeos">Deeos</option>
+<option value="Diel Village">Diel Village</option>
+<option value="Drafbourg: Dragonewt Ward">Drafbourg: Dragonewt Ward</option>
+<option value="Drafbourg: Immigrant Ward">Drafbourg: Immigrant Ward</option>
+<option value="Fort Bailune">Fort Bailune</option>
+<option value="Ioleu Village">Ioleu Village</option>
+<option value="Kakeula City">Kakeula City</option>
+<option value="Kleya City">Kleya City</option>
+<option value="Kreldan Church Street">Kreldan Church Street</option>
+<option value="Kreya City">Kreya City</option>
+<option value="Lograth City">Lograth City</option>
+<option value="Lunite Village">Lunite Village</option>
+<option value="Maios">Maios</option>
+<option value="Maldario Downtown">Maldario Downtown</option>
+<option value="Minaula City">Minaula City</option>
+<option value="Mioreita Castle">Mioreita Castle</option>
+<option value="Moivan the Chamber of Moonlight">Moivan the Chamber of Moonlight</option>
+<option value="Oltoga Village">Oltoga Village</option>
+<option value="Orolhool">Orolhool</option>
+<option value="Pilaneza City">Pilaneza City</option>
+<option value="Port Spargas">Port Spargas</option>
+<option value="Reoctove">Reoctove</option>
+<option value="Rokoko City">Rokoko City</option>
+<option value="Rokoko Village">Rokoko Village</option>
+<option value="Sateria City">Sateria City</option>
+<option value="Shrine of Fortune">Shrine of Fortune</option>
+<option value="Small Library">Small Library</option>
+<option value="Sofia City">Sofia City</option>
+<option value="Underground Bailune">Underground Bailune</option>
+<option selected="" value="Varant City">Varant City</option>
+<option value="Wibo City">Wibo City</option>
+</select>
+</div>
+</div>
+</form>
+<br/>
+<div class="row"><div class="col-md-12"><b>Blacksmith</b></div></div> <div>
+<br/>
+<table class="table table table-bordered"><tr><th colspan="2">Swords</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/claiomh_solais_iii.html" id="blacksmith_claiomh_solais_iii">Claiomh Solais III</a>
+</td>
+<td class="col-sm-9">
+			Atk: 296 			<br/>
+			Melee to Dark +20% [X = 0.06 * CRT] [CRT up by X] Magic R +14% Item Delay -1.0s Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/emerald_roar_ii.html" id="blacksmith_emerald_roar_ii">Emerald Roar II</a>
+</td>
+<td class="col-sm-9">
+			Atk: 296 Def: 12			<br/>
+			Melee to Wind +20% Melee to Earth -20% ATK +17% MaxHP +15% Wind R +5% Paralysis +6% CRT +13 Melee R +7% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/fairy_tale_world_spoon.html" id="blacksmith_fairy_tale_world_spoon">Fairy Tale World Spoon</a>
+</td>
+<td class="col-sm-9">
+			Atk: 275 			<br/>
+			ATK +5% Melee to Neutral +15% Melee to Fire +15% Melee to Water +15% Melee to Wind +15% Melee to Earth +15% Melee to Light +15% Melee to Dark +15% Neutral R -15% Fire R -15% Water R -15% Wind R -15% Earth R -15% Light R -15% Dark R -15% MaxHP -15% MaxMP -15% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/gold_rex_iii.html" id="blacksmith_gold_rex_iii">Gold Rex III</a>
+</td>
+<td class="col-sm-9">
+			Atk: 290 Def: 2			<br/>
+			ATK +9% Critical damage +14% Knockout -1.0s Auto HP Recovery +30% Auto MP Recovery +30% Autoskill +3% Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/red_tengu_iv.html" id="blacksmith_red_tengu_iv">Red Tengu IV</a>
+</td>
+<td class="col-sm-9">
+			Atk: 300 			<br/>
+			Evasion +16% Critical damage +19% ASPD -10% [X = 1.50 * STR] [Melee up by X] [X = 0.03 * Lv] [Melee Pierce up by X] ATK +7% Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/rock_sword_valten.html" id="blacksmith_rock_sword_valten">Rock Sword Valten</a>
+</td>
+<td class="col-sm-9">
+			Atk: 296 Def: 9			<br/>
+			Melee to Wind +20% Melee to Earth +10% Critical rate +50 Magic Evasion +7% [X = 0.50 * STR] [DEF up by X] MaxHP +3% VIT +5 Autoskill 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Bows</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/bercrete_iii.html" id="blacksmith_bercrete_iii">Bercrete III</a>
+</td>
+<td class="col-sm-9">
+			Atk: 287 Def: 8			<br/>
+			Melee to Wind +20% Melee to Earth +10% ATK +17% Range cut +17% Knockout -1.0s VIT +4 Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/celtis_bow_iii.html" id="blacksmith_celtis_bow_iii">Celtis Bow III</a>
+</td>
+<td class="col-sm-9">
+			Atk: 279 Def: 4			<br/>
+			ATK +21% Accuracy +20% Item Delay -1.2s DEX +8 Hate Rise +6% Critical damage -8% Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/falconet_iii.html" id="blacksmith_falconet_iii">Falconet III</a>
+</td>
+<td class="col-sm-9">
+			Atk: 291 Def: 10			<br/>
+			ATK +8% Critical damage +19% Melee R +14% Autoskill 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Canes</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/dark_book_vol._4.html" id="blacksmith_dark_book_vol._4">Dark Book Vol. 4</a>
+</td>
+<td class="col-sm-9">
+			Atk: 290 Def: 5			<br/>
+			Melee to Light +20% MATK +10% INT +5 DEX +15 Dark Magic +25% Heal Reward -25% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/ice_book_vol._4.html" id="blacksmith_ice_book_vol._4">Ice Book Vol. 4</a>
+</td>
+<td class="col-sm-9">
+			Atk: 285 Def: 4			<br/>
+			Melee to Fire +20% Melee to Water +10% MATK +10% INT +6 MaxHP +12% Skill Delay -1.2s Autoskill Water Magic +17% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/spell_book_vol.4.html" id="blacksmith_spell_book_vol.4">Spell Book Vol.4</a>
+</td>
+<td class="col-sm-9">
+			Atk: 256 			<br/>
+			MATK +10% INT +12 DEX +8 Neutral Magic +20% Cast Time -25% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/tellas_rod_ii.html" id="blacksmith_tellas_rod_ii">Tellas Rod II</a>
+</td>
+<td class="col-sm-9">
+			Atk: 287 			<br/>
+			Magic Pierce -10% Skill Delay -1.0s MATK +16% Neutral Magic +14% Fire Magic +14% Water Magic +14% Wind Magic +14% Earth Magic +14% Light Magic +14% Dark Magic +14% [X = 0.05 * Lv] [X = X · -1] [MP Cost up by X] Autoskill 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Claws</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/esmeralda_iv.html" id="blacksmith_esmeralda_iv">Esmeralda IV</a>
+</td>
+<td class="col-sm-9">
+			Atk: 275 Def: 5			<br/>
+			Melee to Water +20% Melee to Wind +10% CRT +13 Evasion +20% MaxMP +20% Critical damage +6% Magic R -20% Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/girouette_ii.html" id="blacksmith_girouette_ii">Girouette II</a>
+</td>
+<td class="col-sm-9">
+			Atk: 280 			<br/>
+			Melee to Light +20% Magic R -30% Critical rate +10 Critical damage +10% ATK +6% AGI +9 Blind +3% Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/purity_claw_ii.html" id="blacksmith_purity_claw_ii">Purity Claw II</a>
+</td>
+<td class="col-sm-9">
+			Atk: 249 Def: 10			<br/>
+			Skill Delay -1.2s Heal Recovery +23% STR +5 MaxHP +15% [X = 1.10 * STR] [DEF up by X] ASPD = 1 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/volare_knife.html" id="blacksmith_volare_knife">Volare Knife</a>
+</td>
+<td class="col-sm-9">
+			Atk: 287 			<br/>
+			Melee +750 Heal Recovery +12% CRT +15 Magic R -15% [X = 0.05 * INT] [Critical damage up by X] Auto MP Recovery +25% 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Throwing</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/flabellum_iv.html" id="blacksmith_flabellum_iv">Flabellum IV</a>
+</td>
+<td class="col-sm-9">
+			Atk: 285 			<br/>
+			INT +11 ATK +4% Accuracy +60 MaxHP +23% Absolute Evasion +5% Ailment R +14% Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/mio_filio_ii.html" id="blacksmith_mio_filio_ii">Mio Filio II</a>
+</td>
+<td class="col-sm-9">
+			Atk: 290 			<br/>
+			Melee to Wind +20% Melee to Earth -20% ATK +8% Melee Pierce +8% Critical damage +8% [MaxMP up by Lv] Skill Delay -0.8s 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/prescience_iii.html" id="blacksmith_prescience_iii">Prescience III</a>
+</td>
+<td class="col-sm-9">
+			Atk: 288 			<br/>
+			Melee to Light +20% ATK +12% [X = 3.00 * Lv] [Melee up by X] Magic Evasion +12% Melee Pierce +5% Autoskill 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Armor</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/altoshear_(strengthened_3).html" id="blacksmith_altoshear_(strengthened_3)">Altoshear (Strengthened 3)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 10 Def: 22			<br/>
+			MATK +10% Cast Time -35% Melee R +8% Autoskill +8% Range cut +4% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/armadora_(strengthened_3).html" id="blacksmith_armadora_(strengthened_3)">Armadora (Strengthened 3)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 15 Def: 17			<br/>
+			ATK +8% ASPD +40% Melee R +8% Critical damage +8% Damage cut +4% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/heinrich_mail_(strengthened_2).html" id="blacksmith_heinrich_mail_(strengthened_2)">Heinrich Mail (Strengthened 2)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 22			<br/>
+			ATK +14% MATK +14% Melee Pierce +6% Magic Pierce +6% Magic Evasion +8% Heal Reward +1000 Autoskill VIT +5 INT +5 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Additional</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/arbus_shield_(strengthened_1).html" id="blacksmith_arbus_shield_(strengthened_1)">Arbus Shield (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 23			<br/>
+			Skill Delay -1.2s Item Delay +0.3s MP Cost -10% Autoskill All damage R -10% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/benefis_(strengthened_1).html" id="blacksmith_benefis_(strengthened_1)">Benefis (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 3 Def: 17			<br/>
+			Heal Recovery +19% Autoskill if [Lv &lt; 250] then Recoil +30% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/ciel_(strengthened_2).html" id="blacksmith_ciel_(strengthened_2)">Ciel (Strengthened 2)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 10 Def: 11			<br/>
+			Neutral Magic +10% Auto HP Recovery +10% Auto MP Recovery +10% Evasion +30 [X = 3.00 * Lv] [MaxHP up by X] [MaxMP up by X] Autoskill 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/clematis_(strengthened).html" id="blacksmith_clematis_(strengthened)">Clematis (Strengthened)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 25			<br/>
+			MATK +8% Skill Delay -1.5s Cast Time -20% MP Cost -20% If [Lv &lt; 300] then MP Cost +50% [High Wizard] Neutral Magic +2% Fire Magic +2% Water Magic +2% Wind Magic +2% Earth Magic +2% Light Magic +2% Dark Magic +2% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/crown_hat_(strengthened_1).html" id="blacksmith_crown_hat_(strengthened_1)">Crown Hat (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 15			<br/>
+			Skill Delay -1.3s Melee R -20% Magic R -20% If [DEX &gt; 250] then Skill Delay -0.7s Absolute Evasion +5% MaxMP +7% If [Lv &gt; 250] then [X = DEX] [Y = 0.03 * X] [Hate Rise up by Y] 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/eye_bandage_(strengthened).html" id="blacksmith_eye_bandage_(strengthened)">Eye Bandage (Strengthened)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 10 Def: 3			<br/>
+			CRT +5 Critical damage +14% Accuracy +10% Counter on Evasion +13% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/kukka_cape_(strengthened_1).html" id="blacksmith_kukka_cape_(strengthened_1)">Kukka Cape (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 3 Def: 17			<br/>
+			MaxHP -10% MP Cost -17% Skill Delay -0.5s Item Delay -0.5s Critical damage +8% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/libersona_(strengthened).html" id="blacksmith_libersona_(strengthened)">Libersona (Strengthened)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 16			<br/>
+			Melee to Fire +10% Melee to Water +10% Melee to Wind +10% Melee to Earth +10% Cast Time -20% INT +15 Magic R +6% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/monty_beret_(strengthened).html" id="blacksmith_monty_beret_(strengthened)">Monty Beret (Strengthened)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 15			<br/>
+			ATK +9% Skill Delay -1.2s Absolute Accuracy +9% Item Recovery +25% Melee R +8% Magic R +8% [X = 0.75 * DEX] [ATK up by X] 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/nocros_shield_(strengthened_1).html" id="blacksmith_nocros_shield_(strengthened_1)">Nocros Shield (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 10 Def: 22			<br/>
+			Skill Delay +0.2s Item Delay +0.2s MATK +11% Light Magic +5% Spellburst +5% Absolute Evasion -5% Magic Evasion -5% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/prima_helm_(strengthened_1).html" id="blacksmith_prima_helm_(strengthened_1)">Prima Helm (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			Atk: 5 Def: 20			<br/>
+			Melee R +7% Magic R +7% Neutral Magic +3% Light Magic +3% Autoskill If [INT &gt; 256] then Neutral R +7% Light R +7% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/rosa_de_amor_(strengthened_1).html" id="blacksmith_rosa_de_amor_(strengthened_1)">Rosa de Amor (Strengthened 1)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 22			<br/>
+			MATK +10% Autoskill +7% Item Recovery +15% MDEF +12% Cast Time +10% Heal Reward +15% 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/sage_hat_(strengthened_2).html" id="blacksmith_sage_hat_(strengthened_2)">Sage Hat (Strengthened 2)</a>
+</td>
+<td class="col-sm-9">
+			 Def: 19			<br/>
+			MATK +11% Fire Magic +11% Water Magic +11% Wind Magic +11% Earth Magic +11% Autoskill +7% Skill Delay -0.7s Range cut +17% [X = 3.00 * Lv] [MaxHP up by X] 			</td>
+</tr>
+</table></div></div></div>

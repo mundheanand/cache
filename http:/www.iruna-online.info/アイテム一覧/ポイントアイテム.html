@@ -1,0 +1,941 @@
+<div class="col-md-7">
+<h3>Points</h3>
+<hr/>
+<div class="">
+<form action="" class="form-horizontal" id="form1" method="post" name="form1">
+<input id="token" name="token" type="hidden" value=""/>
+<div class="row">
+<div class="col-md-9 col-xs-8"><input class="form-control" id="search" name="search" type="text" value=""/></div>
+<div class="col-md-2 col-xs-3"><input class="btn btn-default btn-block" id="search_button" name="search_button" onclick="$('#token').val('SEARCH'); $('#form1').submit();" type="button" value="Search"/></div>
+</div>
+</form>
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+<div class="container-fluid" style="margin-bottom: 20px;">
+<script async="" src="//web.archive.org/web/20180202135156js_/http:/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Right Panel -->
+<ins class="adsbygoogle" data-ad-client="ca-pub-0111798933448219" data-ad-format="auto" data-ad-slot="3849415951" style="display:block"></ins>
+<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+</div>
+<div class="row">
+<script type="text/javascript">
+			function attr_filter() {
+				
+				$(".default_attr").css('display', 'none');
+
+				var tempDictionary = "f_all|default_attr,f_str|str,f_agi|agi,f_vit|vit,f_int|int,f_dex|dex,f_crt|crt,f_exp|exp,f_drop|drop,f_atk|atk,f_matk|matk,f_def|def,f_mdef|mdef,f_melee|melee,f_magic|magic,f_meleepierce|meleepierce,f_magicpierce|magicpierce,f_range|range,f_rangecut|rangecut,f_ratecut|ratecut,f_damagecut|damagecut,f_spellburst|spellburst,f_autoskill|autoskill,f_recoil|recoil,f_reflect|reflect,f_accuracy|accuracy,f_evasion|evasion,f_absoluteaccuracy|absoluteaccuracy,f_absoluteevasion|absoluteevasion,f_criticalrate|criticalrate,f_criticaldamage|criticaldamage,f_haterise|haterise,f_aspd|aspd,f_maxhp|maxhp,f_maxmp|maxmp,f_hprecovery|hprecovery,f_mprecovery|mprecovery,f_healrecovery|healrecovery,f_healreward|healreward,f_skilldelay|skilldelay,f_itemdelay|itemdelay,f_meleetoneutral|meleetoneutral,f_meleetofire|meleetofire,f_meleetowater|meleetowater,f_meleetowind|meleetowind,f_meleetoearth|meleetoearth,f_meleetolight|meleetolight,f_meleetodark|meleetodark,f_meleer|meleer,f_neutralmagic|neutralmagic,f_firemagic|firemagic,f_watermagic|watermagic,f_windmagic|windmagic,f_earthmagic|earthmagic,f_lightmagic|lightmagic,f_darkmagic|darkmagic,f_magicr|magicr,f_neutralr|neutralr,f_firer|firer,f_waterr|waterr,f_windr|windr,f_earthr|earthr,f_lightr|lightr,f_darkr|darkr,f_ailmentr|ailmentr,f_casttime|casttime,f_parry|parry,f_castdefense|castdefense,f_shellbreak|shellbreak,f_pet|pet,f_movementspeed|movementspeed,f_mpcost|mpcost,f_alldamager|alldamager,f_ignition|ignition,f_knockout|knockout,f_poison|poison,f_paralysis|paralysis,f_burn|burn,f_freeze|freeze,f_lethargy|lethargy,f_dizzy|dizzy,f_bleed|bleed,f_fear|fear";
+				var tempDictionaryArray = tempDictionary.split(",");
+
+				for (var i = 0; i < tempDictionaryArray.length; i++) {
+					var tempPairedValue = (tempDictionaryArray[i]).split("|");
+					if ($('#'+tempPairedValue[0]).is(':checked')) { $("."+tempPairedValue[1]).css('display', 'block'); }
+				}
+
+			}
+			
+			function update_items_filter(p_item_type) {
+
+				if (p_item_type == "") {
+																																																		$(".剣").show();
+																																																		$(".弓").show();
+																																																		$(".杖").show();
+																																																		$(".爪").show();
+																																																		$(".投擲").show();
+																																																		$(".体装備").show();
+																																																		$(".追加装備").show();
+																																																		$(".特殊装備").show();
+																																																		$(".クリスタ").show();
+																																																		$(".アルクリスタ").show();
+																																																		$(".回復").show();
+																																																		$(".状態異常回復アイテム").show();
+																																																		$(".一時強化アイテム").show();
+																																																		$(".移動アイテム").show();
+																																																		$(".スキル習得アイテム").show();
+																																																		$(".その他消費アイテム").show();
+																																																		$(".収集品").show();
+																																																		$(".鉱石").show();
+																																																		$(".島アプリ用アイテム").show();
+																																																		$(".島アプリ用アイテム").show();
+																																																		$(".ポイントアイテム").show();
+																																																		$(".ペット").show();
+									}
+				else {
+																																																							$(".剣").hide();
+																																																		$(".弓").hide();
+																																																		$(".杖").hide();
+																																																		$(".爪").hide();
+																																																		$(".投擲").hide();
+																																																		$(".体装備").hide();
+																																																		$(".追加装備").hide();
+																																																		$(".特殊装備").hide();
+																																																		$(".クリスタ").hide();
+																																																		$(".アルクリスタ").hide();
+																																																		$(".回復").hide();
+																																																		$(".状態異常回復アイテム").hide();
+																																																		$(".一時強化アイテム").hide();
+																																																		$(".移動アイテム").hide();
+																																																		$(".スキル習得アイテム").hide();
+																																																		$(".その他消費アイテム").hide();
+																																																		$(".収集品").hide();
+																																																		$(".鉱石").hide();
+																																																		$(".島アプリ用アイテム").hide();
+																																																		$(".島アプリ用アイテム").hide();
+																																																		$(".ポイントアイテム").hide();
+																																																		$(".ペット").hide();
+					
+					$("."+p_item_type).show();
+				}
+			}
+			
+			function update_true_stats(p_item_type) {
+
+				if (p_item_type == "ds") {
+					$(".ds").css('display', 'block');
+					$(".t_ds").css('display', 'none');
+				} else if (p_item_type == "t_ds") {
+					$(".ds").css('display', 'none');
+					$(".t_ds").css('display', 'block');
+				} else {
+					$(".ds").css('display', 'block');
+					$(".t_ds").css('display', 'block');
+				}
+			}
+		</script>
+<div class="row">
+<div class="col-md-3 col-xs-4">
+<input class="btn btn-default" id="show_f_button" name="show_f_button" onclick="$('#fs').toggle();" style="width: 100%" type="button" value="Show Attr Filters"/>
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+</div>
+<div class="col-md-3 col-xs-4">
+<select class="form-control" id="item_type" name="item_type" onchange="update_items_filter(this.value);">
+<option value="">Show All Item Type</option>
+<option value="剣">剣</option>
+<option value="弓">弓</option>
+<option value="杖">杖</option>
+<option value="爪">爪</option>
+<option value="投擲">投擲</option>
+<option value="体装備">体装備</option>
+<option value="追加装備">追加装備</option>
+<option value="特殊装備">特殊装備</option>
+<option value="クリスタ">クリスタ</option>
+<option value="アルクリスタ">アルクリスタ</option>
+<option value="回復">回復</option>
+<option value="状態異常回復アイテム">状態異常回復アイテム</option>
+<option value="一時強化アイテム">一時強化アイテム</option>
+<option value="移動アイテム">移動アイテム</option>
+<option value="スキル習得アイテム">スキル習得アイテム</option>
+<option value="その他消費アイテム">その他消費アイテム</option>
+<option value="収集品">収集品</option>
+<option value="鉱石">鉱石</option>
+<option value="島アプリ用アイテム">島アプリ用アイテム</option>
+<option value="島アプリ用アイテム">島アプリ用アイテム</option>
+<option value="ポイントアイテム">ポイントアイテム</option>
+<option value="ペット">ペット</option>
+</select>
+</div>
+<div class="col-md-3 col-xs-4">
+<select class="form-control" id="show_description" name="show_description" onchange="update_true_stats(this.value);">
+<option selected="" value="">Both Stats</option>
+<option value="ds">Reg Stats</option>
+<option value="t_ds">True Stats</option>
+</select>
+</div>
+</div>
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+<div id="fs" style="display: none;">
+<div class="row">
+<div class="col-md-12 col-xs-12">
+<input checked="" id="f_all" name="f" onclick="attr_filter();" type="checkbox" value="all"/> Show All<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_str" name="f" onclick="attr_filter();" type="checkbox" value="str"/> STR<br/>
+<input id="f_agi" name="f" onclick="attr_filter();" type="checkbox" value="agi"/> AGI<br/>
+<input id="f_vit" name="f" onclick="attr_filter();" type="checkbox" value="vit"/> VIT<br/>
+<input id="f_int" name="f" onclick="attr_filter();" type="checkbox" value="int"/> INT<br/>
+<input id="f_dex" name="f" onclick="attr_filter();" type="checkbox" value="dex"/> DEX<br/>
+<input id="f_crt" name="f" onclick="attr_filter();" type="checkbox" value="crt"/> CRT<br/>
+<input id="f_exp" name="f" onclick="attr_filter();" type="checkbox" value="exp"/> EXP<br/>
+<input id="f_drop" name="f" onclick="attr_filter();" type="checkbox" value="drop"/> Drop<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_atk" name="f" onclick="attr_filter();" type="checkbox" value="atk"/> ATK<br/>
+<input id="f_matk" name="f" onclick="attr_filter();" type="checkbox" value="matk"/> MATK<br/>
+<input id="f_def" name="f" onclick="attr_filter();" type="checkbox" value="def"/> DEF<br/>
+<input id="f_mdef" name="f" onclick="attr_filter();" type="checkbox" value="mdef"/> MDEF<br/>
+<input id="f_melee" name="f" onclick="attr_filter();" type="checkbox" value="melee"/> Melee<br/>
+<input id="f_magic" name="f" onclick="attr_filter();" type="checkbox" value="magic"/> Magic<br/>
+<input id="f_meleepierce" name="f" onclick="attr_filter();" type="checkbox" value="meleepierce"/> Melee P<br/>
+<input id="f_magicpierce" name="f" onclick="attr_filter();" type="checkbox" value="magicpierce"/> Magic P<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_range" name="f" onclick="attr_filter();" type="checkbox" value="range"/> Range<br/>
+<input id="f_rangecut" name="f" onclick="attr_filter();" type="checkbox" value="rangecut"/> Range cut<br/>
+<input id="f_ratecut" name="f" onclick="attr_filter();" type="checkbox" value="ratecut"/> Rate cut<br/>
+<input id="f_damagecut" name="f" onclick="attr_filter();" type="checkbox" value="damagecut"/> Dmg cut<br/>
+<input id="f_spellburst" name="f" onclick="attr_filter();" type="checkbox" value="spellburst"/> Spellburst<br/>
+<input id="f_autoskill" name="f" onclick="attr_filter();" type="checkbox" value="autoskill"/> Autoskill<br/>
+<input id="f_recoil" name="f" onclick="attr_filter();" type="checkbox" value="recoil"/> Recoil<br/>
+<input id="f_reflect" name="f" onclick="attr_filter();" type="checkbox" value="reflect"/> Reflect<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_accuracy" name="f" onclick="attr_filter();" type="checkbox" value="accuracy"/> Hit<br/>
+<input id="f_evasion" name="f" onclick="attr_filter();" type="checkbox" value="evasion"/> Evasion<br/>
+<input id="f_absoluteaccuracy" name="f" onclick="attr_filter();" type="checkbox" value="absoluteaccuracy"/> Ab. Hit<br/>
+<input id="f_absoluteevasion" name="f" onclick="attr_filter();" type="checkbox" value="absoluteevasion"/> Ab. Evasion<br/>
+<input id="f_criticalrate" name="f" onclick="attr_filter();" type="checkbox" value="criticalrate"/> Crit Rate<br/>
+<input id="f_criticaldamage" name="f" onclick="attr_filter();" type="checkbox" value="criticaldamage"/> Crit Dmg<br/>
+<input id="f_haterise" name="f" onclick="attr_filter();" type="checkbox" value="haterise"/> Hate rise<br/>
+<input id="f_aspd" name="f" onclick="attr_filter();" type="checkbox" value="aspd"/> ASPD<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_maxhp" name="f" onclick="attr_filter();" type="checkbox" value="maxhp"/> MaxHP<br/>
+<input id="f_maxmp" name="f" onclick="attr_filter();" type="checkbox" value="maxmp"/> MaxMP<br/>
+<input id="f_hprecovery" name="f" onclick="attr_filter();" type="checkbox" value="hprecovery"/> HP Rec<br/>
+<input id="f_mprecovery" name="f" onclick="attr_filter();" type="checkbox" value="mprecovery"/> MP Rec<br/>
+<input id="f_healrecovery" name="f" onclick="attr_filter();" type="checkbox" value="healrecovery"/> Heal Rec<br/>
+<input id="f_healreward" name="f" onclick="attr_filter();" type="checkbox" value="healreward"/> Heal Reward<br/>
+<input id="f_skilldelay" name="f" onclick="attr_filter();" type="checkbox" value="skilldelay"/> Skill Delay<br/>
+<input id="f_itemdelay" name="f" onclick="attr_filter();" type="checkbox" value="itemdelay"/> Item Delay<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_meleetoneutral" name="f" onclick="attr_filter();" type="checkbox" value="meleetoneutral"/> Melee Neut.<br/>
+<input id="f_meleetofire" name="f" onclick="attr_filter();" type="checkbox" value="meleetofire"/> Melee Fire<br/>
+<input id="f_meleetowater" name="f" onclick="attr_filter();" type="checkbox" value="meleetowater"/> Melee Water<br/>
+<input id="f_meleetowind" name="f" onclick="attr_filter();" type="checkbox" value="meleetowind"/> Melee Wind<br/>
+<input id="f_meleetoearth" name="f" onclick="attr_filter();" type="checkbox" value="meleetoearth"/> Melee Earth<br/>
+<input id="f_meleetolight" name="f" onclick="attr_filter();" type="checkbox" value="meleetolight"/> Melee Light<br/>
+<input id="f_meleetodark" name="f" onclick="attr_filter();" type="checkbox" value="meleetodark"/> Melee Dark<br/>
+<input id="f_meleer" name="f" onclick="attr_filter();" type="checkbox" value="meleer"/> Melee R<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_neutralmagic" name="f" onclick="attr_filter();" type="checkbox" value="neutralmagic"/> Neut. Magic<br/>
+<input id="f_firemagic" name="f" onclick="attr_filter();" type="checkbox" value="firemagic"/> Fire Magic<br/>
+<input id="f_watermagic" name="f" onclick="attr_filter();" type="checkbox" value="watermagic"/> Water Magic<br/>
+<input id="f_windmagic" name="f" onclick="attr_filter();" type="checkbox" value="windmagic"/> Wind Magic<br/>
+<input id="f_earthmagic" name="f" onclick="attr_filter();" type="checkbox" value="earthmagic"/> Earth Magic<br/>
+<input id="f_lightmagic" name="f" onclick="attr_filter();" type="checkbox" value="lightmagic"/> Light Magic<br/>
+<input id="f_darkmagic" name="f" onclick="attr_filter();" type="checkbox" value="darkmagic"/> Dark Magic<br/>
+<input id="f_magicr" name="f" onclick="attr_filter();" type="checkbox" value="magicr"/> Magic R<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_neutralr" name="f" onclick="attr_filter();" type="checkbox" value="neutralr"/> Neut. R<br/>
+<input id="f_firer" name="f" onclick="attr_filter();" type="checkbox" value="firer"/> Fire R<br/>
+<input id="f_waterr" name="f" onclick="attr_filter();" type="checkbox" value="waterr"/> Water R<br/>
+<input id="f_windr" name="f" onclick="attr_filter();" type="checkbox" value="windr"/> Wind R<br/>
+<input id="f_earthr" name="f" onclick="attr_filter();" type="checkbox" value="earthr"/> Earth R<br/>
+<input id="f_lightr" name="f" onclick="attr_filter();" type="checkbox" value="lightr"/> Light R<br/>
+<input id="f_darkr" name="f" onclick="attr_filter();" type="checkbox" value="darkr"/> Dark R<br/>
+<input id="f_ailmentr" name="f" onclick="attr_filter();" type="checkbox" value="ailmentr"/> Ailment R<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_casttime" name="f" onclick="attr_filter();" type="checkbox" value="casttime"/> Cast Time<br/>
+<input id="f_parry" name="f" onclick="attr_filter();" type="checkbox" value="parry"/> Parry<br/>
+<input id="f_castdefense" name="f" onclick="attr_filter();" type="checkbox" value="castdefense"/> Cast Def<br/>
+<input id="f_shellbreak" name="f" onclick="attr_filter();" type="checkbox" value="shellbreak"/> Shell Break<br/>
+<input id="f_pet" name="f" onclick="attr_filter();" type="checkbox" value="pet"/> Pet<br/>
+<input id="f_movementspeed" name="f" onclick="attr_filter();" type="checkbox" value="movementspeed"/> Movement<br/>
+<input id="f_mpcost" name="f" onclick="attr_filter();" type="checkbox" value="mpcost"/> MP COST<br/>
+<input id="f_alldamager" name="f" onclick="attr_filter();" type="checkbox" value="alldamager"/> All Dmg R<br/>
+<input id="f_ignition" name="f" onclick="attr_filter();" type="checkbox" value="ignition"/> Ignition<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_knockout" name="f" onclick="attr_filter();" type="checkbox" value="knockout"/> Knockout<br/>
+<input id="f_poison" name="f" onclick="attr_filter();" type="checkbox" value="poison"/> Poison<br/>
+<input id="f_paralysis" name="f" onclick="attr_filter();" type="checkbox" value="paralysis"/> Paralysis<br/>
+<input id="f_burn" name="f" onclick="attr_filter();" type="checkbox" value="burn"/> Burn<br/>
+<input id="f_freeze" name="f" onclick="attr_filter();" type="checkbox" value="freeze"/> Freeze<br/>
+<input id="f_lethargy" name="f" onclick="attr_filter();" type="checkbox" value="lethargy"/> Lethargy<br/>
+<input id="f_dizzy" name="f" onclick="attr_filter();" type="checkbox" value="dizzy"/> Dizzy<br/>
+<input id="f_bleed" name="f" onclick="attr_filter();" type="checkbox" value="bleed"/> Bleed<br/>
+<input id="f_fear" name="f" onclick="attr_filter();" type="checkbox" value="fear"/> Fear<br/><br/>
+</div>
+</div>
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+</div>
+</div>
+<div class="row"><div class="col-md-12"><b>Items</b></div></div>
+<div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/al_crysta_青染クリスタ.html" id="al_crysta_青染クリスタ"><span>▲ 青染クリスタ</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:すでに装着されている▲アルクリスタを100%の確率で青色にするアイテム</div><br/>
+</div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/al_crysta_緑染クリスタ.html" id="al_crysta_緑染クリスタ"><span>▲ 緑染クリスタ</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:すでに装着されている▲アルクリスタを100%の確率で緑色にするアイテム</div><br/>
+</div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/al_crysta_赤染クリスタ.html" id="al_crysta_赤染クリスタ"><span>▲ 赤染クリスタ</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:すでに装着されている▲アルクリスタを100%の確率で赤色にするアイテム</div><br/>
+</div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/crysta_抽出クリスタ.html" id="crysta_抽出クリスタ"><span>◇ 抽出クリスタ</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:既に装備品のスロットにセットされているクリスタを100%の確率で一度取りはずす事ができる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/teleport_風の方舟.html" id="teleport_風の方舟"><span>★ 風の方舟</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:風の方舟に移動する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/teleport_風の方舟.html(ボス)" id="teleport_風の方舟(ボス)"><span>★ 風の方舟(ボス)</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:風の方舟(ボス前)に移動する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/アレンの書.html" id="アレンの書"><span>アレンの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間、経験値倍率とドロップ率が75%増加します</div><br/>
+</div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/アルマス氷像.html" id="アルマス氷像"><span>アルマス氷像</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+150%になる</div><br/>
+</div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/梅雨葵のお守り.html" id="梅雨葵のお守り"><span>梅雨葵のお守り</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+150%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/豪腕mサプリ.html" id="豪腕mサプリ"><span>豪腕Mサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとSTRボーナスが1ポイント程度減少する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/豪腕pサプリ.html" id="豪腕pサプリ"><span>豪腕Pサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとSTRボーナスが1ポイント程度増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/初心者セット.html" id="初心者セット"><span>初心者セット</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:イルーナサンド×1とイルーナポット×1のセット</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/体の雫.html" id="体の雫"><span>体の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、VIT+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/体の缶詰め.html" id="体の缶詰め"><span>体の缶詰め</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットのVITステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/星屑の書i・体.html" id="星屑の書i・体"><span>星屑の書I・体</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の体防具に付いてる☆能力(Lv1)を他の☆能力(Lv1)にランダムで変更</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/星屑の書i・武.html" id="星屑の書i・武"><span>星屑の書I・武</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の武器に付いてる☆能力(Lv1)を他の☆能力(Lv1)にランダムで変更</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/星屑の書i・追.html" id="星屑の書i・追"><span>星屑の書I・追</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の追加装備に付いてる☆能力(Lv1)を他の☆能力(Lv1)にランダムで変更</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/本気サウロの書.html" id="本気サウロの書"><span>本気サウロの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約20日間(+10日)、経験値倍率が20%増加します　さらにコース登録数で10%ずつ増加、全コース登録で30%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/マスターサウロの書.html" id="マスターサウロの書"><span>マスターサウロの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、経験値倍率が300%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/バルナの書.html" id="バルナの書"><span>バルナの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が100%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/紅葉の栞.html" id="紅葉の栞"><span>紅葉の栞</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分(+90分)、MaxHPが+1000、さらにMaxHP+20%　MaxMP+500、さらにMaxMP+20%となる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/紫陽花の飴玉.html" id="紫陽花の飴玉"><span>紫陽花の飴玉</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が+100%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/技の缶詰め.html" id="技の缶詰め"><span>技の缶詰め</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットのDEXステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/必の缶詰め.html" id="必の缶詰め"><span>必の缶詰め</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットのCRTステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/シャンスの書.html" id="シャンスの書"><span>シャンスの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約15分間、ドロップ率が3倍になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/シャンスの手帳.html" id="シャンスの手帳"><span>シャンスの手帳</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、ドロップ率が2倍になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/コロンの書.html" id="コロンの書"><span>コロンの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約15分間(+15分)、経験値倍率が10%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/職人の雨合羽.html" id="職人の雨合羽"><span>職人の雨合羽</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、経験値倍率とドロップ率が25%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/職人の砥石.html" id="職人の砥石"><span>職人の砥石</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間、ATK+10増加、更にATK+1%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/職人の砥石.htmlii" id="職人の砥石ii"><span>職人の砥石II</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約60分間、ATK+20増加、更にATK+2%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/職人の砥石.htmliii" id="職人の砥石iii"><span>職人の砥石III</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、ATK+30増加、更にATK+3%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/栽培促進剤.html" id="栽培促進剤"><span>栽培促進剤</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:栽培で使用すると、収穫までの期日を短くできる肥料</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/デュンケリスの書.html" id="デュンケリスの書"><span>デュンケリスの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、MATK+1000、さらにMATK+10%、SSPD+300%、ドロップ率-50%となる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/絶品かき氷.html" id="絶品かき氷"><span>絶品かき氷</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+100%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/デルマの書.html" id="デルマの書"><span>デルマの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、経験値倍率が250%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ディエットの書.html" id="ディエットの書"><span>ディエットの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1日間(+1日)、経験値倍率が25%増加し、アクティブモンスターに狙われなくなる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/体力の雫.html" id="体力の雫"><span>体力の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、VIT+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/魔の雫.html" id="魔の雫"><span>魔の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、INT+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/豪腕の雫.html" id="豪腕の雫"><span>豪腕の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、STR+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/必殺の雫.html" id="必殺の雫"><span>必殺の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、CRT+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/速の雫.html" id="速の雫"><span>速の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、AGI+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/力の雫.html" id="力の雫"><span>力の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、STR+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/女神の雫.html" id="女神の雫"><span>女神の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間、全ステータス+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/神速の雫.html" id="神速の雫"><span>神速の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、AGI+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/魔道の雫.html" id="魔道の雫"><span>魔道の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、INT+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/マジクルの雫.html" id="マジクルの雫"><span>マジクルの雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、MaxMP+20%、MaxMP+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/業師の雫.html" id="業師の雫"><span>業師の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、DEX+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/技の雫.html" id="技の雫"><span>技の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、DEX+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/バイタルの雫.html" id="バイタルの雫"><span>バイタルの雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、MaxHP+20%、MaxHP+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/必の雫.html" id="必の雫"><span>必の雫</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、CRT+5</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/宵闇ランタン.html" id="宵闇ランタン"><span>宵闇ランタン</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分(+90分)、経験値倍率が100%増加、クリティカル率+20、スペルバースト率+20%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/特大焼き芋.html" id="特大焼き芋"><span>特大焼き芋</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2時間、レアドロップ率が+5、さらにHP/MP自然回復+100%　射程+1　移動速度+10%となり、アクティブモンスターに狙われなくなる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/最高級スイカ.html" id="最高級スイカ"><span>最高級スイカ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+150%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/無料ペット預け券.html" id="無料ペット預け券"><span>無料ペット預け券</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:島のペット預かり所で、預ける際の料金を1回だけ無料にできる無料ペット預け券</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ゴーチェの書.html" id="ゴーチェの書"><span>ゴーチェの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、ドロップ率が+50%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ギルゴブルの書.html" id="ギルゴブルの書"><span>ギルゴブルの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、アクティブモンスターに狙われなくなる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/女神のチョコ.html" id="女神のチョコ"><span>女神のチョコ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間(+30分)、ドロップ率が2倍になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/神速mサプリ.html" id="神速mサプリ"><span>神速Mサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとAGIボーナスが1ポイント程度減少する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/神速pサプリ.html" id="神速pサプリ"><span>神速Pサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとAGIボーナスが1ポイント程度増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/極旨おでん.html" id="極旨おでん"><span>極旨おでん</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+100%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/グラルの書.html" id="グラルの書"><span>グラルの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、ドロップ率が+25になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/グーリエの書.html" id="グーリエの書"><span>グーリエの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2時間、ドロップ率が+25%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/鍛冶師の金槌.html" id="鍛冶師の金槌"><span>鍛冶師の金槌</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の武器のスロット数を1にする</div>備考: Note:スロット:0の武器にのみ使用可能　スロット:0以外の武器に使用した場合、消費されない<br/><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/お花見団子.html" id="お花見団子"><span>お花見団子</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が100%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/お花見酒.html" id="お花見酒"><span>お花見酒</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、経験値倍率とドロップ率が50%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/氷竜の団扇.html" id="氷竜の団扇"><span>氷竜の団扇</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分間)、MaxHP+1000、さらにMaxHP+20%　MaxMP+500、さらにMaxMP+20%となりアクティブモンスターに狙われなくなる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/無限の魔法石.html" id="無限の魔法石"><span>無限の魔法石</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約15分間、MP消費-100%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/イルーナポット.html" id="イルーナポット"><span>イルーナポット</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2日(+1日)、Lv140以下の場合、ATK・MATK+20、HP・MPの自然回復+100%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/イルーナサンド.html" id="イルーナサンド"><span>イルーナサンド</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2日(+1日)、Lv140以下の場合、ATK・MATK+10、命中+10、回避+10</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/クローヌの書.html" id="クローヌの書"><span>クローヌの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約15分間、レアドロップ率が+50になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/クノンの書.html" id="クノンの書"><span>クノンの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が100%増加し、キャラクターレベルに応じて追加効果 (Lv100未満の場合、全ステータス+15、自然回復+100%、ATK/MATK+30、アイテム回復+100%)(Lv200未満の場合、全ステータス+10、自然回復+50%、ATK/MATK+20、アイテム回復+50%)(Lv200以上の場合、全ステータス+5、自然回復+25%、ATK/MATK+10、アイテム回復+25%)</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ロラの書.html" id="ロラの書"><span>ロラの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が100%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ルナの書.html" id="ルナの書"><span>ルナの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約15分間(+15分)、ドロップ率が+1%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級肥料.html" id="高級肥料"><span>高級肥料</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:栽培で使用すると、植物からの収穫量が増加する肥料</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級福豆.html" id="高級福豆"><span>高級福豆</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分)、経験値倍率が30%増加、ドロップ率が30%増加、MaxMPが+500、更に+20%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級ひしもち.html" id="高級ひしもち"><span>高級ひしもち</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分)、MaxHP+1000、さらに+20%増加、MaxMPが+500、さらに+20%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級恵方巻.html" id="高級恵方巻"><span>高級恵方巻</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分)、経験値倍率が30%増加、ドロップ率が30%増加、MaxHPが+1000、更に+20%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級マシュマロ.html" id="高級マシュマロ"><span>高級マシュマロ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、経験値倍率とドロップ率が50%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級ペットフード.html" id="高級ペットフード"><span>高級ペットフード</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:ペットのスタミナ+300、なつき度+300、各能力経験値+20</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級ズワイガニ.html" id="高級ズワイガニ"><span>高級ズワイガニ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間(+30分)、レアドロップ率+5となりアクティブモンスターに狙われなくなる。さらに射程+1、HP/MPの自然回復+100%、移動速度+10%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/魔道mサプリ.html" id="魔道mサプリ"><span>魔道Mサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとINTボーナスが1ポイント程度減少する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/魔道pサプリ.html" id="魔道pサプリ"><span>魔道Pサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとINTボーナスが1ポイント程度増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/魔の缶詰め.html" id="魔の缶詰め"><span>魔の缶詰め</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットのINTステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/神速の魔法石.html" id="神速の魔法石"><span>神速の魔法石</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、ASPD+100%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/必殺の魔法石.html" id="必殺の魔法石"><span>必殺の魔法石</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間、物理ダメージのクリティカル率+20%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/神秘の魔法石.html" id="神秘の魔法石"><span>神秘の魔法石</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間、魔法ダメージのクリティカル率+10%</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/マーヤの書.html" id="マーヤの書"><span>マーヤの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、経験値倍率とドロップ率が50%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/メノの書.html" id="メノの書"><span>メノの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、経験値倍率とドロップ率が50%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ミニミニフード.html" id="ミニミニフード"><span>ミニミニフード</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:ペットのサイズを小さくする餌</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/悪戯キャンディ.html" id="悪戯キャンディ"><span>悪戯キャンディ</span> [ポイントアイテム]</a></b>
+<br/>
+<br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/月見だんご.html" id="月見だんご"><span>月見だんご</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分)、最大HP+1000、さらに+20%増加、最大MPが+500、さらに+20%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/モルグの書.html" id="モルグの書"><span>モルグの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2時間、ドロップ率が50%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ムクムクフード.html" id="ムクムクフード"><span>ムクムクフード</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:ペットのサイズを大きくする餌</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/神秘のキャンディ.html" id="神秘のキャンディ"><span>神秘のキャンディ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間(+30分)、経験値倍率が200%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/オブリガウスの書.html" id="オブリガウスの書"><span>オブリガウスの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が150%増加、キャラクターレベルに応じて追加効果 (Lv300未満の場合、全ステータス+10、ATK/MATK+40、MP消費-30%、クリティカル率+30)(Lv300以上の場合、全ステータス+5、ATK/MATK+20、MP消費-15%、クリティカル率+15)</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/お祓い券.html" id="お祓い券"><span>お祓い券</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:使用したキャラクターのみ占い効果を一度だけリセットする。</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/大玉スイカ.html" id="大玉スイカ"><span>大玉スイカ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分)、最大HP+1000、さらに+20%増加、最大MPが+500、さらに+20%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/オリティウスの書.html" id="オリティウスの書"><span>オリティウスの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、ATK+1000、さらにATK+10%、ASPD+300%、ドロップ率-50%となる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ぷちサウロの書.html" id="ぷちサウロの書"><span>ぷちサウロの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約5日間(+3日)、経験値倍率が30%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ピーノの書.html" id="ピーノの書"><span>ピーノの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2時間、経験値倍率が25%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/パンプキンパイ.html" id="パンプキンパイ"><span>パンプキンパイ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+100%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/絶品缶詰.html" id="絶品缶詰"><span>絶品缶詰</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットの全ステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/妖精の生糸.html" id="妖精の生糸"><span>妖精の生糸</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の追加装備をスロット数を1にする</div>備考: Note:スロット:0の追加装備にのみ使用可能　スロット:0以外の追加装備に使用した場合、消費されない<br/><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/高級ひなあられ.html" id="高級ひなあられ"><span>高級ひなあられ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間(+90分)、ドロップ率が1.2倍になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/秋茜の髪飾り.html" id="秋茜の髪飾り"><span>秋茜の髪飾り</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率が+150%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/リネームカード.html" id="リネームカード"><span>リネームカード</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:ペットの名前を一度だけ変えることができる。</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ローイの書.html" id="ローイの書"><span>ローイの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、経験値倍率とドロップ率が25%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/サウロの書.html" id="サウロの書"><span>サウロの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約20日間(+10日)、経験値倍率が20%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/サウロの手帳.html" id="サウロの手帳"><span>サウロの手帳</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、経験値倍率が20%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/精霊の縫い針.html" id="精霊の縫い針"><span>精霊の縫い針</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の体装備のスロット数を1にする</div>備考: Note:スロット:0の体装備にのみ使用可能　スロット:0以外の体装備に使用した場合、消費されない<br/><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/業師mサプリ.html" id="業師mサプリ"><span>業師Mサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとDEXボーナスが1ポイント程度減少する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/業師pサプリ.html" id="業師pサプリ"><span>業師Pサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとDEXボーナスが1ポイント程度増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ソラフの書.html" id="ソラフの書"><span>ソラフの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、経験値倍率が50%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ソフィスの書.html" id="ソフィスの書"><span>ソフィスの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間(+30分)、経験値倍率が400%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/必殺mサプリ.html" id="必殺mサプリ"><span>必殺Mサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとCRIボーナスが1ポイント程度減少する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/必殺pサプリ.html" id="必殺pサプリ"><span>必殺Pサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとCRIボーナスが1ポイント程度増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/速の缶詰め.html" id="速の缶詰め"><span>速の缶詰め</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットのAGIステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/霊木の聖灰.html" id="霊木の聖灰"><span>霊木の聖灰</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の特殊装備のスロット数を1にする</div>備考: Note:スロット:0の特殊装備にのみ使用可能　スロット:0以外の特殊装備に使用した場合、消費されない<br/><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/体力mサプリ.html" id="体力mサプリ"><span>体力Mサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとVITボーナスが1ポイント程度減少する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/体力pサプリ.html" id="体力pサプリ"><span>体力Pサプリ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:エサと一緒に与えるとVITボーナスが1ポイント程度増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/星屑の書i・特.html" id="星屑の書i・特"><span>星屑の書I・特</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:装備中の特殊装備に付いてる☆能力(Lv1)を他の☆能力(Lv1)にランダムで変更</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/雪ん子の藁傘.html" id="雪ん子の藁傘"><span>雪ん子の藁傘</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、レアドロップ率+5、さらにHP/MPの自然回復+100%　射程+1　移動速度+10%となり、アクティブモンスターに狙われなくなる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/スピーシアの書.html" id="スピーシアの書"><span>スピーシアの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1日間(+1日)、経験値倍率とドロップ率が100%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/術師の装飾iii.html" id="術師の装飾iii"><span>術師の装飾III</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、MATK+30増加、更にMATK+3%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/術師の装飾.html" id="術師の装飾"><span>術師の装飾</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約90分間、MATK+10増加、更にMATK+1%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/術師の装飾.htmlii" id="術師の装飾ii"><span>術師の装飾II</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約60分間、MATK+20増加、更にMATK+2%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ステフリの書.html" id="ステフリの書"><span>ステフリの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:使用したキャラクターのみ振り分けたステータスポイント全ての振りなおしが1度できる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/てれてれ坊主.html" id="てれてれ坊主"><span>てれてれ坊主</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間、経験値倍率とドロップ率が+50%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/前日占い引き継ぎ券.html" id="前日占い引き継ぎ券"><span>前日占い引き継ぎ券</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:前日の占い結果を引き継げます。※2日以上前の結果、お祓い券使用後は引き継げません。</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/力の缶詰め.html" id="力の缶詰め"><span>力の缶詰め</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、呼び出したペットのSTRステータスが+100</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ティリアの書.html" id="ティリアの書"><span>ティリアの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約12時間(+12時間)、経験値倍率が50%増加します</div><br/>
+</div>
+<div class="Points default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ヴェニアの書.html" id="ヴェニアの書"><span>ヴェニアの書</span> [Points]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間、経験値倍率が200%増加します</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ほかほか栗ご飯.html" id="ほかほか栗ご飯"><span>ほかほか栗ご飯</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約6時間(+6時間)、経験値倍率+150%になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ヴェルトリアの書.html" id="ヴェルトリアの書"><span>ヴェルトリアの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約2日間(+1日)、ドロップ率が2倍になる</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ホワイトチョコ.html" id="ホワイトチョコ"><span>ホワイトチョコ</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約1時間(+1時間)、経験値倍率とドロップ率が50%増加する</div><br/>
+</div>
+<div class="ポイントアイテム default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/アイテム/ゾルテの書.html" id="ゾルテの書"><span>ゾルテの書</span> [ポイントアイテム]</a></b>
+<br/>
+<div class="ds" itemprop="description">Description: Effect:約30分間(+30分)、ドロップ率が+10%、移動速度が+20%になり、アクティブモンスターに狙われなくなる</div><br/>
+</div>
+</div>
+</div>
+</div>
