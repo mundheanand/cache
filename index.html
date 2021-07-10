@@ -2,7 +2,7 @@
   <head>
     <title>Welcome</title>
     <script>
-      var arr;
+      var names,urls,index=0;
       function fetch()
       {
         const tmp = new XMLHttpRequest();
@@ -13,12 +13,37 @@
         tmp.open("GET", "/cache/names");
         tmp.send();
       }
-      function loadDoc() 
+      function openLink(url)
       {
-        for(var i=0;i<arr.length;i++)
+         document.getElementById("frameId").src=url;
+      }
+      function loadNext(ind)
+      {
+        
+        for(var i=ind;i<names.length;i++)
         {
           if(arr[i].includes(document.getElementById('search').value))
-            document.getElementById("out").innerHTML+="<b>"+arr[i]+"</b><br>";
+          {
+            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+arr[i]+"</b><br>";
+            index+=1;
+          }
+          if(index>=100){
+            document.getElementById("out").innerHTML+="<b>"+"<input type=submit value='Load More' onClick=loadNext("+i+")><br>";
+            break;}
+        }
+      }
+      function loadDoc() 
+      {
+        for(var i=0;i<names.length;i++)
+        {
+          if(arr[i].includes(document.getElementById('search').value))
+          {
+            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+arr[i]+"</b><br>";
+            index+=1;
+          }
+          if(index>=100){
+            document.getElementById("out").innerHTML+="<b>"+"<input type=submit value='Load More' onClick=loadNext("+i+")><br>";
+            break;}
         }
       }
       fetch();
