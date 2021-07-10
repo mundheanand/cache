@@ -3,14 +3,24 @@
     <title>Welcome</title>
     <script>
       var names,urls,index=0;
-      function fetch()
+      function fetchNames()
       {
         const tmp = new XMLHttpRequest();
         tmp.onload = function() 
         {
-        arr=this.responseText.split("\n");
+        names=this.responseText.split("\n");
         }
         tmp.open("GET", "/cache/names");
+        tmp.send();
+      }
+      function fetchUrls()
+      {
+        const tmp = new XMLHttpRequest();
+        tmp.onload = function() 
+        {
+        urls=this.responseText.split("\n");
+        }
+        tmp.open("GET", "/cache/urls");
         tmp.send();
       }
       function openLink(url)
@@ -19,12 +29,12 @@
       }
       function loadNext(ind)
       {
-        
+        index=0;
         for(var i=ind;i<names.length;i++)
         {
-          if(arr[i].includes(document.getElementById('search').value))
+          if(names[i].includes(document.getElementById('search').value))
           {
-            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+arr[i]+"</b><br>";
+            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+names[i]+"</b><br>";
             index+=1;
           }
           if(index>=100){
@@ -34,11 +44,12 @@
       }
       function loadDoc() 
       {
+        index=0;
         for(var i=0;i<names.length;i++)
         {
-          if(arr[i].includes(document.getElementById('search').value))
+          if(names[i].includes(document.getElementById('search').value))
           {
-            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+arr[i]+"</b><br>";
+            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+names[i]+"</b><br>";
             index+=1;
           }
           if(index>=100){
