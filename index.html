@@ -25,6 +25,7 @@
       }
       function openLink(url)
       {
+        document.getElementById("out").innerHTML="";
          document.getElementById("frameId").src=url;
       }
       function loadNext(ind)
@@ -34,7 +35,7 @@
         {
           if(names[i].includes(document.getElementById('search').value))
           {
-            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+names[i]+"</b><br>";
+            document.getElementById("out").innerHTML+="<b onclick=openLink('"+urls[i]+"')>"+names[i]+"</b><br>";
             index+=1;
           }
           if(index>=100){
@@ -49,7 +50,7 @@
         {
           if(names[i].includes(document.getElementById('search').value))
           {
-            document.getElementById("out").innerHTML+="<b onclick=openLink("+urls[i]+")>"+names[i]+"</b><br>";
+            document.getElementById("out").innerHTML+="<b onclick=openLink('"+urls[i]+"')>"+names[i]+"</b><br>";
             index+=1;
           }
           if(index>=100){
