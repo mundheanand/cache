@@ -7,17 +7,17 @@
       {
         const tmp = new XMLHttpRequest();
         tmp.onload = function() 
-       {
+        {
         arr=this.responseText.split("\n");
-       }
-      tmp.open("GET", "/cache/names");
-      tmp.send();
+        }
+        tmp.open("GET", "/cache/names");
+        tmp.send();
       }
       function loadDoc() 
       {
         for(var i=0;i<arr.length;i++)
         {
-          if(i.includes(document.getElementById('search').value)
+          if(i.includes(document.getElementById('search').value))
             document.getElementById("out").innerHTML+="<b>"+arr[i]+"</b><br>";
         }
       }
