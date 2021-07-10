@@ -2,21 +2,32 @@
   <head>
     <title>Welcome</title>
     <script>
-      function loadDoc() {
-  const tmp = new XMLHttpRequest();
-  tmp.onload = function() {
-    var arr=this.responseText.split("\n");
-    for(var i=0;i<arr.length;i++)
-      document.getElementById("out").innerHTML+="<b>"+arr[i]+"</b><br>";
-  }
-  tmp.open("GET", "/cache/names");
-  tmp.send();
-}
+      var arr;
+      function fetch()
+      {
+        const tmp = new XMLHttpRequest();
+        tmp.onload = function() 
+       {
+        arr=this.responseText.split("\n");
+       }
+      tmp.open("GET", "/cache/names");
+      tmp.send();
+      }
+      function loadDoc() 
+      {
+        for(var i=0;i<arr.length;i++)
+        {
+          if(i.includes(document.getElementById('search').value)
+            document.getElementById("out").innerHTML+="<b>"+arr[i]+"</b><br>";
+        }
+      }
     </script>
   </head>
-  <body onLoad=loadDoc()>
-  Sample Frame<br>
+  <body>
+  Welcome to Dark Vengeance<br>
+    <input id=search><input type=submit value="Search" onClick=loadDoc()><br>
+    <p id=out></p><br>
     <iframe style="width:100%;height:80%" id=frameId src="/cache/www.iruna-online.info.html"></iframe><br>
-    <p id=out></p>
+    
   </body>
 </html>
