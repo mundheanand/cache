@@ -33,7 +33,7 @@
         index=0;
         for(var i=ind;i<names.length;i++)
         {
-          if(names[i].includes(document.getElementById('search').value))
+          if(names[i].includes(document.getElementById('search').value.toUpperCase()))
           {
             document.getElementById("out").innerHTML+="<b onclick=openLink('"+urls[i]+"')>"+names[i]+"</b><br>";
             index+=1;
@@ -48,7 +48,7 @@
         index=0;
         for(var i=0;i<names.length;i++)
         {
-          if(names[i].includes(document.getElementById('search').value))
+          if(names[i].includes(document.getElementById('search').value.toUpperCase()))
           {
             document.getElementById("out").innerHTML+="<b onclick=openLink('"+urls[i]+"')>"+names[i]+"</b><br>";
             index+=1;
