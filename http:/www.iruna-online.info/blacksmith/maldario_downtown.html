@@ -2,54 +2,7 @@
 <h4>Maldario Downtown Blacksmith</h4>
 <hr/>
 <div class="">
-<form class="form-horizontal table-condensed" id="form1" method="post" name="form1">
-<input id="token" name="token" type="hidden" value=""/>
-<div class="form-group">
-<div class="col-md-4">
-<select class="form-control" id="zone_name" name="zone_name" onchange="updateZone();">
-<option value="Anniversary Event">Anniversary Event</option>
-<option value="Aplide Village">Aplide Village</option>
-<option value="Aqruf Town">Aqruf Town</option>
-<option value="Caldera Village">Caldera Village</option>
-<option value="Capital City Elban">Capital City Elban</option>
-<option value="Capital City Eldan">Capital City Eldan</option>
-<option value="Capital City Saterica">Capital City Saterica</option>
-<option value="Capital City Sofya">Capital City Sofya</option>
-<option value="Deeos">Deeos</option>
-<option value="Diel Village">Diel Village</option>
-<option value="Drafbourg: Dragonewt Ward">Drafbourg: Dragonewt Ward</option>
-<option value="Drafbourg: Immigrant Ward">Drafbourg: Immigrant Ward</option>
-<option value="Fort Bailune">Fort Bailune</option>
-<option value="Ioleu Village">Ioleu Village</option>
-<option value="Kakeula City">Kakeula City</option>
-<option value="Kleya City">Kleya City</option>
-<option value="Kreldan Church Street">Kreldan Church Street</option>
-<option value="Kreya City">Kreya City</option>
-<option value="Lograth City">Lograth City</option>
-<option value="Lunite Village">Lunite Village</option>
-<option value="Maios">Maios</option>
-<option selected="" value="Maldario Downtown">Maldario Downtown</option>
-<option value="Minaula City">Minaula City</option>
-<option value="Mioreita Castle">Mioreita Castle</option>
-<option value="Moivan the Chamber of Moonlight">Moivan the Chamber of Moonlight</option>
-<option value="Oltoga Village">Oltoga Village</option>
-<option value="Orolhool">Orolhool</option>
-<option value="Pilaneza City">Pilaneza City</option>
-<option value="Port Spargas">Port Spargas</option>
-<option value="Reoctove">Reoctove</option>
-<option value="Rokoko City">Rokoko City</option>
-<option value="Rokoko Village">Rokoko Village</option>
-<option value="Sateria City">Sateria City</option>
-<option value="Shrine of Fortune">Shrine of Fortune</option>
-<option value="Small Library">Small Library</option>
-<option value="Sofia City">Sofia City</option>
-<option value="Underground Bailune">Underground Bailune</option>
-<option value="Varant City">Varant City</option>
-<option value="Wibo City">Wibo City</option>
-</select>
-</div>
-</div>
-</form>
+
 <br/>
 <div class="row"><div class="col-md-12"><b>Blacksmith</b></div></div> <div>
 <br/>
@@ -60,6 +13,14 @@
 <td class="col-sm-9">
 			Atk: 309 Def: 2			<br/>
 			Melee to Neutral +25% ATK +8% Skill Delay -1.4s Item Delay -0.7s Range +1 			</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/himetsuru_ichimonji.html" id="blacksmith_himetsuru_ichimonji">Himetsuru Ichimonji</a>
+</td>
+<td class="col-sm-9">
+			Atk: 280 			<br/>
+			Melee to Water +20% Melee to Wind -10% Critical damage +17% Melee R -10% MaxMP +15% Bleed +5% ASPD = 1 [Samurai] [X = DEX] [X = X · 150] [X = X / 100] [ATK up by X] Autoskill 			</td>
 </tr>
 <tr>
 <td class="col-sm-3 border">
@@ -197,6 +158,14 @@
 			Atk: 268 Def: 5			<br/>
 			ATK +6% Critical rate +10 Critical damage +10% Range cut -5% Melee Pierce -10% Magic R -20% Autoskill [Monk] Shell break +10% 			</td>
 </tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/lion_fists.html" id="blacksmith_lion_fists">Lion Fists</a>
+</td>
+<td class="col-sm-9">
+			Atk: 274 Def: 2			<br/>
+			Counter on Evasion +15% Critical damage -8% Melee to boss +4% [X = 0.03 * AGI] [ATK up by X] Magic R -12% Autoskill 			</td>
+</tr>
 </table><table class="table table table-bordered"><tr><th colspan="2">Throwing</th></tr> <tr>
 <td class="col-sm-3 border">
 <a href="/cache/http:/www.iruna-online.info/item/artemis_iv.html" id="blacksmith_artemis_iv">Artemis IV</a>
@@ -251,7 +220,7 @@
 </td>
 <td class="col-sm-9">
 			Atk: 13 Def: 20			<br/>
-			ATK +9% MATK +12% Critical rate +20 Reflect +6% Critical damage +9% Autoskill +3% [Voluntas (Strengthened 2)][Voluntas (Strengthened 1)][Voluntas] [X = Lv] [X = X / 4] [ATK up by X] [MATK up by X] MaxHP +1500 MaxMP +500 Range +1 			</td>
+			ATK +9% MATK +12% Critical rate +20 Reflect +6% Critical damage +9% Autoskill +3% [Voluntas][Voluntas (Strengthened 1)][Voluntas (Strengthened 2)] [X = Lv] [X = X / 4] [ATK up by X] [MATK up by X] MaxHP +1500 MaxMP +500 Range +1 			</td>
 </tr>
 <tr>
 <td class="col-sm-3 border">
@@ -471,18 +440,42 @@
 </tr>
 <tr>
 <td class="col-sm-3 border">
-<a href="/cache/http:/www.iruna-online.info/item/wroth_helm_(strengthened_1).html" id="blacksmith_wroth_helm_(strengthened_1)">Wroth Helm (Strengthened 1)</a>
-</td>
-<td class="col-sm-9">
-			Atk: 18 Def: 15			<br/>
-			[X = STR] [X = X · 3] [MaxMP up by X] [X = INT] [X = X · 6] [MaxHP up by X] Magic R +9% Paralysis -1.0s Heal Recovery +15% 			</td>
-</tr>
-<tr>
-<td class="col-sm-3 border">
 <a href="/cache/http:/www.iruna-online.info/item/wroth_helm_(strengthened_2).html" id="blacksmith_wroth_helm_(strengthened_2)">Wroth Helm (Strengthened 2)</a>
 </td>
 <td class="col-sm-9">
 			Atk: 23 Def: 17			<br/>
 			ATK +3% [X = STR] [X = X · 4] [MaxMP up by X] [X = INT] [X = X · 8] [MaxHP up by X] Magic R +11% Paralysis -1.5s Heal Recovery +15% 			</td>
+</tr>
+</table><table class="table table table-bordered"><tr><th colspan="2">Ores</th></tr> <tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/high_mythril.html" id="blacksmith_high_mythril">High Mythril</a>
+</td>
+<td class="col-sm-9">
+<br/>
+</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/hihiirokane.html" id="blacksmith_hihiirokane">Hihiirokane</a>
+</td>
+<td class="col-sm-9">
+<br/>
+</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/iron.html" id="blacksmith_iron">Iron</a>
+</td>
+<td class="col-sm-9">
+<br/>
+</td>
+</tr>
+<tr>
+<td class="col-sm-3 border">
+<a href="/cache/http:/www.iruna-online.info/item/wrought_iron.html" id="blacksmith_wrought_iron">Wrought Iron</a>
+</td>
+<td class="col-sm-9">
+<br/>
+</td>
 </tr>
 </table></div></div></div>

@@ -1,0 +1,184 @@
+<div class="col-md-7">
+<h4>Delusion Icebow</h4><hr/>
+<div>
+
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+
+<div class="row">
+
+<div class="row">
+<div class="col-md-3 col-xs-4">
+
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+</div>
+<div class="col-md-3 col-xs-4">
+
+</div>
+<div class="col-md-3 col-xs-4">
+
+</div>
+</div>
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+<div id="fs" style="display: none;">
+<div class="row">
+<div class="col-md-12 col-xs-12">
+<input checked="" id="f_all" name="f" onclick="attr_filter();" type="checkbox" value="all"/> Show All<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_str" name="f" onclick="attr_filter();" type="checkbox" value="str"/> STR<br/>
+<input id="f_agi" name="f" onclick="attr_filter();" type="checkbox" value="agi"/> AGI<br/>
+<input id="f_vit" name="f" onclick="attr_filter();" type="checkbox" value="vit"/> VIT<br/>
+<input id="f_int" name="f" onclick="attr_filter();" type="checkbox" value="int"/> INT<br/>
+<input id="f_dex" name="f" onclick="attr_filter();" type="checkbox" value="dex"/> DEX<br/>
+<input id="f_crt" name="f" onclick="attr_filter();" type="checkbox" value="crt"/> CRT<br/>
+<input id="f_exp" name="f" onclick="attr_filter();" type="checkbox" value="exp"/> EXP<br/>
+<input id="f_drop" name="f" onclick="attr_filter();" type="checkbox" value="drop"/> Drop<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_atk" name="f" onclick="attr_filter();" type="checkbox" value="atk"/> ATK<br/>
+<input id="f_matk" name="f" onclick="attr_filter();" type="checkbox" value="matk"/> MATK<br/>
+<input id="f_def" name="f" onclick="attr_filter();" type="checkbox" value="def"/> DEF<br/>
+<input id="f_mdef" name="f" onclick="attr_filter();" type="checkbox" value="mdef"/> MDEF<br/>
+<input id="f_melee" name="f" onclick="attr_filter();" type="checkbox" value="melee"/> Melee<br/>
+<input id="f_magic" name="f" onclick="attr_filter();" type="checkbox" value="magic"/> Magic<br/>
+<input id="f_meleepierce" name="f" onclick="attr_filter();" type="checkbox" value="meleepierce"/> Melee P<br/>
+<input id="f_magicpierce" name="f" onclick="attr_filter();" type="checkbox" value="magicpierce"/> Magic P<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_range" name="f" onclick="attr_filter();" type="checkbox" value="range"/> Range<br/>
+<input id="f_rangecut" name="f" onclick="attr_filter();" type="checkbox" value="rangecut"/> Range cut<br/>
+<input id="f_ratecut" name="f" onclick="attr_filter();" type="checkbox" value="ratecut"/> Rate cut<br/>
+<input id="f_damagecut" name="f" onclick="attr_filter();" type="checkbox" value="damagecut"/> Dmg cut<br/>
+<input id="f_spellburst" name="f" onclick="attr_filter();" type="checkbox" value="spellburst"/> Spellburst<br/>
+<input id="f_autoskill" name="f" onclick="attr_filter();" type="checkbox" value="autoskill"/> Autoskill<br/>
+<input id="f_recoil" name="f" onclick="attr_filter();" type="checkbox" value="recoil"/> Recoil<br/>
+<input id="f_reflect" name="f" onclick="attr_filter();" type="checkbox" value="reflect"/> Reflect<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_accuracy" name="f" onclick="attr_filter();" type="checkbox" value="accuracy"/> Hit<br/>
+<input id="f_evasion" name="f" onclick="attr_filter();" type="checkbox" value="evasion"/> Evasion<br/>
+<input id="f_m_evasion" name="f" onclick="attr_filter();" type="checkbox" value="magicevasion"/> M Evasion<br/>
+<input id="f_absoluteaccuracy" name="f" onclick="attr_filter();" type="checkbox" value="absoluteaccuracy"/> Ab. Hit<br/>
+<input id="f_absoluteevasion" name="f" onclick="attr_filter();" type="checkbox" value="absoluteevasion"/> Ab. Evasion<br/>
+<input id="f_criticalrate" name="f" onclick="attr_filter();" type="checkbox" value="criticalrate"/> Crit Rate<br/>
+<input id="f_criticaldamage" name="f" onclick="attr_filter();" type="checkbox" value="criticaldamage"/> Crit Dmg<br/>
+<input id="f_haterise" name="f" onclick="attr_filter();" type="checkbox" value="haterise"/> Hate rise<br/>
+<input id="f_aspd" name="f" onclick="attr_filter();" type="checkbox" value="aspd"/> ASPD<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_maxhp" name="f" onclick="attr_filter();" type="checkbox" value="maxhp"/> MaxHP<br/>
+<input id="f_maxmp" name="f" onclick="attr_filter();" type="checkbox" value="maxmp"/> MaxMP<br/>
+<input id="f_hprecovery" name="f" onclick="attr_filter();" type="checkbox" value="hprecovery"/> HP Rec<br/>
+<input id="f_mprecovery" name="f" onclick="attr_filter();" type="checkbox" value="mprecovery"/> MP Rec<br/>
+<input id="f_healrecovery" name="f" onclick="attr_filter();" type="checkbox" value="healrecovery"/> Heal Rec<br/>
+<input id="f_healreward" name="f" onclick="attr_filter();" type="checkbox" value="healreward"/> Heal Reward<br/>
+<input id="f_skilldelay" name="f" onclick="attr_filter();" type="checkbox" value="skilldelay"/> Skill Delay<br/>
+<input id="f_itemdelay" name="f" onclick="attr_filter();" type="checkbox" value="itemdelay"/> Item Delay<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_meleetoneutral" name="f" onclick="attr_filter();" type="checkbox" value="meleetoneutral"/> Melee Neut.<br/>
+<input id="f_meleetofire" name="f" onclick="attr_filter();" type="checkbox" value="meleetofire"/> Melee Fire<br/>
+<input id="f_meleetowater" name="f" onclick="attr_filter();" type="checkbox" value="meleetowater"/> Melee Water<br/>
+<input id="f_meleetowind" name="f" onclick="attr_filter();" type="checkbox" value="meleetowind"/> Melee Wind<br/>
+<input id="f_meleetoearth" name="f" onclick="attr_filter();" type="checkbox" value="meleetoearth"/> Melee Earth<br/>
+<input id="f_meleetolight" name="f" onclick="attr_filter();" type="checkbox" value="meleetolight"/> Melee Light<br/>
+<input id="f_meleetodark" name="f" onclick="attr_filter();" type="checkbox" value="meleetodark"/> Melee Dark<br/>
+<input id="f_meleer" name="f" onclick="attr_filter();" type="checkbox" value="meleer"/> Melee R<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_neutralmagic" name="f" onclick="attr_filter();" type="checkbox" value="neutralmagic"/> Neut. Magic<br/>
+<input id="f_firemagic" name="f" onclick="attr_filter();" type="checkbox" value="firemagic"/> Fire Magic<br/>
+<input id="f_watermagic" name="f" onclick="attr_filter();" type="checkbox" value="watermagic"/> Water Magic<br/>
+<input id="f_windmagic" name="f" onclick="attr_filter();" type="checkbox" value="windmagic"/> Wind Magic<br/>
+<input id="f_earthmagic" name="f" onclick="attr_filter();" type="checkbox" value="earthmagic"/> Earth Magic<br/>
+<input id="f_lightmagic" name="f" onclick="attr_filter();" type="checkbox" value="lightmagic"/> Light Magic<br/>
+<input id="f_darkmagic" name="f" onclick="attr_filter();" type="checkbox" value="darkmagic"/> Dark Magic<br/>
+<input id="f_magicr" name="f" onclick="attr_filter();" type="checkbox" value="magicr"/> Magic R<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_neutralr" name="f" onclick="attr_filter();" type="checkbox" value="neutralr"/> Neut. R<br/>
+<input id="f_firer" name="f" onclick="attr_filter();" type="checkbox" value="firer"/> Fire R<br/>
+<input id="f_waterr" name="f" onclick="attr_filter();" type="checkbox" value="waterr"/> Water R<br/>
+<input id="f_windr" name="f" onclick="attr_filter();" type="checkbox" value="windr"/> Wind R<br/>
+<input id="f_earthr" name="f" onclick="attr_filter();" type="checkbox" value="earthr"/> Earth R<br/>
+<input id="f_lightr" name="f" onclick="attr_filter();" type="checkbox" value="lightr"/> Light R<br/>
+<input id="f_darkr" name="f" onclick="attr_filter();" type="checkbox" value="darkr"/> Dark R<br/>
+<input id="f_ailmentr" name="f" onclick="attr_filter();" type="checkbox" value="ailmentr"/> Ailment R<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_casttime" name="f" onclick="attr_filter();" type="checkbox" value="casttime"/> Cast Time<br/>
+<input id="f_parry" name="f" onclick="attr_filter();" type="checkbox" value="parry"/> Parry<br/>
+<input id="f_castdefense" name="f" onclick="attr_filter();" type="checkbox" value="castdefense"/> Cast Def<br/>
+<input id="f_shellbreak" name="f" onclick="attr_filter();" type="checkbox" value="shellbreak"/> Shell Break<br/>
+<input id="f_pet" name="f" onclick="attr_filter();" type="checkbox" value="pet"/> Pet<br/>
+<input id="f_movementspeed" name="f" onclick="attr_filter();" type="checkbox" value="movementspeed"/> Movement<br/>
+<input id="f_mpcost" name="f" onclick="attr_filter();" type="checkbox" value="mpcost"/> MP COST<br/>
+<input id="f_alldamager" name="f" onclick="attr_filter();" type="checkbox" value="alldamager"/> All Dmg R<br/>
+<input id="f_ignition" name="f" onclick="attr_filter();" type="checkbox" value="ignition"/> Ignition<br/><br/>
+</div>
+<div class="col-md-3 col-xs-6">
+<input id="f_knockout" name="f" onclick="attr_filter();" type="checkbox" value="knockout"/> Knockout<br/>
+<input id="f_poison" name="f" onclick="attr_filter();" type="checkbox" value="poison"/> Poison<br/>
+<input id="f_paralysis" name="f" onclick="attr_filter();" type="checkbox" value="paralysis"/> Paralysis<br/>
+<input id="f_burn" name="f" onclick="attr_filter();" type="checkbox" value="burn"/> Burn<br/>
+<input id="f_freeze" name="f" onclick="attr_filter();" type="checkbox" value="freeze"/> Freeze<br/>
+<input id="f_lethargy" name="f" onclick="attr_filter();" type="checkbox" value="lethargy"/> Lethargy<br/>
+<input id="f_dizzy" name="f" onclick="attr_filter();" type="checkbox" value="dizzy"/> Dizzy<br/>
+<input id="f_bleed" name="f" onclick="attr_filter();" type="checkbox" value="bleed"/> Bleed<br/>
+<input id="f_fear" name="f" onclick="attr_filter();" type="checkbox" value="fear"/> Fear<br/><br/>
+</div>
+</div>
+<div class="row divider" role="separator" style="margin-top:20px;"></div>
+</div>
+</div>
+<div class="row"><div class="col-md-12"><b>Items</b></div></div>
+<div>
+<div class="Bows default_attr meleetofire meleetowater dex">
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="delusion_icebow">Delusion Icebow   [Bows] </a></b>
+<br/>
+ATK: 1<br/><div class="ds"> Water element, No damage to Water Weapon ATK up by Lv, DEX up 20% Movement speed up by AGI during combat. Any icy silver bow that freezes even time.</div><div class="t_ds">Melee to Fire +30% Melee to Water -200% [Weapon up by Lv] [X = 0.20 * DEX] [DEX up by X] [X = 0.10 * AGI] [Movement speed combat up by X] </div><br/>
+</div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div class="row"><div class="col-md-12"><b>Production</b></div></div> <div>
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="production_delusion_icebow">Delusion Icebow x1 [Bows] </a></b>
+<br/>
+Carpentry Lv255<br/>
+ 1: <a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html">Delusion Icebow x1</a><br/><br/>
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="production_delusion_icebow">Delusion Icebow x1 [Bows] </a></b>
+<br/>
+Alchemy Lv255<br/>
+ 1: <a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html">Delusion Icebow x1</a><br/><br/>
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="production_delusion_icebow">Delusion Icebow x1 [Bows] </a></b>
+<br/>
+Smithing Lv255<br/>
+ 1: <a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html">Delusion Icebow x1</a><br/><br/>
+</div>
+<div class="row"><div class="col-md-12"><b>Materials</b></div></div> <div>
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="production_delusion_icebow">Delusion Icebow x1 [Bows] </a></b>
+<br/>
+Smithing Lv255<br/>
+ 1: <a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html">Delusion Icebow x1</a><br/><br/>
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="production_delusion_icebow">Delusion Icebow x1 [Bows] </a></b>
+<br/>
+Carpentry Lv255<br/>
+ 1: <a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html">Delusion Icebow x1</a><br/><br/>
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html" id="production_delusion_icebow">Delusion Icebow x1 [Bows] </a></b>
+<br/>
+Alchemy Lv255<br/>
+ 1: <a href="/cache/http:/www.iruna-online.info/item/delusion_icebow.html">Delusion Icebow x1</a><br/><br/>
+</div>
+<div>
+<br/>
+</div>
+</div>
+</div>

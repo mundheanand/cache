@@ -2,252 +2,21 @@
 <h4>Collectibles</h4>
 <hr/>
 <div class="">
-<form action="" class="form-horizontal" id="form1" method="get" name="form1">
-<div class="row">
-<div class="col-md-9 col-xs-8"><input class="form-control" id="search" name="search" type="text" value=""/></div>
-<div class="col-md-2 col-xs-3"><input class="btn btn-default btn-block" id="search_button" name="search_button" onclick="window.location.href = '/search/'+$('#search').val();" type="button" value="Search"/></div>
-</div>
-</form>
+
 <div class="row divider" role="separator" style="margin-top:20px;"></div>
-<div class="container-fluid" style="margin-bottom: 20px;">
-<script async="" src="//web.archive.org/web/20210127015518js_/http:/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Right Panel -->
-<ins class="adsbygoogle" data-ad-client="ca-pub-0111798933448219" data-ad-format="auto" data-ad-slot="3849415951" style="display:block"></ins>
-<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-</div>
+
 <div class="row">
-<script type="text/javascript">
-				function attr_filter() {
 
-					$(".default_attr").css('display', 'none');
-
-					var tempDictionary = "f_all|default_attr,f_str|str,f_agi|agi,f_vit|vit,f_int|int,f_dex|dex,f_crt|crt,f_exp|exp,f_drop|drop,f_atk|atk,f_matk|matk,f_def|def,f_mdef|mdef,f_melee|melee,f_magic|magic,f_meleepierce|meleepierce,f_magicpierce|magicpierce,f_range|range,f_rangecut|rangecut,f_ratecut|ratecut,f_damagecut|damagecut,f_spellburst|spellburst,f_autoskill|autoskill,f_recoil|recoil,f_reflect|reflect,f_accuracy|accuracy,f_evasion|evasion,f_m_evasion|magicevasion,f_absoluteaccuracy|absoluteaccuracy,f_absoluteevasion|absoluteevasion,f_criticalrate|criticalrate,f_criticaldamage|criticaldamage,f_haterise|haterise,f_aspd|aspd,f_maxhp|maxhp,f_maxmp|maxmp,f_hprecovery|hprecovery,f_mprecovery|mprecovery,f_healrecovery|healrecovery,f_healreward|healreward,f_skilldelay|skilldelay,f_itemdelay|itemdelay,f_meleetoneutral|meleetoneutral,f_meleetofire|meleetofire,f_meleetowater|meleetowater,f_meleetowind|meleetowind,f_meleetoearth|meleetoearth,f_meleetolight|meleetolight,f_meleetodark|meleetodark,f_meleer|meleer,f_neutralmagic|neutralmagic,f_firemagic|firemagic,f_watermagic|watermagic,f_windmagic|windmagic,f_earthmagic|earthmagic,f_lightmagic|lightmagic,f_darkmagic|darkmagic,f_magicr|magicr,f_neutralr|neutralr,f_firer|firer,f_waterr|waterr,f_windr|windr,f_earthr|earthr,f_lightr|lightr,f_darkr|darkr,f_ailmentr|ailmentr,f_casttime|casttime,f_parry|parry,f_castdefense|castdefense,f_shellbreak|shellbreak,f_pet|pet,f_movementspeed|movementspeed,f_mpcost|mpcost,f_alldamager|alldamager,f_ignition|ignition,f_knockout|knockout,f_poison|poison,f_paralysis|paralysis,f_burn|burn,f_freeze|freeze,f_lethargy|lethargy,f_dizzy|dizzy,f_bleed|bleed,f_fear|fear";
-					var tempDictionaryArray = tempDictionary.split(",");
-
-					for (var i = 0; i < tempDictionaryArray.length; i++) {
-						var tempPairedValue = (tempDictionaryArray[i]).split("|");
-						if ($('#'+tempPairedValue[0]).is(':checked')) { $("."+tempPairedValue[1]).css('display', 'block'); }
-					}
-
-				}
-
-				function update_items_filter(p_item_type) {
-
-					if (p_item_type == "") {
-												
-						
-						$(".Swords").show();
-												
-						
-						$(".Bows").show();
-												
-						
-						$(".Canes").show();
-												
-						
-						$(".Claws").show();
-												
-						
-						$(".Throwing").show();
-												
-						
-						$(".Armor").show();
-												
-						
-						$(".Additional").show();
-												
-						
-						$(".Special").show();
-												
-						
-						$(".Crystas").show();
-												
-						
-						$(".AlCrystas").show();
-												
-						
-						$(".Recovery").show();
-												
-						
-						$(".Status").show();
-												
-						
-						$(".Strengthening").show();
-												
-						
-						$(".Teleport").show();
-												
-						
-						$(".Skills").show();
-												
-						
-						$(".Chests").show();
-												
-						
-						$(".Collectibles").show();
-												
-						
-						$(".Ores").show();
-												
-						
-						$(".IslandItems").show();
-												
-						
-						$(".Points").show();
-												
-						
-						$(".Pets").show();
-												
-						
-						$(".RelicCrystas").show();
-												
-						
-						$(".Avatar Body").show();
-												
-						
-						$(".Avatar Add").show();
-												
-						
-						$(".Fish").show();
-											}
-					else {
-																		
-						
-						$(".Swords").hide();
-												
-						
-						$(".Bows").hide();
-												
-						
-						$(".Canes").hide();
-												
-						
-						$(".Claws").hide();
-												
-						
-						$(".Throwing").hide();
-												
-						
-						$(".Armor").hide();
-												
-						
-						$(".Additional").hide();
-												
-						
-						$(".Special").hide();
-												
-						
-						$(".Crystas").hide();
-												
-						
-						$(".AlCrystas").hide();
-												
-						
-						$(".Recovery").hide();
-												
-						
-						$(".Status").hide();
-												
-						
-						$(".Strengthening").hide();
-												
-						
-						$(".Teleport").hide();
-												
-						
-						$(".Skills").hide();
-												
-						
-						$(".Chests").hide();
-												
-						
-						$(".Collectibles").hide();
-												
-						
-						$(".Ores").hide();
-												
-						
-						$(".IslandItems").hide();
-												
-						
-						$(".Points").hide();
-												
-						
-						$(".Pets").hide();
-												
-						
-						$(".RelicCrystas").hide();
-												
-						
-						$(".Avatar Body").hide();
-												
-						
-						$(".Avatar Add").hide();
-												
-						
-						$(".Fish").hide();
-						
-						$("."+p_item_type).show();
-					}
-				}
-
-				function update_true_stats(p_item_type) {
-
-					if (p_item_type == "ds") {
-						$(".ds").css('display', 'block');
-						$(".t_ds").css('display', 'none');
-					} else if (p_item_type == "t_ds") {
-						$(".ds").css('display', 'none');
-						$(".t_ds").css('display', 'block');
-					} else {
-						$(".ds").css('display', 'block');
-						$(".t_ds").css('display', 'block');
-					}
-				}
-			</script>
 <div class="row">
 <div class="col-md-3 col-xs-4">
-<input class="btn btn-default" id="show_f_button" name="show_f_button" onclick="$('#fs').toggle();" style="width: 100%" type="button" value="Show Attr Filters"/>
+
 <div class="row divider" role="separator" style="margin-top:20px;"></div>
 </div>
 <div class="col-md-3 col-xs-4">
-<select class="form-control" id="item_type" name="item_type" onchange="update_items_filter(this.value);">
-<option value="">Show All Item Type</option>
-<option value="Swords">Swords</option>
-<option value="Bows">Bows</option>
-<option value="Canes">Canes</option>
-<option value="Claws">Claws</option>
-<option value="Throwing">Throwing</option>
-<option value="Armor">Armor</option>
-<option value="Additional">Additional</option>
-<option value="Special">Special</option>
-<option value="Crystas">Crystas</option>
-<option value="AlCrystas">AlCrystas</option>
-<option value="Recovery">Recovery</option>
-<option value="Status">Status</option>
-<option value="Strengthening">Strengthening</option>
-<option value="Teleport">Teleport</option>
-<option value="Skills">Skills</option>
-<option value="Chests">Chests</option>
-<option value="Collectibles">Collectibles</option>
-<option value="Ores">Ores</option>
-<option value="IslandItems">IslandItems</option>
-<option value="Points">Points</option>
-<option value="Pets">Pets</option>
-<option value="RelicCrystas">RelicCrystas</option>
-<option value="Avatar Body">Avatar Body</option>
-<option value="Avatar Add">Avatar Add</option>
-<option value="Fish">Fish</option>
-</select>
+
 </div>
 <div class="col-md-3 col-xs-4">
-<select class="form-control" id="show_description" name="show_description" onchange="update_true_stats(this.value);">
-<option selected="" value="">Both Stats</option>
-<option value="ds">Reg Stats</option>
-<option value="t_ds">True Stats</option>
-</select>
+
 </div>
 </div>
 <div class="row divider" role="separator" style="margin-top:20px;"></div>
@@ -381,7 +150,7 @@
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/adamantite.html_whetstone" id="adamantite_whetstone">Adamantite Whetstone   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/adamantite_whetstone.html" id="adamantite_whetstone">Adamantite Whetstone   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -431,17 +200,17 @@
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/alloy.html_armor_bit" id="alloy_armor_bit">Alloy Armor Bit   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/alloy_armor_bit.html" id="alloy_armor_bit">Alloy Armor Bit   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/alloy.html_chain" id="alloy_chain">Alloy Chain   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/alloy_chain.html" id="alloy_chain">Alloy Chain   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/alloy.html_rivet" id="alloy_rivet">Alloy Rivet   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/alloy_rivet.html" id="alloy_rivet">Alloy Rivet   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -471,7 +240,7 @@
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/amethyst.html_knowledge" id="amethyst_knowledge">Amethyst Knowledge   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/amethyst_knowledge.html" id="amethyst_knowledge">Amethyst Knowledge   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -631,7 +400,7 @@
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/azuki.html_seed" id="azuki_seed">Azuki Seed   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/azuki_seed.html" id="azuki_seed">Azuki Seed   [Collectibles] </a></b>
 <br/>
 <div class="ds">Used to produce azuki.</div><br/>
 </div>
@@ -1091,7 +860,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/blank_fiber.html" id="blank_fiber">blank fiber   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/blank_fiber.html" id="blank_fiber">Blank Fiber   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -1136,7 +905,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/blue_irn_ore.html" id="blue_irn_ore">Blue Irn Ore   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/blue_iron_ore.html" id="blue_iron_ore">Blue Iron Ore   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -1551,11 +1320,6 @@ Notes: Trade ×<br/><br/>
 <div class="ds">Produces cacaos.</div><br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/cacaomas.html" id="cacaomas">Cacaomas   [Collectibles] </a></b>
-<br/>
-<br/>
-</div>
-<div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/cactus_flower.html" id="cactus_flower">Cactus Flower   [Collectibles] </a></b>
 <br/>
 <br/>
@@ -1961,7 +1725,7 @@ Notes: Found in Sateria Underground Lottery<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/cotton.html_thread" id="cotton_thread">Cotton Thread   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/cotton_thread.html" id="cotton_thread">Cotton Thread   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -2306,6 +2070,11 @@ Notes: Found in Sateria Underground Lottery<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/dead_tree_branch.html" id="dead_tree_branch">dead tree branch   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/deadly_sin_medal.html" id="deadly_sin_medal">deadly sin medal   [Collectibles] </a></b>
 <br/>
 <div class="ds"> 七つの大罪の絵が描かれたメダル</div><br/>
@@ -2551,7 +2320,7 @@ Notes: Found in Sateria Underground Lottery<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/dream_doll_cotton.html" id="dream_doll_cotton">dream doll cotton   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dream_doll_cotton.html" id="dream_doll_cotton">Dream Doll Cotton   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -2566,11 +2335,6 @@ Notes: Found in Sateria Underground Lottery<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/droopy_ear.html" id="droopy_ear">Droopy Ear   [Collectibles] </a></b>
-<br/>
-<br/>
-</div>
-<div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/dry_hard_branch.html" id="dry_hard_branch">Dry Hard Branch   [Collectibles] </a></b>
 <br/>
 <br/>
@@ -2581,7 +2345,7 @@ Notes: Found in Sateria Underground Lottery<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/duamond.html" id="duamond">duamond   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/duamond.html" id="duamond">Duamond   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -2716,7 +2480,7 @@ Notes: Found in Sateria Underground Lottery<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/empty_pot_i.htmli" id="empty_pot_ii">Empty Pot II   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/empty_pot_ii.html" id="empty_pot_ii">Empty Pot II   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3121,7 +2885,12 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/floating_stone.html_fragment" id="floating_stone_fragment">Floating Stone Fragment   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/floating_stone_fragment.html" id="floating_stone_fragment">Floating Stone Fragment   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/floppy_ears.html" id="floppy_ears">Floppy Ears   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3291,6 +3060,11 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/fragment_of_human_power.html" id="fragment_of_human_power">fragment of human power   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/fragment_of_light.html" id="fragment_of_light">Fragment of Light   [Collectibles] </a></b>
 <br/>
 <br/>
@@ -3371,7 +3145,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/fuzz.htmly_fur" id="fuzzy_fur">Fuzzy Fur   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/fuzzy_fur.html" id="fuzzy_fur">Fuzzy Fur   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3426,7 +3200,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/gel.htmlatin" id="gelatin">Gelatin   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/gelatin.html" id="gelatin">Gelatin   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3791,7 +3565,7 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/gum_base.html" id="gum_base">gum base   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/gum_base.html" id="gum_base">Gum Base   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3813,12 +3587,12 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/halloween_pumpkin.html" id="halloween_pumpkin">Halloween Pumpkin   [Collectibles] </a></b>
 <br/>
-<br/>
+<div class="ds"> Exchange for items with Meringue in Hallowtoon Town Square during the Halloween event.</div><br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/halloween_spoon.html" id="halloween_spoon">Halloween Spoon   [Collectibles] </a></b>
 <br/>
-<br/>
+<div class="ds"> Exchange for items with Meringue in Hallowtoon Town Square during the Halloween event.</div><br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/halloween_sticker.html" id="halloween_sticker">Halloween Sticker   [Collectibles] </a></b>
@@ -3891,7 +3665,7 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/hard_stone.html_material" id="hard_stone_material">Hard Stone Material   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/hard_stone_material.html" id="hard_stone_material">Hard Stone Material   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3906,7 +3680,7 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/harp_gisable.html" id="harp_gisable">harp gisable   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/harp_gisable.html" id="harp_gisable">Harp Gisable   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -3936,7 +3710,7 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/hazel_sugar.html" id="hazel_sugar">Hazel sugar   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/hazel_sugar.html" id="hazel_sugar">Hazel Sugar   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -4356,12 +4130,12 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/jade.html_plating_formula" id="jade_plating_formula">Jade Plating Formula   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/jade_plating_formula.html" id="jade_plating_formula">Jade Plating Formula   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/jade.html_stone" id="jade_stone">Jade Stone   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/jade_stone.html" id="jade_stone">Jade Stone   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -4401,7 +4175,7 @@ Notes: Trade × Drops from Golden Aurumteus. Talk to Lufan in Teschen Highlands 
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/jet_black_carbon.html" id="jet_black_carbon">jet black carbon   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/jet_black_carbon.html" id="jet_black_carbon">Jet Black Carbon   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -4936,7 +4710,7 @@ Notes: Synthesize at Merchant in Capital city Elban<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/magic_core.html_fuel" id="magic_core_fuel">Magic Core Fuel   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/magic_core_fuel.html" id="magic_core_fuel">Magic Core Fuel   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -5097,6 +4871,11 @@ Notes: Synthesize at Merchant in Capital city Elban<br/><br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/meelis_wing.html" id="meelis_wing">Meelis Wing   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/mellow_cacao_mass.html" id="mellow_cacao_mass">Mellow Cacao Mass   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -5586,6 +5365,11 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/overpower.html" id="overpower">overpower   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/owl_plume.html" id="owl_plume">Owl Plume   [Collectibles] </a></b>
 <br/>
 <br/>
@@ -5781,6 +5565,11 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/plush_button.html" id="plush_button">plush button   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/plywood.html" id="plywood">Plywood   [Collectibles] </a></b>
 <br/>
 <br/>
@@ -5891,7 +5680,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/powder.html_revita" id="powder_revita">Powder Revita   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/powder_revita.html" id="powder_revita">Powder Revita   [Collectibles] </a></b>
 <br/>
 <div class="ds">Required to use a certain skill.</div><br/>
 </div>
@@ -6041,7 +5830,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/purple_crystal.html_shard" id="purple_crystal_shard">Purple Crystal Shard   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/purple_crystal_shard.html" id="purple_crystal_shard">Purple Crystal Shard   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -6081,7 +5870,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/quartz.html_energy" id="quartz_energy">Quartz Energy   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/quartz_energy.html" id="quartz_energy">Quartz Energy   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -6236,7 +6025,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/red_wrapping.html_cloth" id="red_wrapping_cloth">Red Wrapping Cloth   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/red_wrapping_cloth.html" id="red_wrapping_cloth">Red Wrapping Cloth   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -6321,7 +6110,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/rise_riot.html" id="rise_riot">rise riot   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/rise_riot.html" id="rise_riot">Rise Riot   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -6441,7 +6230,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sand_snake_husk.html" id="sand_snake_husk">sand snake husk   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sand_snake_husk.html" id="sand_snake_husk">Sand Snake Husk   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -6466,7 +6255,7 @@ Notes: Trade ×<br/><br/>
 <div class="ds">Can be traded for other items</div><br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_medal.html_+" id="sauro_medal_+">Sauro Medal +   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_medal_+.html" id="sauro_medal_+">Sauro Medal +   [Collectibles] </a></b>
 <br/>
 <div class="ds">Proof of defeating full power Sauro.</div><br/>
 </div>
@@ -6601,7 +6390,7 @@ Notes: Trade ×<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/shadow_of_nil_i.htmli" id="shadow_of_nil_ii">Shadow of Nil II   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/shadow_of_nil_ii.html" id="shadow_of_nil_ii">Shadow of Nil II   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -6836,7 +6625,7 @@ Notes: unknown how to obtain<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sigduna.html" id="sigduna">sigduna   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sigduna.html" id="sigduna">Sigduna   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -7119,6 +6908,11 @@ Notes: unknown how to obtain<br/><br/>
 <b><a href="/cache/http:/www.iruna-online.info/item/sniper_arrow.html" id="sniper_arrow">Sniper Arrow   [Collectibles] </a></b>
 <br/>
 <div class="ds">Required to use a certain skill.</div><br/>
+</div>
+<div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/snow_country_carrot.html" id="snow_country_carrot">snow country carrot   [Collectibles] </a></b>
+<br/>
+<br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/snow_crystal.html" id="snow_crystal">Snow Crystal   [Collectibles] </a></b>
@@ -7492,6 +7286,11 @@ Notes: unknown how to obtain<br/><br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/star_fragment.html" id="star_fragment">Star Fragment   [Collectibles] </a></b>
+<br/>
+<br/>
+</div>
+<div class="Collectibles default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/star_snow_stone.html" id="star_snow_stone">star snow stone   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -8071,12 +7870,12 @@ Notes: unknown how to obtain<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/torn_cloth.htmling" id="torn_clothing">Torn Clothing   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/torn_clothing.html" id="torn_clothing">Torn Clothing   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/torn_cloth.htmling" id="torn_clothing">Torn Clothing   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/torn_clothing.html" id="torn_clothing">Torn Clothing   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -8218,7 +8017,7 @@ Notes: unknown how to obtain<br/><br/>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/trick_bone.html" id="trick_bone">Trick Bone   [Collectibles] </a></b>
 <br/>
-<br/>
+<div class="ds"> Exchange for items with Meringue in Hallowtoon Town Square during the Halloween event.</div><br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/tridymite.html" id="tridymite">Tridymite   [Collectibles] </a></b>
@@ -8346,7 +8145,7 @@ Notes: unknown how to obtain<br/><br/>
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/venom.html_bulb" id="venom_bulb">Venom Bulb   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/venom_bulb.html" id="venom_bulb">Venom Bulb   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>
@@ -8506,7 +8305,7 @@ Notes: Collect Patterned Plates from Cubic in the Forgotten Caves and exchange t
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/wheat.html_seed" id="wheat_seed">Wheat Seed   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/wheat_seed.html" id="wheat_seed">Wheat Seed   [Collectibles] </a></b>
 <br/>
 <div class="ds">Produces wheat.</div><br/>
 </div>
@@ -8693,7 +8492,7 @@ Notes: Collect Patterned Plates from Cubic in the Forgotten Caves and exchange t
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/witch_broom.html" id="witch_broom">Witch Broom   [Collectibles] </a></b>
 <br/>
-<br/>
+<div class="ds"> Exchange for items with Meringue in Hallowtoon Town Square during the Halloween event.</div><br/>
 </div>
 <div class="Collectibles default_attr">
 <b><a href="/cache/http:/www.iruna-online.info/item/witch_gold_coin.html" id="witch_gold_coin">Witch Gold Coin   [Collectibles] </a></b>
@@ -8846,7 +8645,7 @@ Notes: Collect Patterned Plates from Cubic in the Forgotten Caves and exchange t
 <br/>
 </div>
 <div class="Collectibles default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/zircon.htmlium" id="zirconium">Zirconium   [Collectibles] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/zirconium.html" id="zirconium">Zirconium   [Collectibles] </a></b>
 <br/>
 <br/>
 </div>

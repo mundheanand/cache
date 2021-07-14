@@ -2,252 +2,21 @@
 <h4>Swords</h4>
 <hr/>
 <div class="">
-<form action="" class="form-horizontal" id="form1" method="get" name="form1">
-<div class="row">
-<div class="col-md-9 col-xs-8"><input class="form-control" id="search" name="search" type="text" value=""/></div>
-<div class="col-md-2 col-xs-3"><input class="btn btn-default btn-block" id="search_button" name="search_button" onclick="window.location.href = '/search/'+$('#search').val();" type="button" value="Search"/></div>
-</div>
-</form>
+
 <div class="row divider" role="separator" style="margin-top:20px;"></div>
-<div class="container-fluid" style="margin-bottom: 20px;">
-<script async="" src="//web.archive.org/web/20200729001129js_/http:/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Right Panel -->
-<ins class="adsbygoogle" data-ad-client="ca-pub-0111798933448219" data-ad-format="auto" data-ad-slot="3849415951" style="display:block"></ins>
-<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-</div>
+
 <div class="row">
-<script type="text/javascript">
-				function attr_filter() {
 
-					$(".default_attr").css('display', 'none');
-
-					var tempDictionary = "f_all|default_attr,f_str|str,f_agi|agi,f_vit|vit,f_int|int,f_dex|dex,f_crt|crt,f_exp|exp,f_drop|drop,f_atk|atk,f_matk|matk,f_def|def,f_mdef|mdef,f_melee|melee,f_magic|magic,f_meleepierce|meleepierce,f_magicpierce|magicpierce,f_range|range,f_rangecut|rangecut,f_ratecut|ratecut,f_damagecut|damagecut,f_spellburst|spellburst,f_autoskill|autoskill,f_recoil|recoil,f_reflect|reflect,f_accuracy|accuracy,f_evasion|evasion,f_m_evasion|magicevasion,f_absoluteaccuracy|absoluteaccuracy,f_absoluteevasion|absoluteevasion,f_criticalrate|criticalrate,f_criticaldamage|criticaldamage,f_haterise|haterise,f_aspd|aspd,f_maxhp|maxhp,f_maxmp|maxmp,f_hprecovery|hprecovery,f_mprecovery|mprecovery,f_healrecovery|healrecovery,f_healreward|healreward,f_skilldelay|skilldelay,f_itemdelay|itemdelay,f_meleetoneutral|meleetoneutral,f_meleetofire|meleetofire,f_meleetowater|meleetowater,f_meleetowind|meleetowind,f_meleetoearth|meleetoearth,f_meleetolight|meleetolight,f_meleetodark|meleetodark,f_meleer|meleer,f_neutralmagic|neutralmagic,f_firemagic|firemagic,f_watermagic|watermagic,f_windmagic|windmagic,f_earthmagic|earthmagic,f_lightmagic|lightmagic,f_darkmagic|darkmagic,f_magicr|magicr,f_neutralr|neutralr,f_firer|firer,f_waterr|waterr,f_windr|windr,f_earthr|earthr,f_lightr|lightr,f_darkr|darkr,f_ailmentr|ailmentr,f_casttime|casttime,f_parry|parry,f_castdefense|castdefense,f_shellbreak|shellbreak,f_pet|pet,f_movementspeed|movementspeed,f_mpcost|mpcost,f_alldamager|alldamager,f_ignition|ignition,f_knockout|knockout,f_poison|poison,f_paralysis|paralysis,f_burn|burn,f_freeze|freeze,f_lethargy|lethargy,f_dizzy|dizzy,f_bleed|bleed,f_fear|fear";
-					var tempDictionaryArray = tempDictionary.split(",");
-
-					for (var i = 0; i < tempDictionaryArray.length; i++) {
-						var tempPairedValue = (tempDictionaryArray[i]).split("|");
-						if ($('#'+tempPairedValue[0]).is(':checked')) { $("."+tempPairedValue[1]).css('display', 'block'); }
-					}
-
-				}
-
-				function update_items_filter(p_item_type) {
-
-					if (p_item_type == "") {
-												
-						
-						$(".Swords").show();
-												
-						
-						$(".Bows").show();
-												
-						
-						$(".Canes").show();
-												
-						
-						$(".Claws").show();
-												
-						
-						$(".Throwing").show();
-												
-						
-						$(".Armor").show();
-												
-						
-						$(".Additional").show();
-												
-						
-						$(".Special").show();
-												
-						
-						$(".Crystas").show();
-												
-						
-						$(".AlCrystas").show();
-												
-						
-						$(".Recovery").show();
-												
-						
-						$(".Status").show();
-												
-						
-						$(".Strengthening").show();
-												
-						
-						$(".Teleport").show();
-												
-						
-						$(".Skills").show();
-												
-						
-						$(".Chests").show();
-												
-						
-						$(".Collectibles").show();
-												
-						
-						$(".Ores").show();
-												
-						
-						$(".IslandItems").show();
-												
-						
-						$(".Points").show();
-												
-						
-						$(".Pets").show();
-												
-						
-						$(".RelicCrystas").show();
-												
-						
-						$(".Avatar Body").show();
-												
-						
-						$(".Avatar Add").show();
-												
-						
-						$(".Fish").show();
-											}
-					else {
-																		
-						
-						$(".Swords").hide();
-												
-						
-						$(".Bows").hide();
-												
-						
-						$(".Canes").hide();
-												
-						
-						$(".Claws").hide();
-												
-						
-						$(".Throwing").hide();
-												
-						
-						$(".Armor").hide();
-												
-						
-						$(".Additional").hide();
-												
-						
-						$(".Special").hide();
-												
-						
-						$(".Crystas").hide();
-												
-						
-						$(".AlCrystas").hide();
-												
-						
-						$(".Recovery").hide();
-												
-						
-						$(".Status").hide();
-												
-						
-						$(".Strengthening").hide();
-												
-						
-						$(".Teleport").hide();
-												
-						
-						$(".Skills").hide();
-												
-						
-						$(".Chests").hide();
-												
-						
-						$(".Collectibles").hide();
-												
-						
-						$(".Ores").hide();
-												
-						
-						$(".IslandItems").hide();
-												
-						
-						$(".Points").hide();
-												
-						
-						$(".Pets").hide();
-												
-						
-						$(".RelicCrystas").hide();
-												
-						
-						$(".Avatar Body").hide();
-												
-						
-						$(".Avatar Add").hide();
-												
-						
-						$(".Fish").hide();
-						
-						$("."+p_item_type).show();
-					}
-				}
-
-				function update_true_stats(p_item_type) {
-
-					if (p_item_type == "ds") {
-						$(".ds").css('display', 'block');
-						$(".t_ds").css('display', 'none');
-					} else if (p_item_type == "t_ds") {
-						$(".ds").css('display', 'none');
-						$(".t_ds").css('display', 'block');
-					} else {
-						$(".ds").css('display', 'block');
-						$(".t_ds").css('display', 'block');
-					}
-				}
-			</script>
 <div class="row">
 <div class="col-md-3 col-xs-4">
-<input class="btn btn-default" id="show_f_button" name="show_f_button" onclick="$('#fs').toggle();" style="width: 100%" type="button" value="Show Attr Filters"/>
+
 <div class="row divider" role="separator" style="margin-top:20px;"></div>
 </div>
 <div class="col-md-3 col-xs-4">
-<select class="form-control" id="item_type" name="item_type" onchange="update_items_filter(this.value);">
-<option value="">Show All Item Type</option>
-<option value="Swords">Swords</option>
-<option value="Bows">Bows</option>
-<option value="Canes">Canes</option>
-<option value="Claws">Claws</option>
-<option value="Throwing">Throwing</option>
-<option value="Armor">Armor</option>
-<option value="Additional">Additional</option>
-<option value="Special">Special</option>
-<option value="Crystas">Crystas</option>
-<option value="AlCrystas">AlCrystas</option>
-<option value="Recovery">Recovery</option>
-<option value="Status">Status</option>
-<option value="Strengthening">Strengthening</option>
-<option value="Teleport">Teleport</option>
-<option value="Skills">Skills</option>
-<option value="Chests">Chests</option>
-<option value="Collectibles">Collectibles</option>
-<option value="Ores">Ores</option>
-<option value="IslandItems">IslandItems</option>
-<option value="Points">Points</option>
-<option value="Pets">Pets</option>
-<option value="RelicCrystas">RelicCrystas</option>
-<option value="Avatar Body">Avatar Body</option>
-<option value="Avatar Add">Avatar Add</option>
-<option value="Fish">Fish</option>
-</select>
+
 </div>
 <div class="col-md-3 col-xs-4">
-<select class="form-control" id="show_description" name="show_description" onchange="update_true_stats(this.value);">
-<option selected="" value="">Both Stats</option>
-<option value="ds">Reg Stats</option>
-<option value="t_ds">True Stats</option>
-</select>
+
 </div>
 </div>
 <div class="row divider" role="separator" style="margin-top:20px;"></div>
@@ -386,12 +155,12 @@ ATK: 200<br/><div class="ds"> Twice attack chance for Adventurer Twice attack ch
 ATK: 259 DEF: 2<br/><div class="ds"> Melee+20% to Neutral, ATK+5% Skill delay -1sec, Range+1 Item delay -0.3sec</div><div class="t_ds">Melee to Neutral +20% ATK +5% Skill Delay -1.0s Item Delay -0.3s Range +1 </div><br/>
 </div>
 <div class="Swords default_attr meleetoneutral atk skilldelay itemdelay range">
-<b><a href="/cache/http:/www.iruna-online.info/item/air_strum.html_ii" id="air_strum_ii">Air Strum II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/air_strum_ii.html" id="air_strum_ii">Air Strum II   [Swords] 📷</a></b>
 <br/>
 ATK: 279 DEF: 2<br/><div class="ds"> Melee+20% to Neutral, ATK+5% Skill delay -1.2sec, Range+1 Item delay -0.5sec</div><div class="t_ds">Melee to Neutral +20% ATK +5% Skill Delay -1.2s Item Delay -0.5s Range +1 </div>Notes: ATK = Air Strum +20<br/><br/>
 </div>
 <div class="Swords default_attr meleetoneutral atk skilldelay itemdelay range">
-<b><a href="/cache/http:/www.iruna-online.info/item/air_strum.html_iii" id="air_strum_iii">Air Strum III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/air_strum_iii.html" id="air_strum_iii">Air Strum III   [Swords] 📷</a></b>
 <br/>
 ATK: 309 DEF: 2<br/><div class="ds"> Melee+25% to Neutral, ATK+8% Skill delay -1.4sec, Range+1 Item delay -0.7sec</div><div class="t_ds">Melee to Neutral +25% ATK +8% Skill Delay -1.4s Item Delay -0.7s Range +1 </div><br/>
 </div>
@@ -401,17 +170,17 @@ ATK: 309 DEF: 2<br/><div class="ds"> Melee+25% to Neutral, ATK+8% Skill delay -1
 ATK: 170<br/><div class="ds"> MDEF up by Lv, Absolute accuracy +25% Magic R +5%, Special Sword When you defend at Lv&gt;139...</div><div class="t_ds">Magic R +5% [MDEF up by Lv] Absolute Accuracy +25% If [Lv &gt; 140] then Autoskill </div>Notes: Trade × ATK = Battered Sword +160 (at the time of defense, until the damage amount reflected by the probability ※ upper limit damage 9999)<br/><br/>
 </div>
 <div class="Swords default_attr magicr x x mdef absoluteaccuracy">
-<b><a href="/cache/http:/www.iruna-online.info/item/ama_no_habakiri.html_ii" id="ama_no_habakiri_ii">Ama no Habakiri II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/ama_no_habakiri_ii.html" id="ama_no_habakiri_ii">Ama no Habakiri II   [Swords] 📷</a></b>
 <br/>
 ATK: 210<br/><div class="ds"> Magic R +7%, Absolute accuracy +25% MDEF up by 2x Lv, Special Sword When you defend at Lv&gt;139...</div><div class="t_ds">Magic R +7% [X = Lv] [X = X · 2] [MDEF up by X] Absolute Accuracy +25% If [Lv &gt; 140] then Autoskill </div>Notes: Trade × ATK = Ama no Habakiri +40 (at the time of defense, until the damage amount reflected by the probability ※ upper limit damage 9999)<br/><br/>
 </div>
 <div class="Swords default_attr magicr absoluteaccuracy ailmentr mdef int">
-<b><a href="/cache/http:/www.iruna-online.info/item/ama_no_habakiri.html_iii" id="ama_no_habakiri_iii">Ama no Habakiri III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/ama_no_habakiri_iii.html" id="ama_no_habakiri_iii">Ama no Habakiri III   [Swords] 📷</a></b>
 <br/>
 ATK: 267<br/><div class="ds"> MDEF up by Lv x2.5, Ailment R +10% Absolute accuracy +25%, Magic R +8% Special Sword, If Lv &gt; 139...</div><div class="t_ds">Magic R +8% Absolute Accuracy +25% Ailment R +10% [X = 2.50 * Lv] [MDEF up by X] If [Lv &gt; 140] then Autoskill INT +5 </div>Notes: ATK = Ama no Habakiri II +57?<br/><br/>
 </div>
 <div class="Swords default_attr magicr absoluteaccuracy crt ailmentr mdef int">
-<b><a href="/cache/http:/www.iruna-online.info/item/ama_no_habakiri.html_iv" id="ama_no_habakiri_iv">Ama no Habakiri IV   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/ama_no_habakiri_iv.html" id="ama_no_habakiri_iv">Ama no Habakiri IV   [Swords] 📷</a></b>
 <br/>
 ATK: 307 DEF: 5<br/><div class="ds"> MDEF up by Lv x3, Ailment R +12% A. acc +25%, Magic R +10%, CRT+5 Special Sword, If Lv &gt; 139...</div><div class="t_ds">Magic R +10% Absolute Accuracy +25% CRT +5 Ailment R +12% [X = 3.00 * Lv] [MDEF up by X] If [Lv &gt; 140] then Autoskill INT +5 </div><br/>
 </div>
@@ -438,12 +207,12 @@ ATK: 75<br/><div class="ds">Critical rate +2, Critical rate +2%</div><div class=
 <div class="Swords default_attr atk matk skilldelay itemdelay str agi vit int dex crt knockout">
 <b><a href="/cache/http:/www.iruna-online.info/item/auroras_sword.html" id="auroras_sword">Auroras Sword   [Swords] </a></b>
 <br/>
-ATK: 260 DEF: 5<br/><div class="ds"> ATK・MATK+4%　ﾃﾞｨﾚｲ-0.7秒　全ｽﾃｰﾀｽ+5 攻撃時、確率で３倍攻撃</div><div class="t_ds">ATK +4% MATK +4% Skill Delay -0.7s Item Delay -0.7s STR +5 AGI +5 VIT +5 INT +5 DEX +5 CRT +5 Autoskill If [Lv &gt; 300] then Knock out +0% </div>Notes: Trade × Slot: 1<br/><br/>
+ATK: 260 DEF: 5<br/><div class="ds"> ATK・MATK+4% ﾃﾞｨﾚｲ-0.7秒 全ｽﾃｰﾀｽ+5 攻撃時、確率で３倍攻撃</div><div class="t_ds">ATK +4% MATK +4% Skill Delay -0.7s Item Delay -0.7s STR +5 AGI +5 VIT +5 INT +5 DEX +5 CRT +5 Autoskill If [Lv &gt; 300] then Knock out +0% </div>Notes: Trade × Slot: 1<br/><br/>
 </div>
 <div class="Swords default_attr atk matk skilldelay itemdelay meleer str agi vit int dex crt knockout">
-<b><a href="/cache/http:/www.iruna-online.info/item/auroras_sword.html_ii" id="auroras_sword_ii">Auroras Sword II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/auroras_sword_ii.html" id="auroras_sword_ii">Auroras Sword II   [Swords] </a></b>
 <br/>
-ATK: 312 DEF: 5<br/><div class="ds"> ATK・MATK+6%　ﾃﾞｨﾚｲ-1秒 物理耐性+5%　全ｽﾃｰﾀｽ+7 攻撃時、確率で３倍攻撃</div><div class="t_ds">ATK +6% MATK +6% Skill Delay -1.0s Item Delay -1.0s Melee R +5% STR +7 AGI +7 VIT +7 INT +7 DEX +7 CRT +7 Autoskill If [Lv &gt; 300] then Knock out +0% </div><br/>
+ATK: 312 DEF: 5<br/><div class="ds"> ATK・MATK+6% ﾃﾞｨﾚｲ-1秒 物理耐性+5% 全ｽﾃｰﾀｽ+7 攻撃時、確率で３倍攻撃</div><div class="t_ds">ATK +6% MATK +6% Skill Delay -1.0s Item Delay -1.0s Melee R +5% STR +7 AGI +7 VIT +7 INT +7 DEX +7 CRT +7 Autoskill If [Lv &gt; 300] then Knock out +0% </div><br/>
 </div>
 <div class="Swords default_attr int maxhp accuracy">
 <b><a href="/cache/http:/www.iruna-online.info/item/avenir.html" id="avenir">Avenir   [Swords] 📷</a></b>
@@ -451,7 +220,7 @@ ATK: 312 DEF: 5<br/><div class="ds"> ATK・MATK+6%　ﾃﾞｨﾚｲ-1秒 物理
 ATK: 160 DEF: 3<br/><div class="ds">INT+1 MaxHP+1000 Accuracy+10</div><div class="t_ds">INT +1 MaxHP +1000 Accuracy +10 Autoskill </div>Notes: hidden performance: attack at the time, HP recovery 25 with a probability<br/><br/>
 </div>
 <div class="Swords default_attr int maxhp accuracy magicevasion">
-<b><a href="/cache/http:/www.iruna-online.info/item/avenir.html+" id="avenir+">Avenir+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/avenir+.html" id="avenir+">Avenir+   [Swords] 📷</a></b>
 <br/>
 ATK: 175 DEF: 3<br/><div class="ds">INT+2 MaxHP+2000 Accuracy+20</div><div class="t_ds">INT +2 MaxHP +2000 Accuracy +20 Autoskill Magic Evasion +5% </div>Notes:  ATK = Avenir +15<br/><br/>
 </div>
@@ -460,10 +229,10 @@ ATK: 175 DEF: 3<br/><div class="ds">INT+2 MaxHP+2000 Accuracy+20</div><div class
 <br/>
 ATK: 325<br/><div class="ds"> KO chance +1%, Evasion-50% Lowest ASPD, Auto Skill -20% ATK+32% STR+100 if STR&amp;DEX&gt;399.</div><div class="t_ds">Knock out +1% Evasion -50% ASPD = 1 Autoskill -20% If [STR &gt; 400] then If [DEX &gt; 400] then ATK +32% STR +100 </div><br/>
 </div>
-<div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/barbad.html" id="barbad">Barbad   [Swords] </a></b>
+<div class="Swords default_attr knockout evasion aspd autoskill atk str str">
+<b><a href="/cache/http:/www.iruna-online.info/item/balmung_ii.html" id="balmung_ii">Balmung II   [Swords] </a></b>
 <br/>
-ATK: 300<br/><div class="ds"> 闇属性　光耐性+10%　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+12% ﾎﾞｽに物理+2%　範囲軽減+10% DEXが高いほどATKが増加</div><div class="t_ds">Melee to Light +20% Light R +10% Critical damage +12% Melee to boss +2% Range cut +10% [X = DEX] [ATK up by X] </div><br/>
+ATK: 335<br/><div class="ds"> KO chance+1%, Evasion-50%, Lowest ASPD, Auto Skill-20%. Also ATK+34%, STR+110 if STR&amp;DEX&gt;399 and adds 5% of AGI to STR.</div><div class="t_ds">Knock out +1% Evasion -50% ASPD = 1 Autoskill -20% If [STR &gt; 400] then If [DEX &gt; 400] then ATK +34% STR +110 [X = 0.05 * AGI] [STR up by X] </div><br/>
 </div>
 <div class="Swords default_attr criticaldamage criticalrate">
 <b><a href="/cache/http:/www.iruna-online.info/item/barbaro_axe.html" id="barbaro_axe">Barbaro Axe   [Swords] 📷</a></b>
@@ -471,12 +240,12 @@ ATK: 300<br/><div class="ds"> 闇属性　光耐性+10%　ｸﾘﾃｨｶﾙﾀ�
 ATK: 188<br/><div class="ds"> Melee up by STR x2. Critical damage +15% Critical rate -30</div><div class="t_ds">[Melee up by STR] [Melee up by STR] Critical damage +15% Critical rate -30 </div><br/>
 </div>
 <div class="Swords default_attr x x criticaldamage criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/barbaro_axe.html_ii" id="barbaro_axe_ii">Barbaro Axe II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/barbaro_axe_ii.html" id="barbaro_axe_ii">Barbaro Axe II   [Swords] 📷</a></b>
 <br/>
 ATK: 218<br/><div class="ds"> Melee up by STR x4 Critical damage +16% Critical rate -20</div><div class="t_ds">[X = STR] [X = X · 4] [Melee up by X] Critical damage +16% Critical rate -20 </div>Notes: ATK = Barbaro Axe +30<br/><br/>
 </div>
 <div class="Swords default_attr x x atk criticaldamage accuracy">
-<b><a href="/cache/http:/www.iruna-online.info/item/barbaro_axe.html_iii" id="barbaro_axe_iii">Barbaro Axe III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/barbaro_axe_iii.html" id="barbaro_axe_iii">Barbaro Axe III   [Swords] 📷</a></b>
 <br/>
 ATK: 271<br/><div class="ds"> Melee up by STR x6 ATK+4%, Critical damage +18% Accuracy rate +10%</div><div class="t_ds">[X = STR] [X = X · 6] [Melee up by X] ATK +4% Critical damage +18% Accuracy +10% </div>Notes: ATK = Barbaro Axe II +?<br/><br/>
 </div>
@@ -491,7 +260,7 @@ ATK: 120<br/>Notes: ATK = Halberd +52 <br/><br/>
 ATK: 82<br/>Notes: Trade ×<br/><br/>
 </div>
 <div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/bastard_sword.html+" id="bastard_sword+">Bastard Sword+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/bastard_sword+.html" id="bastard_sword+">Bastard Sword+   [Swords] 📷</a></b>
 <br/>
 ATK: 182<br/>Notes: Trade ×, ATK = Bastard +100?<br/><br/>
 </div>
@@ -520,20 +289,30 @@ ATK: 120 DEF: 5<br/><div class="ds"> STR+1 DEX+3 Accuracy+20 ASPD+10% Critical r
 <br/>
 ATK: 55<br/><br/>
 </div>
+<div class="Swords default_attr atk dex evasion x counteronevasion x vit">
+<b><a href="/cache/http:/www.iruna-online.info/item/bent_grassling.html" id="bent_grassling">Bent Grassling   [Swords] </a></b>
+<br/>
+ATK: 290<br/><div class="ds"> Sp. sword, ATK+20%, DEX+30 Evasion and counter on evasion up with VIT. VIT down by ratio</div><div class="t_ds">ATK +20% DEX +30 [X = 0.20 * VIT] [Evasion up by X] [X = X / 2] [Counter on Evasion up by X] [X = X · -3] [VIT up by X] </div><br/>
+</div>
 <div class="Swords default_attr criticaldamage aspd">
 <b><a href="/cache/http:/www.iruna-online.info/item/black_lacquer_sword.html" id="black_lacquer_sword">Black Lacquer Sword   [Swords] 📷</a></b>
 <br/>
 ATK: 175<br/><div class="ds"> Critical damage +15% ASPD becomes lowest if DEX&lt;300.</div><div class="t_ds">Critical damage +15% if [DEX &lt; 300] then ASPD = 1 </div>Notes: From: Super Party Coin Lottery Sale Price: 10,000 Not Tradeable<br/><br/>
 </div>
 <div class="Swords default_attr criticaldamage aspd">
-<b><a href="/cache/http:/www.iruna-online.info/item/black_lacquer_sword.html_ii" id="black_lacquer_sword_ii">Black Lacquer Sword II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/black_lacquer_sword_ii.html" id="black_lacquer_sword_ii">Black Lacquer Sword II   [Swords] 📷</a></b>
 <br/>
 ATK: 262<br/><div class="ds"> Critical damage +20% ASPD becomes lowest if DEX&lt;300.</div><div class="t_ds">Critical damage +20% if [DEX &lt; 300] then ASPD = 1 </div>Notes: From: Ultra Party Coin Lottery Sale Price: 10,000 Not Tradeable<br/><br/>
 </div>
 <div class="Swords default_attr str crt criticaldamage aspd">
-<b><a href="/cache/http:/www.iruna-online.info/item/black_lacquer_sword.html_iii" id="black_lacquer_sword_iii">Black Lacquer Sword III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/black_lacquer_sword_iii.html" id="black_lacquer_sword_iii">Black Lacquer Sword III   [Swords] 📷</a></b>
 <br/>
 ATK: 272<br/><div class="ds"> Critical damage +25% ASPD becomes lowest if DEX&lt;300. STR+5 CRT+3</div><div class="t_ds">STR +5 CRT +3 Critical damage +25% if [DEX &lt; 300] then ASPD = 1 </div>Notes: Trade ×, ATK = Black Lacquer Sword II +10<br/><br/>
+</div>
+<div class="Swords default_attr str crt criticaldamage skilldelay aspd">
+<b><a href="/cache/http:/www.iruna-online.info/item/black_lacquer_sword_iv.html" id="black_lacquer_sword_iv">Black Lacquer Sword IV   [Swords] 📷</a></b>
+<br/>
+ATK: 312<br/><div class="ds"> STR・CRT+15　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+40% 一閃SLv+1　ｽｷﾙﾃﾞｨﾚｲ-1秒 DEXが300未満の場合、ASPD最低</div><div class="t_ds">STR +15 CRT +15 Critical damage +40% Skill Delay -1.0s if [DEX &lt; 300] then ASPD = 1 </div><br/>
 </div>
 <div class="Swords default_attr maxhp">
 <b><a href="/cache/http:/www.iruna-online.info/item/blessed_blade.html" id="blessed_blade">Blessed Blade   [Swords] </a></b>
@@ -601,12 +380,12 @@ ATK: 275 DEF: 8<br/><div class="ds"> Magic sword, Light element, MATK+15% Melee&
 ATK: 216<br/><div class="ds"> CRT up based on CRT Magic R +10%, Item delay -0.5sec Light element</div><div class="t_ds">Melee to Dark +20% [X = CRT] [X = X / 20] [CRT up by X] Magic R +10% Item Delay -0.5s Autoskill </div><br/>
 </div>
 <div class="Swords default_attr meleetodark crt magicr itemdelay">
-<b><a href="/cache/http:/www.iruna-online.info/item/claiomh_solais.html_ii" id="claiomh_solais_ii">Claiomh Solais II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/claiomh_solais_ii.html" id="claiomh_solais_ii">Claiomh Solais II   [Swords] 📷</a></b>
 <br/>
 ATK: 236<br/><div class="ds"> Magic R +12%, Item delay -0.6sec CRT up by CRT Light element</div><div class="t_ds">Melee to Dark +20% [X = 0.05 * CRT] [CRT up by X] Magic R +12% Item Delay -0.6s Autoskill </div>Notes: ATK = Claiomh Solais +20<br/><br/>
 </div>
 <div class="Swords default_attr meleetodark crt magicr itemdelay">
-<b><a href="/cache/http:/www.iruna-online.info/item/claiomh_solais.html_iii" id="claiomh_solais_iii">Claiomh Solais III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/claiomh_solais_iii.html" id="claiomh_solais_iii">Claiomh Solais III   [Swords] 📷</a></b>
 <br/>
 ATK: 296<br/><div class="ds"> Magic R +14%, Item delay -1sec CRT up by CRT Light element</div><div class="t_ds">Melee to Dark +20% [X = 0.06 * CRT] [CRT up by X] Magic R +14% Item Delay -1.0s Autoskill </div>Notes: ATK = Claiomh Solais II +60?<br/><br/>
 </div>
@@ -616,7 +395,7 @@ ATK: 296<br/><div class="ds"> Magic R +14%, Item delay -1sec CRT up by CRT Light
 ATK: 42<br/><br/>
 </div>
 <div class="Swords default_attr aspd meleetoneutral">
-<b><a href="/cache/http:/www.iruna-online.info/item/claymore.html+" id="claymore+">Claymore+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/claymore+.html" id="claymore+">Claymore+   [Swords] 📷</a></b>
 <br/>
 ATK: 80 DEF: 1<br/><div class="ds"> ASPD+5%, Melee+10% to Neutral</div><div class="t_ds">ASPD +5% Melee to Neutral +10% </div>Notes: Trade ×<br/><br/>
 </div>
@@ -631,7 +410,7 @@ ATK: 278<br/><div class="ds"> Magic Sword, ATK&amp;MATK+10%, Range+2 Magic attac
 ATK: 220<br/><div class="ds"> Melee pierce +12% Critical damage +15% ATK&amp;MaxHP up by DEX Melee attack chance by attack</div><div class="t_ds">Melee Pierce +12% Critical damage +15% [X = DEX] [ATK up by X] [X = X · 10] [MaxHP up by X] Autoskill </div>Notes: Melee attack is a bit less than a critical hit (15k &gt;&gt;14k).<br/><br/>
 </div>
 <div class="Swords default_attr meleepierce criticaldamage x atk x maxhp">
-<b><a href="/cache/http:/www.iruna-online.info/item/cosmic_dust.html_ii" id="cosmic_dust_ii">Cosmic Dust II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/cosmic_dust_ii.html" id="cosmic_dust_ii">Cosmic Dust II   [Swords] </a></b>
 <br/>
 ATK: 300<br/><div class="ds"> Melee pierce +30% Critical damage +20% ATK&amp;MaxHP up by DEX Melee attack chance by attack</div><div class="t_ds">Melee Pierce +30% Critical damage +20% [X = DEX] [ATK up by X] [X = X · 10] [MaxHP up by X] Autoskill </div><br/>
 </div>
@@ -651,12 +430,12 @@ ATK: 313 DEF: 5<br/><div class="ds"> MaxHP+40% MDEF+35% ATK+10% Hate rise +35% A
 ATK: 184<br/><div class="ds"> Autoskill+2%, Critical up Additional attack chance by attack Recoils under certain Lv.</div><div class="t_ds">Critical rate +10 Critical damage +10% Autoskill +2% INT +1 [X = Lv] [X = X · 2] [MaxHP up by X] Autoskill </div>Notes: When Lv&lt;160, recoil damage received at autoskill activation (hidden correction: INT +1, Lv × 2HP increase)<br/><br/>
 </div>
 <div class="Swords default_attr criticalrate criticaldamage autoskill int x x maxhp ratecut meleetoneutral">
-<b><a href="/cache/http:/www.iruna-online.info/item/dainsleif.html_ii" id="dainsleif_ii">Dainsleif II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dainsleif_ii.html" id="dainsleif_ii">Dainsleif II   [Swords] 📷</a></b>
 <br/>
 ATK: 194<br/><div class="ds"> Additional attack chance by attack Melee+5% to Neutral, Critical up, Autoskill+3%, Rate cut +5%</div><div class="t_ds">Critical rate +10 Critical damage +10% Autoskill +3% INT +1 [X = Lv] [X = X · 3] [MaxHP up by X] Autoskill Rate cut +5% Melee to Neutral +5% </div>Notes: ATK = Dainsleif +10<br/><br/>
 </div>
 <div class="Swords default_attr criticalrate criticaldamage autoskill crt ratecut meleetoneutral int maxhp">
-<b><a href="/cache/http:/www.iruna-online.info/item/dainsleif.html_iii" id="dainsleif_iii">Dainsleif III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dainsleif_iii.html" id="dainsleif_iii">Dainsleif III   [Swords] 📷</a></b>
 <br/>
 ATK: 274<br/><div class="ds"> Rate cut +10%, Melee+10% to Neutral Additional attack chance by attack Critical up, Autoskill+6% CRT+5</div><div class="t_ds">Critical rate +10 Critical damage +10% Autoskill +6% CRT +5 Rate cut +10% Melee to Neutral +10% Autoskill INT +5 [Y = 3.50 * Lv] [MaxHP up by Y] </div>Notes: ATK = +80 fixed Hidden correction of Dainsleif II? When adding attack triggered, to receive the recoil that it is less than Lv280<br/><br/>
 </div>
@@ -665,10 +444,20 @@ ATK: 274<br/><div class="ds"> Rate cut +10%, Melee+10% to Neutral Additional att
 <br/>
 ATK: 129<br/><div class="ds">MaxHP+8%, Hate rise +20%</div><div class="t_ds">MaxHP +8% Hate Rise +20% </div>Notes: Trade × ATK = Iron Hammer +30<br/><br/>
 </div>
+<div class="Swords default_attr">
+<b><a href="/cache/http:/www.iruna-online.info/item/dark_knight_sword.html" id="dark_knight_sword">dark knight sword   [Swords] </a></b>
+<br/>
+<div class="ds"> 風属性に物理+8%　ATK+6%　VIT+15 魔法耐性+7%　ﾎﾞｽに物理+5% 防御時、確率で魔法反撃</div><br/>
+</div>
 <div class="Swords default_attr atk mdef meleetodark darkmagic">
 <b><a href="/cache/http:/www.iruna-online.info/item/death_scythe.html" id="death_scythe">Death Scythe   [Swords] 📷</a></b>
 <br/>
 ATK: 170<br/><div class="ds"> ATK+10% MDEF+15% -50% damage to Dark</div><div class="t_ds">ATK +10% MDEF +15% Melee to Dark -50% Dark Magic -50% Autoskill </div>Notes: Trade ×, ATK = Falx +45?<br/><br/>
+</div>
+<div class="Swords default_attr meleetoearth meleetofire str maxhp">
+<b><a href="/cache/http:/www.iruna-online.info/item/delusion_flameblade.html" id="delusion_flameblade">Delusion Flameblade   [Swords] </a></b>
+<br/>
+ATK: 1<br/><div class="ds"> Fire element, No damage to Fire Weapon ATK up by Lv, STR up 20% MaxHP up by VIT A sword of fire that can incinerate the world.</div><div class="t_ds">Melee to Earth +30% Melee to Fire -200% [Weapon up by Lv] [X = 0.20 * STR] [STR up by X] [X = 0.05 * VIT] [MaxHP up by X] </div><br/>
 </div>
 <div class="Swords default_attr meleetolight darkmagic darkr atk criticaldamage lightmagic lightr">
 <b><a href="/cache/http:/www.iruna-online.info/item/demon_axe.html" id="demon_axe">Demon Axe   [Swords] 📷</a></b>
@@ -676,7 +465,7 @@ ATK: 170<br/><div class="ds"> ATK+10% MDEF+15% -50% damage to Dark</div><div cla
 ATK: 300 DEF: 5<br/><div class="ds"> Dark R +10%, ATK+20%, Light R -20% Light magic -20%, Crt damage -10% Dark element, Dark magic +10%</div><div class="t_ds">Melee to Light +20% Dark Magic +10% Dark R +10% ATK +20% Critical damage -10% Light Magic -20% Light R -20% </div><br/>
 </div>
 <div class="Swords default_attr meleetolight darkmagic darkr atk criticaldamage lightmagic lightr">
-<b><a href="/cache/http:/www.iruna-online.info/item/demon_axe.html_ii" id="demon_axe_ii">Demon Axe II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/demon_axe_ii.html" id="demon_axe_ii">Demon Axe II   [Swords] 📷</a></b>
 <br/>
 ATK: 320 DEF: 5<br/><div class="ds"> Dark element, Dark magic +20% Dark R+20%, ATK+30% Crt damage -20% Light magic -40%, Light R -40%</div><div class="t_ds">Melee to Light +20% Dark Magic +20% Dark R +20% ATK +30% Critical damage -20% Light Magic -40% Light R -40% </div><br/>
 </div>
@@ -686,7 +475,7 @@ ATK: 320 DEF: 5<br/><div class="ds"> Dark element, Dark magic +20% Dark R+20%, A
 ATK: 180<br/><div class="ds"> Critical damage +10%, Dark R +5% Accuracy rate -20%, Hate rise +20%</div><div class="t_ds">Critical damage +10% Dark R +5% Accuracy -20% Hate Rise +20% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr criticaldamage meleetodark haterise darkr accuracy">
-<b><a href="/cache/http:/www.iruna-online.info/item/demon_scythe.html_ii" id="demon_scythe_ii">Demon Scythe II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/demon_scythe_ii.html" id="demon_scythe_ii">Demon Scythe II   [Swords] </a></b>
 <br/>
 ATK: 255<br/><div class="ds"> Critical damage +12%, Hate rise +20% Melee+5% to Dark, Accuracy-20% Dark R +5%</div><div class="t_ds">Critical damage +12% Melee to Dark +5% Hate Rise +20% Dark R +5% Accuracy -20% Autoskill </div><br/>
 </div>
@@ -706,7 +495,7 @@ ATK: 120 DEF: 5<br/><div class="ds"> STR+1 DEX+3 Accuracy+20 ASPD+10% Critical r
 ATK: 165<br/><div class="ds"> Neutral magic +10%, Magic attack chance, -50% damage to Neutral Magic Sword</div><div class="t_ds">Melee to Neutral -50% Neutral Magic +10% Autoskill </div>Notes: Trade × ATK = Hexe Espada (Strengthened 1) +25<br/><br/>
 </div>
 <div class="Swords default_attr matk neutralmagic">
-<b><a href="/cache/http:/www.iruna-online.info/item/dia_espada.html_(strengthened_1)" id="dia_espada_(strengthened_1)">Dia Espada (Strengthened 1)   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dia_espada_(strengthened_1).html" id="dia_espada_(strengthened_1)">Dia Espada (Strengthened 1)   [Swords] 📷</a></b>
 <br/>
 ATK: 195<br/><div class="ds"> MATK+5%, Neutral magic +20% Magic attack chance Magic Sword</div><div class="t_ds">MATK +5% Neutral Magic +20% Autoskill </div>Notes: Trade × ATK = Dia Espada +30<br/><br/>
 </div>
@@ -721,29 +510,34 @@ ATK: 160<br/><div class="ds"> MATK+150 CRT+25, Accuracy rate -15% Effect slightl
 ATK: 130<br/><div class="ds"> All stats -20 Magic Sword</div><div class="t_ds">STR -20 AGI -20 VIT -20 INT -20 DEX -20 CRT -20 Autoskill </div>Notes: From: Raid Ticket Lv.1<br/><br/>
 </div>
 <div class="Swords default_attr str agi vit int dex crt">
-<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword.html_ii" id="dim_sword_ii">Dim Sword II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword_ii.html" id="dim_sword_ii">Dim Sword II   [Swords] 📷</a></b>
 <br/>
 ATK: 160<br/><div class="ds"> All stats -10 Magic Sword</div><div class="t_ds">STR -10 AGI -10 VIT -10 INT -10 DEX -10 CRT -10 Autoskill </div>Notes: From: Raid Ticket Lv.2<br/><br/>
 </div>
 <div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword.html_iii" id="dim_sword_iii">Dim Sword III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword_iii.html" id="dim_sword_iii">Dim Sword III   [Swords] 📷</a></b>
 <br/>
 ATK: 190<br/><div class="ds">Magic Sword</div><div class="t_ds">Autoskill </div>Notes: From: Raid Ticket Lv.3<br/><br/>
 </div>
 <div class="Swords default_attr str agi vit int dex crt">
-<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword.html_iv" id="dim_sword_iv">Dim Sword IV   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword_iv.html" id="dim_sword_iv">Dim Sword IV   [Swords] 📷</a></b>
 <br/>
 ATK: 235<br/><div class="ds"> All stats +5 Magic Sword</div><div class="t_ds">STR +5 AGI +5 VIT +5 INT +5 DEX +5 CRT +5 Autoskill </div>Notes: From: Strengthening of Dim Sword III<br/><br/>
 </div>
 <div class="Swords default_attr str agi vit int dex crt autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword.html_v" id="dim_sword_v">Dim Sword V   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword_v.html" id="dim_sword_v">Dim Sword V   [Swords] 📷</a></b>
 <br/>
 ATK: 260<br/><div class="ds"> Magic Sword, All stats +7 Autoskill+3%</div><div class="t_ds">STR +7 AGI +7 VIT +7 INT +7 DEX +7 CRT +7 Autoskill +3% Autoskill </div>Notes: Autoskill Dark Element <br/><br/>
+</div>
+<div class="Swords default_attr str agi vit int dex crt autoskill atk matk">
+<b><a href="/cache/http:/www.iruna-online.info/item/dim_sword_vi.html" id="dim_sword_vi">Dim Sword VI   [Swords] 📷</a></b>
+<br/>
+ATK: 285<br/><div class="ds"> 魔法剣　全ｽﾃｰﾀｽ+10　ｵｰﾄｽｷﾙ発動+5% ATK・MATK+5% マジックブレード威力+10%</div><div class="t_ds">STR +10 AGI +10 VIT +10 INT +10 DEX +10 CRT +10 Autoskill +5% ATK +5% MATK +5% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr matk magicboss">
 <b><a href="/cache/http:/www.iruna-online.info/item/diva_sword.html" id="diva_sword">Diva Sword   [Swords] </a></b>
 <br/>
-ATK: 255 DEF: 5<br/><div class="ds"> 魔法剣　MATK+15% 歌姫メダル装備時、ﾎﾞｽに魔法+3%</div><div class="t_ds">MATK +15% [diva medal] Magic to boss +3% </div><br/>
+ATK: 255 DEF: 5<br/><div class="ds"> 魔法剣 MATK+15% 歌姫メダル装備時、ﾎﾞｽに魔法+3%</div><div class="t_ds">MATK +15% [diva medal] Magic to boss +3% </div><br/>
 </div>
 <div class="Swords default_attr criticaldamage maxhp skilldelay meleepierce">
 <b><a href="/cache/http:/www.iruna-online.info/item/divine_punishment_club.html" id="divine_punishment_club">Divine Punishment Club   [Swords] </a></b>
@@ -751,7 +545,7 @@ ATK: 255 DEF: 5<br/><div class="ds"> 魔法剣　MATK+15% 歌姫メダル装備�
 ATK: 291 DEF: 10<br/><div class="ds"> Critical damage +22%, MaxHP+17% Skill delay +1.5sec Melee pierce up by STR</div><div class="t_ds">Critical damage +22% MaxHP +17% Skill Delay +1.5s [X = 0.03 * STR] [Melee Pierce up by X] </div><br/>
 </div>
 <div class="Swords default_attr criticaldamage maxhp skilldelay knockout meleepierce">
-<b><a href="/cache/http:/www.iruna-online.info/item/divine_punishment_club.html_ii" id="divine_punishment_club_ii">Divine Punishment Club II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/divine_punishment_club_ii.html" id="divine_punishment_club_ii">Divine Punishment Club II   [Swords] </a></b>
 <br/>
 ATK: 322 DEF: 10<br/><div class="ds"> Critical damage +25%, MaxHP+25% Skill delay +1sec, KO rate +0.2% Melee pierce up by STR</div><div class="t_ds">Critical damage +25% MaxHP +25% Skill Delay +1.0s Knock out +0% [X = 0.04 * STR] [Melee Pierce up by X] </div><br/>
 </div>
@@ -771,7 +565,7 @@ ATK: 270 DEF: 5<br/><div class="ds"> INT+7 MaxHP+3000 Accuracy+30 Magic pierce +
 ATK: 276 DEF: 10<br/><div class="ds"> Earth element, ATK+15% MaxHP+10% Paralyze+4% CRT+10, Melee R +5%</div><div class="t_ds">Melee to Wind +20% Melee to Earth -20% ATK +15% MaxHP +10% Paralysis +4% CRT +10 Melee R +5% </div><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetoearth atk maxhp windr paralysis crt meleer">
-<b><a href="/cache/http:/www.iruna-online.info/item/emerald_roar.html_ii" id="emerald_roar_ii">Emerald Roar II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/emerald_roar_ii.html" id="emerald_roar_ii">Emerald Roar II   [Swords] 📷</a></b>
 <br/>
 ATK: 296 DEF: 12<br/><div class="ds"> Earth element, ATK+17% MaxHP+15% Paralyze+6% CRT+13, Melee R +7% Wind R +5%</div><div class="t_ds">Melee to Wind +20% Melee to Earth -20% ATK +17% MaxHP +15% Wind R +5% Paralysis +6% CRT +13 Melee R +7% </div>Notes: ATK = Emerald Roar
  +20? DEF = Emerald Roar +2?<br/><br/>
@@ -802,7 +596,7 @@ ATK: 240<br/><div class="ds"> Flame element, Fire magic up by STR Burn activatio
 ATK: 195<br/><div class="ds"> Melee+15% to Dark, ATK+5% Magic attack chance by attack MDEF+20%, Heal recovery +10%</div><div class="t_ds">Melee to Dark +15% ATK +5% MDEF +20% Heal Recovery +10% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr meleetodark atk mdef healrecovery">
-<b><a href="/cache/http:/www.iruna-online.info/item/excalibur.html_+" id="excalibur_+">Excalibur +   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/excalibur_+.html" id="excalibur_+">Excalibur +   [Swords] 📷</a></b>
 <br/>
 ATK: 310<br/><div class="ds"> Melee+25% to Dark, ATK+10% MDEF+20%, Heal recovery +15% Magic attack chance by attack</div><div class="t_ds">Melee to Dark +25% ATK +10% MDEF +20% Heal Recovery +15% Autoskill </div>Notes: Upgrade of Excalibur by consuming Stone of Holy Sword while Excalibur is Equipped<br/><br/>
 </div>
@@ -817,7 +611,7 @@ ATK: 315<br/><div class="ds"> Critical damage +22%, ATK+3% MaxHP+10%, Accuracy r
 ATK: 275<br/><div class="ds"> ATK+5%, MaxHP&amp;MP-15% Melee+15% against all elements All elemental resistance -15%</div><div class="t_ds">ATK +5% Melee to Neutral +15% Melee to Fire +15% Melee to Water +15% Melee to Wind +15% Melee to Earth +15% Melee to Light +15% Melee to Dark +15% Neutral R -15% Fire R -15% Water R -15% Wind R -15% Earth R -15% Light R -15% Dark R -15% MaxHP -15% MaxMP -15% </div><br/>
 </div>
 <div class="Swords default_attr atk meleetoneutral meleetofire meleetowater meleetowind meleetoearth meleetolight meleetodark neutralr firer waterr windr earthr lightr darkr maxhp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/fairy_tale_world_spoon.html_ii" id="fairy_tale_world_spoon_ii">Fairy Tale World Spoon II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/fairy_tale_world_spoon_ii.html" id="fairy_tale_world_spoon_ii">Fairy Tale World Spoon II   [Swords] </a></b>
 <br/>
 ATK: 295<br/><div class="ds"> ATK+15%, MaxHP&amp;MP-20% Melee+20% against all elements All elemental resistance -20%</div><div class="t_ds">ATK +15% Melee to Neutral +20% Melee to Fire +20% Melee to Water +20% Melee to Wind +20% Melee to Earth +20% Melee to Light +20% Melee to Dark +20% Neutral R -20% Fire R -20% Water R -20% Wind R -20% Earth R -20% Light R -20% Dark R -20% MaxHP -20% MaxMP -20% </div><br/>
 </div>
@@ -841,18 +635,13 @@ ATK: 125<br/><div class="ds"> ATK+5% MDEF+10% No damage to Dark</div><div class=
 <br/>
 ATK: 250<br/><div class="ds"> Critical damage +4% Flame element Adds Autoskill+2% if Lv&gt;255. Autoskill+4%, Melee R +3%</div><div class="t_ds">Melee to Fire +10% Melee to Earth +20% Autoskill +4% Melee R +3% Critical damage +4% If [Lv &gt; 256] then Autoskill +2% </div>Notes: ATK = Knight Espada +20<br/><br/>
 </div>
-<div class="Swords default_attr meleetoearth meleetofire str maxhp">
-<b><a href="/cache/http:/www.iruna-online.info/item/fire_sword_of_delusion.html" id="fire_sword_of_delusion">Fire Sword of Delusion   [Swords] </a></b>
-<br/>
-ATK: 1<br/><div class="ds"> 火属性　火属性に無効 武器ATKがLv分増加　STRが20%増加 MaxHPがVITで増加 世界を悉く焼き棄てた劫火の剣</div><div class="t_ds">Melee to Earth +30% Melee to Fire -200% [Weapon up by Lv] [X = 0.20 * STR] [STR up by X] [X = 0.05 * VIT] [MaxHP up by X] </div><br/>
-</div>
 <div class="Swords default_attr meleetofire meleetoearth meleer criticalrate">
 <b><a href="/cache/http:/www.iruna-online.info/item/firebrand_vritra.html" id="firebrand_vritra">Firebrand Vritra   [Swords] 📷</a></b>
 <br/>
 ATK: 160<br/><div class="ds"> Melee R +5%, Critical rate +10 Magic attack chance by attack Flame element</div><div class="t_ds">Melee to Fire +10% Melee to Earth +20% Melee R +5% Critical rate +10 Autoskill </div>Notes: ATK = Vritra +30<br/><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetoearth meleer criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/firebrand_vritra.html+" id="firebrand_vritra+">Firebrand Vritra+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/firebrand_vritra+.html" id="firebrand_vritra+">Firebrand Vritra+   [Swords] 📷</a></b>
 <br/>
 ATK: 200<br/><div class="ds"> Melee R +10%, Critical rate +20 Magic attack chance by attack Flame element</div><div class="t_ds">Melee to Fire +10% Melee to Earth +20% Melee R +10% Critical rate +20 Autoskill </div>Notes: ATK = Firebrand Vritra +40<br/><br/>
 </div>
@@ -862,7 +651,7 @@ ATK: 200<br/><div class="ds"> Melee R +10%, Critical rate +20 Magic attack chanc
 ATK: 215<br/><div class="ds"> Magic Sword, Fire magic +10% Burn time +5sec, MATK+8% Burn acticvation +3% Additional attack chance by attack Damage up if you are inflicted with burn</div><div class="t_ds">Fire Magic +10% Burn +5.0s MATK +8% Burn +3% Autoskill </div>Notes: Autoskill is based on ATK &amp; MATK. Has chance to inflict 30(+5) sec burn to enemy.<br/><br/>
 </div>
 <div class="Swords default_attr firemagic burn matk burn">
-<b><a href="/cache/http:/www.iruna-online.info/item/flame_swallow.html_ii" id="flame_swallow_ii">Flame Swallow II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/flame_swallow_ii.html" id="flame_swallow_ii">Flame Swallow II   [Swords] </a></b>
 <br/>
 ATK: 295<br/><div class="ds"> Magic Sword, Fire magic +15% Burn time +5sec, MATK+15% Burn rate +3% Additional attack chance by attack Damage up if you are inflicted with Burn.</div><div class="t_ds">Fire Magic +15% Burn +5.0s MATK +15% Burn +3% Autoskill </div><br/>
 </div>
@@ -882,7 +671,7 @@ ATK: 30<br/><div class="ds"> Melee+6% to Earth ASPD+10%</div><div class="t_ds">M
 ATK: 260<br/><div class="ds"> Melee+20% to Fire, -20% to Water ATK+12% MaxHP&amp;Critical damage +10% Magic counter chance</div><div class="t_ds">ATK +10% Critical damage +8% MaxHP +10% Melee to Fire +20% Melee to Water -20% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage maxhp meleetofire meleetowater">
-<b><a href="/cache/http:/www.iruna-online.info/item/freesia_sword.html_ii" id="freesia_sword_ii">Freesia Sword II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/freesia_sword_ii.html" id="freesia_sword_ii">Freesia Sword II   [Swords] 📷</a></b>
 <br/>
 ATK: 280<br/><div class="ds"> Melee+22% to Fire, -22% to Water ATK+12% MaxHP&amp;Critical damage +10% Magic counter chance</div><div class="t_ds">ATK +12% Critical damage +10% MaxHP +10% Melee to Fire +22% Melee to Water -22% Autoskill </div>Notes: Upgrade Freesia Sword by equiping it and using Freesia Bead.  Freesia Bead can be bought from the Kijimu at the Xmas Event Venue for 60 Snow Tear Crystal<br/><br/>
 </div>
@@ -904,7 +693,7 @@ ATK: 260<br/><div class="ds">ATK+8% Delay-0.5sec, All elements</div><div class="
 <div class="Swords default_attr criticalrate criticaldamage atk">
 <b><a href="/cache/http:/www.iruna-online.info/item/ga_borg.html" id="ga_borg">ga borg   [Swords] </a></b>
 <br/>
-ATK: 255 DEF: 5<br/><div class="ds"> ｸﾘﾃｨｶﾙ率+200%　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+5% ATK+10% 攻撃時、確率で攻撃力上昇</div><div class="t_ds">Critical rate +200% Critical damage +5% ATK +10% Autoskill </div><br/>
+ATK: 255 DEF: 5<br/><div class="ds"> ｸﾘﾃｨｶﾙ率+200% ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+5% ATK+10% 攻撃時、確率で攻撃力上昇</div><div class="t_ds">Critical rate +200% Critical damage +5% ATK +10% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr str criticaldamage">
 <b><a href="/cache/http:/www.iruna-online.info/item/gae_bolg.html" id="gae_bolg">Gae Bolg   [Swords] </a></b>
@@ -936,18 +725,23 @@ ATK: 90<br/><div class="ds">DEX+1 ASPD+20%</div><div class="t_ds">DEX +1 ASPD +2
 <br/>
 ATK: 150<br/><div class="ds">STR+1, Critical damage +1%</div><div class="t_ds">STR +1 Critical damage +1% </div>Notes: ATK = Bardiche +30<br/><br/>
 </div>
+<div class="Swords default_attr meleetofire meleetowater meleetowind meleetoearth meleetodark criticaldamage vit maxhp skilldelay meleer meleepierce ailmentr">
+<b><a href="/cache/http:/www.iruna-online.info/item/glowing_violet_ange.html" id="glowing_violet_ange">Glowing Violet Ange   [Swords] </a></b>
+<br/>
+ATK: 340<br/><div class="ds"> Ice&amp;Gaia&amp;Light element, Critical damage+21%, VIT+15, MaxHP+20% Skill delay-1 sec, Melee R-5% Melee pierce+5%, Ailment R+20%</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% Melee to Wind +20% Melee to Earth +10% Melee to Dark +20% Critical damage +21% VIT +15 MaxHP +20% Skill Delay -1.0s Melee R -5% Melee Pierce +5% Ailment R +20% </div><br/>
+</div>
 <div class="Swords default_attr atk criticaldamage autoskill">
 <b><a href="/cache/http:/www.iruna-online.info/item/gold_rex.html" id="gold_rex">Gold Rex   [Swords] 📷</a></b>
 <br/>
 ATK: 205 DEF: 2<br/><div class="ds">ATK+5%, Critical damage +10%</div><div class="t_ds">ATK +5% Critical damage +10% Autoskill +1% Autoskill </div>Notes: (hidden correction: range +1?) (Hidden performance: defense at the time, defense force increase in the probability)<br/><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/gold_rex.html_ii" id="gold_rex_ii">Gold Rex II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/gold_rex_ii.html" id="gold_rex_ii">Gold Rex II   [Swords] 📷</a></b>
 <br/>
 ATK: 230 DEF: 2<br/><div class="ds">ATK+7%, Critical damage +12%</div><div class="t_ds">ATK +7% Critical damage +12% Autoskill +1% Autoskill </div>Notes: ATK = Gold Rex +25 (hidden correction: range +1?) (Hidden performance: defense at the time, defense force increase in the probability)<br/><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage knockout autohprecovery automprecovery autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/gold_rex.html_iii" id="gold_rex_iii">Gold Rex III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/gold_rex_iii.html" id="gold_rex_iii">Gold Rex III   [Swords] 📷</a></b>
 <br/>
 ATK: 290 DEF: 2<br/><div class="ds"> ATK+9%, Critical damage +14% KO time -1sec, Auto recovery +30%</div><div class="t_ds">ATK +9% Critical damage +14% Knockout -1.0s Auto HP Recovery +30% Auto MP Recovery +30% Autoskill +3% Autoskill </div>Notes: ATK = Gold Rex II +60?<br/><br/>
 </div>
@@ -965,11 +759,6 @@ ATK: 300<br/><div class="ds"> Magic sword, Dark element, Spell burst +10%, ATK&a
 <b><a href="/cache/http:/www.iruna-online.info/item/grand_axe.html" id="grand_axe">Grand Axe   [Swords] 📷</a></b>
 <br/>
 ATK: 217<br/><div class="ds">STR+9 ASPD-60%</div><div class="t_ds">STR +9 ASPD -60% [X = Lv] [X = X · 2] [Melee up by X] </div>Notes: ATK = Cross Axe + 25/+30<br/><br/>
-</div>
-<div class="Swords default_attr atk dex evasion x counteronevasion x vit">
-<b><a href="/cache/http:/www.iruna-online.info/item/grass_sword.html" id="grass_sword">Grass Sword   [Swords] </a></b>
-<br/>
-ATK: 290<br/><div class="ds"> 特殊剣　ATK+20%　DEX+30 VITが高いほど回避と回避時反撃率増加 VITが割合で減少</div><div class="t_ds">ATK +20% DEX +30 [X = 0.20 * VIT] [Evasion up by X] [X = X / 2] [Counter on Evasion up by X] [X = X · -3] [VIT up by X] </div><br/>
 </div>
 <div class="Swords default_attr str aspd">
 <b><a href="/cache/http:/www.iruna-online.info/item/great_axe.html" id="great_axe">Great Axe   [Swords] 📷</a></b>
@@ -1017,7 +806,7 @@ ATK: 196 DEF: 3<br/><div class="ds"> Critical rate +30 Accuracy rate -15% Gaia e
 ATK: 135<br/><div class="ds">No damage to Neutral, Magic Sword</div><div class="t_ds">Melee to Neutral -100% </div>Notes: Trade × ATK = Boss Claymore -17<br/><br/>
 </div>
 <div class="Swords default_attr meleetoneutral">
-<b><a href="/cache/http:/www.iruna-online.info/item/hexe_espada.html_(strengthened_1)" id="hexe_espada_(strengthened_1)">Hexe Espada (Strengthened 1)   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/hexe_espada_(strengthened_1).html" id="hexe_espada_(strengthened_1)">Hexe Espada (Strengthened 1)   [Swords] 📷</a></b>
 <br/>
 ATK: 140<br/><div class="ds"> No damage to Neutral Magic attack chance Magic Sword</div><div class="t_ds">Melee to Neutral -100% Autoskill </div>Notes: Trade × ATK = Hexe Espada +5<br/><br/>
 </div>
@@ -1036,15 +825,20 @@ ATK: 174 DEF: 2<br/><div class="ds">MaxHP+20% MDEF+30%, Hate rise +35%</div><div
 <br/>
 ATK: 280<br/><div class="ds"> Wind element, Critical damage +17% Melee R -10%, MaxMP+15%, Bleed+5% Lowest ASPD ATK up by DEX if Samurai.</div><div class="t_ds">Melee to Water +20% Melee to Wind -10% Critical damage +17% Melee R -10% MaxMP +15% Bleed +5% ASPD = 1 [Samurai] [X = DEX] [X = X · 150] [X = X / 100] [ATK up by X] Autoskill </div><br/>
 </div>
-<div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/himetsuru_ichimonji.html_ii" id="himetsuru_ichimonji_ii">Himetsuru Ichimonji II   [Swords] </a></b>
+<div class="Swords default_attr meleetowater meleetowind criticaldamage meleer maxmp bleed aspd x x x atk atk">
+<b><a href="/cache/http:/www.iruna-online.info/item/himetsuru_ichimonji_ii.html" id="himetsuru_ichimonji_ii">Himetsuru Ichimonji II   [Swords] </a></b>
 <br/>
-ATK: 315<br/><div class="ds"> 風属性　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+20%　物理耐性-7% MaxMP+18%　出血発生+5%　ASPD最低 ｻﾑﾗｲの場合、ATKがDEXで増加</div><div class="t_ds">Melee to Water +25% Melee to Wind -10% Critical damage +20% Melee R -7% MaxMP +18% Bleed +5% ASPD = 1 [Samurai] [X = DEX] [X = X · 160] [X = X / 100] [ATK up by X] [X = 0.01 * DEX] [ATK up by X] Autoskill </div><br/>
+ATK: 315<br/><div class="ds"> Wind element, Critical damage+20%, Melee R-7%, MaxMP+18%, Bleed+5% Lowest ASPD ATK up by DEX if Samurai.</div><div class="t_ds">Melee to Water +25% Melee to Wind -10% Critical damage +20% Melee R -7% MaxMP +18% Bleed +5% ASPD = 1 [Samurai] [X = DEX] [X = X · 160] [X = X / 100] [ATK up by X] [X = 0.01 * DEX] [ATK up by X] Autoskill </div><br/>
 </div>
 <div class="Swords default_attr x x y y criticaldamage fear maxmp">
 <b><a href="/cache/http:/www.iruna-online.info/item/hirasaka_the_soul_sword.html" id="hirasaka_the_soul_sword">Hirasaka the Soul Sword   [Swords] </a></b>
 <br/>
 ATK: 266<br/><div class="ds"> Additional attack chance with more damage when poisoned. Critical dmg up as CRT is lower. Fear+1% MaxMP+10%, Magic Sword</div><div class="t_ds">[X = CRT] [X = X / 20] [Y = 20] [Y = Y - X] [Critical damage up by Y] Fear +1% MaxMP +10% Autoskill </div><br/>
+</div>
+<div class="Swords default_attr criticalrate criticaldamage bleed str skilldelay itemdelay">
+<b><a href="/cache/http:/www.iruna-online.info/item/hook_blade.html" id="hook_blade">Hook Blade   [Swords] </a></b>
+<br/>
+ATK: 222<br/><div class="ds"> Critical up, Bleed+5 sec, STR+12 Delay-0.8 sec, Pillar Blade+10% Beast Slash SLv+1</div><div class="t_ds">Critical rate +10 Critical damage +10% Bleed +50.0s STR +12 Skill Delay -0.8s Item Delay -0.8s </div><br/>
 </div>
 <div class="Swords default_attr criticaldamage absoluteaccuracy halvesatkinterval">
 <b><a href="/cache/http:/www.iruna-online.info/item/horror_scythe.html" id="horror_scythe">Horror Scythe   [Swords] 📷</a></b>
@@ -1062,7 +856,7 @@ ATK: 210<br/><div class="ds"> Magic R +12%, Accuracy+50 Magic attack chance by a
 ATK: 160<br/><div class="ds"> Magic R +5%, Accuracy+20 Magic attack chance by attack Ice element</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% Magic R +5% Accuracy +20 Autoskill </div>Notes: ATK = Rime +20<br/><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater magicr accuracy">
-<b><a href="/cache/http:/www.iruna-online.info/item/icebrand_rime.html+" id="icebrand_rime+">Icebrand Rime+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/icebrand_rime+.html" id="icebrand_rime+">Icebrand Rime+   [Swords] 📷</a></b>
 <br/>
 ATK: 200<br/><div class="ds"> Magic R +10%, Accuracy+40 Magic attack chance by attack Ice element</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% Magic R +10% Accuracy +40 Autoskill </div>Notes: ATK = Icebrand Rime +40<br/><br/>
 </div>
@@ -1076,10 +870,15 @@ ATK: 163<br/><div class="ds"> CRT+10, Critical rate +10 Water element</div><div 
 <br/>
 ATK: 172<br/><div class="ds"> Item recovery +20%, Evasion+5% Thunder element</div><div class="t_ds">Melee to Wind +10% Melee to Water +20% Evasion +5% Item Recovery +20% Autoskill </div>Notes: hidden performance: attack at the time, magic attack with probability<br/><br/>
 </div>
-<div class="Swords default_attr">
+<div class="Swords default_attr atk absoluteevasion meleepierce str x dex">
 <b><a href="/cache/http:/www.iruna-online.info/item/injaria.html" id="injaria">Injaria   [Swords] </a></b>
 <br/>
-ATK: 247<br/><div class="ds"> ATK+16%　絶対回避+8% 物理貫通-5%　ﾀﾞﾌﾞﾙｱﾀｯｸ発動率+7% DEXの一部をSTRに変換する</div><div class="t_ds">ATK +16% Absolute Evasion +8% Melee Pierce -5% [X = 0.30 * DEX] [STR up by X] [X = 0.50 * DEX] [X = X · -1] [DEX up by X] </div><br/>
+ATK: 247<br/><div class="ds"> ATK+16%, Absolute evasion+8% Double attack chance+7% Melee pierce-5%, Changes part of DEX to STR.</div><div class="t_ds">ATK +16% Absolute Evasion +8% Melee Pierce -5% [X = 0.30 * DEX] [STR up by X] [X = 0.50 * DEX] [X = X · -1] [DEX up by X] </div><br/>
+</div>
+<div class="Swords default_attr atk absoluteevasion accuracy meleepierce str x dex">
+<b><a href="/cache/http:/www.iruna-online.info/item/injaria_ii.html" id="injaria_ii">Injaria II   [Swords] </a></b>
+<br/>
+ATK: 265<br/><div class="ds"> ATK+20%　絶対回避+10%　命中+50 物理貫通-2%　ﾀﾞﾌﾞﾙｱﾀｯｸ発動率+15% DEXの一部をSTRに変換する</div><div class="t_ds">ATK +20% Absolute Evasion +10% Accuracy +50 Melee Pierce -2% [X = 0.40 * DEX] [STR up by X] [X = 0.50 * DEX] [X = X · -1] [DEX up by X] </div><br/>
 </div>
 <div class="Swords default_attr skilldelay meleetoneutral atk rangecut haterise criticaldamage">
 <b><a href="/cache/http:/www.iruna-online.info/item/inslector.html" id="inslector">Inslector   [Swords] 📷</a></b>
@@ -1091,13 +890,18 @@ ATK: 290 DEF: 10<br/><div class="ds"> S. delay +1sec, Melee+25% to Neutral ATK+1
 <br/>
 ATK: 99<br/><div class="ds">ASPD-10%</div><div class="t_ds">ASPD -10% </div>Notes: Trade ×<br/><br/>
 </div>
+<div class="Swords default_attr maxhp vit magicr">
+<b><a href="/cache/http:/www.iruna-online.info/item/iron_hammer_brigid.html" id="iron_hammer_brigid">iron hammer brigid   [Swords] </a></b>
+<br/>
+ATK: 210 DEF: 10<br/><div class="ds"> 特殊剣　MaxHP+16%　VIT+8 魔法耐性+8%　ガーディアン威力+5%</div><div class="t_ds">MaxHP +16% VIT +8 Magic R +8% </div><br/>
+</div>
 <div class="Swords default_attr str atk criticalrate maxhp x x">
 <b><a href="/cache/http:/www.iruna-online.info/item/izuminokami.html" id="izuminokami">Izuminokami   [Swords] 📷</a></b>
 <br/>
 ATK: 180<br/><div class="ds"> STR+10 ATK+5% MaxHP+10% Critical rate -10% Special Sword</div><div class="t_ds">STR +10 ATK +5% Critical rate -10% MaxHP +10% [X = Lv] [X = X / 5] [Melee up by X] </div><br/>
 </div>
 <div class="Swords default_attr str atk criticalrate maxhp ratecut skilldelay">
-<b><a href="/cache/http:/www.iruna-online.info/item/izuminokami.html_ii" id="izuminokami_ii">Izuminokami II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/izuminokami_ii.html" id="izuminokami_ii">Izuminokami II   [Swords] 📷</a></b>
 <br/>
 ATK: 266<br/><div class="ds"> Special Sword, STR+10 ATK+10% Rate cut +5%, Skill delay -1sec Critical rate -5%, MaxHP+15%</div><div class="t_ds">STR +10 ATK +10% Critical rate -5% MaxHP +15% Rate cut +5% Skill Delay -1.0s [X = 0.20 * Lv] [Melee up by X] </div>Notes: ATK = Izuminokami +86<br/><br/>
 </div>
@@ -1118,14 +922,19 @@ ATK: 165 DEF: 4<br/><div class="ds">VIT+10 Evasion-12%, Special Sword</div><div 
 (hidden correction: range +1?)<br/><br/>
 </div>
 <div class="Swords default_attr vit evasion neutralr ratecut">
-<b><a href="/cache/http:/www.iruna-online.info/item/katzbalger.html_ii" id="katzbalger_ii">Katzbalger II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/katzbalger_ii.html" id="katzbalger_ii">Katzbalger II   [Swords] 📷</a></b>
 <br/>
 ATK: 175 DEF: 4<br/><div class="ds"> VIT+12 Evasion-14%, Neutral R +5% Rate cut +5%, Special Sword</div><div class="t_ds">VIT +12 Evasion -14% Neutral R +5% Rate cut +5% </div>Notes: ATK = Katzbalger +10<br/><br/>
 </div>
 <div class="Swords default_attr vit evasion neutralr ratecut rangecut">
-<b><a href="/cache/http:/www.iruna-online.info/item/katzbalger.html_iii" id="katzbalger_iii">Katzbalger III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/katzbalger_iii.html" id="katzbalger_iii">Katzbalger III   [Swords] 📷</a></b>
 <br/>
 ATK: 275 DEF: 8<br/><div class="ds"> Special sword, VIT+15 Evasion-14% Neutral R +8%, Rate cut +10% Range cut +5%</div><div class="t_ds">VIT +15 Evasion -14% Neutral R +8% Rate cut +10% Range cut +5% </div>Notes: ATK = Katzbalger II +100? DEF = Katzbalger II +4?<br/><br/>
+</div>
+<div class="Swords default_attr matk lightmagic">
+<b><a href="/cache/http:/www.iruna-online.info/item/klein_love.html" id="klein_love">klein love   [Swords] </a></b>
+<br/>
+ATK: 274<br/><div class="ds"> 魔法剣　MATK+5%　光魔法威力+25% ネメシス・ホーリースラスト威力+10% 攻撃時、確率で魔法攻撃</div><div class="t_ds">MATK +5% Light Magic +25% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetoearth aspd x atk atk meleepierce autoskill">
 <b><a href="/cache/http:/www.iruna-online.info/item/kloff_pillar.html" id="kloff_pillar">Kloff Pillar   [Swords] 📷</a></b>
@@ -1153,12 +962,12 @@ ATK: 190<br/><div class="ds"> VIT+2, Critical damage +5% Skill delay -0.5sec, AS
 ATK: 190<br/><div class="ds"> Melee&amp;Magic pierce +12% MATK up chance by attack Magic Sword</div><div class="t_ds">Melee Pierce +12% Magic Pierce +12% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr meleepierce magicpierce magicpierce matk">
-<b><a href="/cache/http:/www.iruna-online.info/item/kutune_sirka.html_ii" id="kutune_sirka_ii">Kutune Sirka II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/kutune_sirka_ii.html" id="kutune_sirka_ii">Kutune Sirka II   [Swords] 📷</a></b>
 <br/>
 ATK: 230<br/><div class="ds"> Melee&amp;Magic pierce +15%, Magic Sword MATK up chance by attack Magic pierce up by INT</div><div class="t_ds">Melee Pierce +15% Magic Pierce +15% [X = 0.02 * INT] [Magic Pierce up by X] Autoskill MATK +2% </div>Notes: ATK = Kutune Sirka +40<br/><br/>
 </div>
 <div class="Swords default_attr meleepierce magicpierce magicpierce matk">
-<b><a href="/cache/http:/www.iruna-online.info/item/kutune_sirka.html_iii" id="kutune_sirka_iii">Kutune Sirka III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/kutune_sirka_iii.html" id="kutune_sirka_iii">Kutune Sirka III   [Swords] 📷</a></b>
 <br/>
 ATK: 283<br/><div class="ds"> Magic sword, Melee&amp;Magic pierce +17% Magic pierce up by INT MATK up chance by attack</div><div class="t_ds">Melee Pierce +17% Magic Pierce +17% [X = 0.03 * INT] [Magic Pierce up by X] Autoskill MATK +4% </div><br/>
 </div>
@@ -1173,17 +982,17 @@ ATK: 180 DEF: 2<br/><div class="ds"> Magic Sword, MATK+5%, Melee R +5% Magic att
 ATK: 165<br/><div class="ds"> Magic R +5%, MaxMP-30% HP absorb chance Dark element</div><div class="t_ds">Melee to Light +20% Magic R +5% MaxMP -30% Autoskill </div>Notes: Absorb about 10% to 30% of given damage<br/><br/>
 </div>
 <div class="Swords default_attr meleetolight magicr maxmp aspd">
-<b><a href="/cache/http:/www.iruna-online.info/item/lamia.html_ii" id="lamia_ii">Lamia II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/lamia_ii.html" id="lamia_ii">Lamia II   [Swords] 📷</a></b>
 <br/>
 ATK: 180<br/><div class="ds"> HP absorb chance Magic R +6%, MaxMP-20% ASPD+10%, Dark element</div><div class="t_ds">Melee to Light +20% Magic R +6% MaxMP -20% Autoskill ASPD +10% </div>Notes: ATK = Lamia +15<br/><br/>
 </div>
 <div class="Swords default_attr meleetolight magicr maxmp aspd autoskill reflect">
-<b><a href="/cache/http:/www.iruna-online.info/item/lamia.html_iii" id="lamia_iii">Lamia III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/lamia_iii.html" id="lamia_iii">Lamia III   [Swords] 📷</a></b>
 <br/>
 ATK: 240<br/><div class="ds"> HP absorb chance Magic R +10%, MaxMP-20% Autoskill+5% ASPD+10%, Dark element</div><div class="t_ds">Melee to Light +20% Magic R +10% MaxMP -20% Autoskill ASPD +10% Autoskill +5% Reflect +5% </div>Notes: ATK = Lamia II +60<br/><br/>
 </div>
 <div class="Swords default_attr meleetolight atk magicr maxmp aspd autoskill reflect">
-<b><a href="/cache/http:/www.iruna-online.info/item/lamia.html_iv" id="lamia_iv">Lamia IV   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/lamia_iv.html" id="lamia_iv">Lamia IV   [Swords] 📷</a></b>
 <br/>
 ATK: 289 DEF: 4<br/><div class="ds"> Dark element, ATK+8%, Magic R +12% MaxMP-20% ASPD+10% Autoskill+8% HP recovery chance by attack</div><div class="t_ds">Melee to Light +20% ATK +8% Magic R +12% MaxMP -20% Autoskill ASPD +10% Autoskill +8% Reflect +10% </div><br/>
 </div>
@@ -1208,7 +1017,7 @@ ATK: 240<br/><div class="ds"> All stats +4, Autoskill+6%, Additional attack chan
 ATK: 268 DEF: 5<br/><div class="ds"> MaxHP&amp;MP+15%, Accuracy rate +15% Evasion+15%, Melee pierce +15% ATK+15%, Small ATK up by AGI</div><div class="t_ds">ATK +15% MaxHP +15% MaxMP +15% Evasion +15% Accuracy +15% Melee Pierce +15% [X = 0.50 * AGI] [ATK up by X] [X = 0.50 * STR] [DEF up by X] </div>Notes: ATK rise = AGI421 in ATK about 209 increase DEF increase = STR / 2<br/><br/>
 </div>
 <div class="Swords default_attr atk maxhp maxmp accuracy evasion meleepierce itemrecovery atk def">
-<b><a href="/cache/http:/www.iruna-online.info/item/legacy_of_will.html_ii" id="legacy_of_will_ii">Legacy of Will II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/legacy_of_will_ii.html" id="legacy_of_will_ii">Legacy of Will II   [Swords] 📷</a></b>
 <br/>
 ATK: 293 DEF: 10<br/><div class="ds"> Melee pierce&amp;ATK+18%, Item rec. +15% Evasion +20%, Small ATK up by AGI MaxHP&amp;MP+15%, Acc. rate +15%</div><div class="t_ds">ATK +18% MaxHP +15% MaxMP +15% Accuracy +15% Evasion +20% Melee Pierce +18% Item Recovery +15% [X = 0.50 * AGI] [ATK up by X] [X = 0.50 * STR] [DEF up by X] </div>Notes: ATK = Legacy of Will + ?<br/><br/>
 </div>
@@ -1233,7 +1042,7 @@ ATK: 15<br/><br/>
 ATK: 150<br/><div class="ds">Additional attack chance</div><div class="t_ds">Autoskill </div>Notes: ATK = Spiel +20<br/><br/>
 </div>
 <div class="Swords default_attr accuracy reflect crt">
-<b><a href="/cache/http:/www.iruna-online.info/item/ludus.html+" id="ludus+">Ludus+   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/ludus+.html" id="ludus+">Ludus+   [Swords] </a></b>
 <br/>
 ATK: 170<br/><div class="ds"> Accuracy+10 Reflect+10% Additional attack chance</div><div class="t_ds">Accuracy +10 Reflect +10% CRT +5 Autoskill </div>Notes: ATK = Ludus +20 DEF = Ludus +1<br/><br/>
 </div>
@@ -1248,9 +1057,9 @@ ATK: 200<br/><div class="ds"> ASPD+10% MATK+6% Magic attack chance by attack Mag
 ATK: 290<br/><div class="ds"> ATK+20%, Bleed&amp;Dizzy chance +5% DEX&amp;CRT-15</div><div class="t_ds">ATK +20% DEX -15 CRT -15 Bleed +5% </div><br/>
 </div>
 <div class="Swords default_attr atk bleed knockout maxhp magicr dex crt">
-<b><a href="/cache/http:/www.iruna-online.info/item/macuahuitl.html_ii" id="macuahuitl_ii">Macuahuitl II   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/macuahuitl_ii.html" id="macuahuitl_ii">Macuahuitl II   [Swords] </a></b>
 <br/>
-ATK: 312<br/><div class="ds"> ATK+21%　出血・眩暈発生+6% 気絶発生+0.1%　魔法耐性+7% MaxHP+6%　DEX・CRT-15 ソードテンペスト威力+5%</div><div class="t_ds">ATK +21% Bleed +6% Knock out +0% MaxHP +6% Magic R +7% DEX -15 CRT -15 </div><br/>
+ATK: 312<br/><div class="ds"> ATK+21%, Bleed&amp;Dizzy chance+6% KO chance+0.1%, Magic R+7% MaxHP+6%, DEX&amp;CRT-15 Sword Tempest+5%</div><div class="t_ds">ATK +21% Bleed +6% Knock out +0% MaxHP +6% Magic R +7% DEX -15 CRT -15 </div><br/>
 </div>
 <div class="Swords default_attr str agi criticaldamage criticalrate">
 <b><a href="/cache/http:/www.iruna-online.info/item/magoroku.html" id="magoroku">Magoroku   [Swords] 📷</a></b>
@@ -1263,7 +1072,7 @@ ATK: 178<br/><div class="ds"> STR+5, Critical damage +5% Critical rate -12%</div
 ATK: 203<br/><div class="ds"> Critical damage +7%, ASPD-200% Neutral R +5%</div><div class="t_ds">Critical damage +7% Neutral R +5% ASPD -200% ATK +5% Autoskill </div>Notes: (hidden performance: the time of the attack, adding attack ※ triggered when MP consumed in the probability)<br/><br/>
 </div>
 <div class="Swords default_attr criticaldamage neutralr aspd atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/masamune.html_shinuchi" id="masamune_shinuchi">Masamune Shinuchi   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/masamune_shinuchi.html" id="masamune_shinuchi">Masamune Shinuchi   [Swords] 📷</a></b>
 <br/>
 ATK: 292<br/><div class="ds"> Critical damage +14%, Neutral R +5% ASPD-200%</div><div class="t_ds">Critical damage +14% Neutral R +5% ASPD -200% Autoskill ATK +5% </div><br/>
 </div>
@@ -1293,12 +1102,12 @@ ATK: 255 DEF: 5<br/><div class="ds"> ATK+15% 傭兵メダル装備時、ﾎﾞ�
 ATK: 70<br/><div class="ds">AGI+6</div><div class="t_ds">AGI +6 </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater agi ailmentr">
-<b><a href="/cache/http:/www.iruna-online.info/item/merculm.html_ii" id="merculm_ii">Merculm II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/merculm_ii.html" id="merculm_ii">Merculm II   [Swords] 📷</a></b>
 <br/>
 ATK: 140<br/><div class="ds"> AGI+6, Ailment R +5% Water element</div><div class="t_ds">Melee to Fire +20% Melee to Water -20% AGI +6 Ailment R +5% </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater agi ailmentr atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/merculm.html_iii" id="merculm_iii">Merculm III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/merculm_iii.html" id="merculm_iii">Merculm III   [Swords] 📷</a></b>
 <br/>
 ATK: 210<br/><div class="ds"> AGI+6 ATK+5%, Ailment R +10% Magic counter chance by defense Ice element</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% AGI +6 Ailment R +10% ATK +5% Autoskill </div><br/>
 </div>
@@ -1328,142 +1137,142 @@ ATK: 90<br/><div class="ds">The sword used by Mio</div><div class="t_ds">Autoski
 ATK: 280<br/><div class="ds">ATK+16%</div><div class="t_ds">ATK +16% </div><br/>
 </div>
 <div class="Swords default_attr meleetoearth meleetofire atk agi absoluteevasion magicevasion autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_fag" id="mirror_sword_fag">Mirror Sword FAG   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_fag.html" id="mirror_sword_fag">Mirror Sword FAG   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Flame element, ATK+15% Autoskill+5% Absolute&amp;Magic evasion +10% Small AGI up by Lv</div><div class="t_ds">Melee to Earth +20% Melee to Fire +10% ATK +15% [Y = 0.05 * Lv] [AGI up by Y] Absolute Evasion +10% Magic Evasion +10% Autoskill +5% </div><br/>
 </div>
 <div class="Swords default_attr meleetoearth meleetofire atk vit maxhp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_flf" id="mirror_sword_flf">Mirror Sword FLF   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_flf.html" id="mirror_sword_flf">Mirror Sword FLF   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 5<br/><div class="ds"> Flame element, ATK+15% MaxHP+15% MaxMP+15%, Small VIT up by Lv</div><div class="t_ds">Melee to Earth +20% Melee to Fire +10% ATK +15% [Y = 0.05 * Lv] [VIT up by Y] MaxHP +15% MaxMP +15% </div><br/>
 </div>
 <div class="Swords default_attr meleetoearth meleetofire atk matk int magicpower">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_fma" id="mirror_sword_fma">Mirror Sword FMA   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_fma.html" id="mirror_sword_fma">Mirror Sword FMA   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Flame element, ATK+5% MATK+15% Small INT up by Lv Magic up by Lv</div><div class="t_ds">Melee to Earth +20% Melee to Fire +10% ATK +5% MATK +15% [Y = 0.05 * Lv] [INT up by Y] [X = 4.00 * Lv] [Magic Power up by X] </div><br/>
 </div>
 <div class="Swords default_attr meleetoearth meleetofire atk str">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_fst" id="mirror_sword_fst">Mirror Sword FST   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_fst.html" id="mirror_sword_fst">Mirror Sword FST   [Swords] 📷</a></b>
 <br/>
 ATK: 290<br/><div class="ds"> Flame element, ATK+18% Small STR up by Lv Melee up by Lv</div><div class="t_ds">Melee to Earth +20% Melee to Fire +10% ATK +18% [Y = 0.05 * Lv] [STR up by Y] [Melee up by Lv] </div><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetoearth atk agi absoluteevasion magicevasion autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_gag" id="mirror_sword_gag">Mirror Sword GAG   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_gag.html" id="mirror_sword_gag">Mirror Sword GAG   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Gaia element, ATK+15% Autoskill+5% Absolute&amp;Magic evasion +10% Small AGI up by Lv</div><div class="t_ds">Melee to Wind +20% Melee to Earth +10% ATK +15% [Y = 0.05 * Lv] [AGI up by Y] Absolute Evasion +10% Magic Evasion +10% Autoskill +5% </div><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetoearth atk vit maxhp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_glf" id="mirror_sword_glf">Mirror Sword GLF   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_glf.html" id="mirror_sword_glf">Mirror Sword GLF   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 5<br/><div class="ds"> Gaia element, ATK+15% MaxHP+15% MaxMP+15%, Small VIT up by Lv</div><div class="t_ds">Melee to Wind +20% Melee to Earth +10% ATK +15% [Y = 0.05 * Lv] [VIT up by Y] MaxHP +15% MaxMP +15% </div><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetoearth atk matk int magicpower">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_gma" id="mirror_sword_gma">Mirror Sword GMA   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_gma.html" id="mirror_sword_gma">Mirror Sword GMA   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Gaia element, ATK+5% MATK+15% Small INT up by Lv Magic up by Lv</div><div class="t_ds">Melee to Wind +20% Melee to Earth +10% ATK +5% MATK +15% [Y = 0.05 * Lv] [INT up by Y] [X = 4.00 * Lv] [Magic Power up by X] </div><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetoearth atk str">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_gst" id="mirror_sword_gst">Mirror Sword GST   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_gst.html" id="mirror_sword_gst">Mirror Sword GST   [Swords] 📷</a></b>
 <br/>
 ATK: 290<br/><div class="ds"> Gaia element, ATK+18% Small STR up by Lv Melee up by Lv</div><div class="t_ds">Melee to Wind +20% Melee to Earth +10% ATK +18% [Y = 0.05 * Lv] [STR up by Y] [Melee up by Lv] </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater atk agi absoluteevasion magicevasion autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_iag" id="mirror_sword_iag">Mirror Sword IAG   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_iag.html" id="mirror_sword_iag">Mirror Sword IAG   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Ice element, ATK+15% Autoskill+5% Absolute&amp;Magic evasion +10% Small AGI up by Lv</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% ATK +15% [Y = 0.05 * Lv] [AGI up by Y] Absolute Evasion +10% Magic Evasion +10% Autoskill +5% </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater atk vit maxhp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_ilf" id="mirror_sword_ilf">Mirror Sword ILF   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_ilf.html" id="mirror_sword_ilf">Mirror Sword ILF   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 5<br/><div class="ds"> Ice element, ATK+15% MaxHP+15% MaxMP+15%, Small VIT up by Lv</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% ATK +15% [Y = 0.05 * Lv] [VIT up by Y] MaxHP +15% MaxMP +15% </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater atk matk int magicpower">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_ima" id="mirror_sword_ima">Mirror Sword IMA   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_ima.html" id="mirror_sword_ima">Mirror Sword IMA   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Ice element, ATK+5% MATK+15% Small INT up by Lv Magic up by Lv</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% ATK +5% MATK +15% [Y = 0.05 * Lv] [INT up by Y] [X = 4.00 * Lv] [Magic Power up by X] </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater atk str">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_ist" id="mirror_sword_ist">Mirror Sword IST   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_ist.html" id="mirror_sword_ist">Mirror Sword IST   [Swords] 📷</a></b>
 <br/>
 ATK: 290<br/><div class="ds"> Ice element, ATK+18% Small STR up by Lv Melee up by Lv</div><div class="t_ds">Melee to Fire +20% Melee to Water +10% ATK +18% [Y = 0.05 * Lv] [STR up by Y] [Melee up by Lv] </div><br/>
 </div>
 <div class="Swords default_attr atk matk criticalrate criticaldamage spellburst">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_mcr" id="mirror_sword_mcr">Mirror Sword MCR   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_mcr.html" id="mirror_sword_mcr">Mirror Sword MCR   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Magic Sword, ATK&amp;MATK+10%  Critical up, Spell burst +3%</div><div class="t_ds">ATK +10% MATK +10% Critical rate +10 Critical damage +10% Spellburst +3% </div><br/>
 </div>
 <div class="Swords default_attr atk matk str dex meleepierce magicpierce">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_mpi" id="mirror_sword_mpi">Mirror Sword MPI   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_mpi.html" id="mirror_sword_mpi">Mirror Sword MPI   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Magic Sword, ATK&amp;MATK+10%  STR&amp;DEX+10, Melee&amp;Magic pierce +10%</div><div class="t_ds">ATK +10% MATK +10% STR +10 DEX +10 Melee Pierce +10% Magic Pierce +10% </div><br/>
 </div>
 <div class="Swords default_attr atk matk meleer magicr ratecut">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_mre" id="mirror_sword_mre">Mirror Sword MRE   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_mre.html" id="mirror_sword_mre">Mirror Sword MRE   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 10<br/><div class="ds"> Magic Sword, ATK&amp;MATK+10%  Melee&amp;Magic R +10%, Rate cut +10%</div><div class="t_ds">ATK +10% MATK +10% Melee R +10% Magic R +10% Rate cut +10% </div><br/>
 </div>
 <div class="Swords default_attr atk matk skilldelay itemdelay casttime dex">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_msp" id="mirror_sword_msp">Mirror Sword MSP   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_msp.html" id="mirror_sword_msp">Mirror Sword MSP   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Magic Sword, ATK&amp;MATK+10%  Delay-1sec, Cast time -15% Small DEX up by Lv</div><div class="t_ds">ATK +10% MATK +10% Skill Delay -1.0s Item Delay -1.0s Cast Time -15% [X = 0.05 * Lv] [DEX up by X] </div><br/>
 </div>
 <div class="Swords default_attr atk agi absoluteevasion magicevasion autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_sag" id="mirror_sword_sag">Mirror Sword SAG   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_sag.html" id="mirror_sword_sag">Mirror Sword SAG   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Special Sword, ATK+14%  A.&amp;M. evasion +10%, Autoskill+5% AGI up by Lv</div><div class="t_ds">ATK +14% [Y = 0.05 * Lv] [AGI up by Y] Absolute Evasion +10% Magic Evasion +10% Autoskill +5% </div><br/>
 </div>
 <div class="Swords default_attr atk criticalrate criticaldamage spellburst">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_sc" id="mirror_sword_sc">Mirror Sword SC   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_sc.html" id="mirror_sword_sc">Mirror Sword SC   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Special Sword, ATK+14% Critical up, Spell burst +3%</div><div class="t_ds">ATK +14% Critical rate +10 Critical damage +10% Spellburst +3% </div><br/>
 </div>
 <div class="Swords default_attr atk vit maxhp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_slf" id="mirror_sword_slf">Mirror Sword SLF   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_slf.html" id="mirror_sword_slf">Mirror Sword SLF   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 5<br/><div class="ds"> Special Sword, ATK+14%  MaxHP&amp;MP+15% Small VIT up by Lv</div><div class="t_ds">ATK +14% [Y = 0.05 * Lv] [VIT up by Y] MaxHP +15% MaxMP +15% </div><br/>
 </div>
 <div class="Swords default_attr atk matk int magicpower">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_sma" id="mirror_sword_sma">Mirror Sword SMA   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_sma.html" id="mirror_sword_sma">Mirror Sword SMA   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Special Sword, ATK+5% MATK+15%  Small INT by Lv Magic up by Lv</div><div class="t_ds">ATK +5% MATK +15% [Y = 0.05 * Lv] [INT up by Y] [X = 4.00 * Lv] [Magic Power up by X] </div><br/>
 </div>
 <div class="Swords default_attr atk str dex meleepierce magicpierce">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_sp" id="mirror_sword_sp">Mirror Sword SP   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_sp.html" id="mirror_sword_sp">Mirror Sword SP   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Special Sword, ATK+14% STR&amp;DEX+10 Melee&amp;Magic pierce +10%</div><div class="t_ds">ATK +14% STR +10 DEX +10 Melee Pierce +10% Magic Pierce +10% </div><br/>
 </div>
 <div class="Swords default_attr atk meleer magicr ratecut">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_sr" id="mirror_sword_sr">Mirror Sword SR   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_sr.html" id="mirror_sword_sr">Mirror Sword SR   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 10<br/><div class="ds"> Special Sword, ATK+14% Melee&amp;Magic R +10%, Rate cut +10%</div><div class="t_ds">ATK +14% Melee R +10% Magic R +10% Rate cut +10% </div><br/>
 </div>
 <div class="Swords default_attr atk skilldelay itemdelay casttime dex">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_ss" id="mirror_sword_ss">Mirror Sword SS   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_ss.html" id="mirror_sword_ss">Mirror Sword SS   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Special Sword, ATK+14% Delay-1sec, Cast time -15% Small DEX up by Lv</div><div class="t_ds">ATK +14% Skill Delay -1.0s Item Delay -1.0s Cast Time -15% [X = 0.05 * Lv] [DEX up by X] </div><br/>
 </div>
 <div class="Swords default_attr atk str">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_sst" id="mirror_sword_sst">Mirror Sword SST   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_sst.html" id="mirror_sword_sst">Mirror Sword SST   [Swords] 📷</a></b>
 <br/>
 ATK: 280<br/><div class="ds"> Special Sword, ATK+17%  Small STR up Lv Melee up by Lv</div><div class="t_ds">ATK +17% [Y = 0.05 * Lv] [STR up by Y] [Melee up by Lv] </div><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind atk agi absoluteevasion magicevasion autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_tag" id="mirror_sword_tag">Mirror Sword TAG   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_tag.html" id="mirror_sword_tag">Mirror Sword TAG   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Thunder element, ATK+15% Autoskill+5% Absolute&amp;Magic evasion +10% Small AGI up by Lv</div><div class="t_ds">Melee to Water +20% Melee to Wind +10% ATK +15% [Y = 0.05 * Lv] [AGI up by Y] Absolute Evasion +10% Magic Evasion +10% Autoskill +5% </div><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind atk vit maxhp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_tlf" id="mirror_sword_tlf">Mirror Sword TLF   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_tlf.html" id="mirror_sword_tlf">Mirror Sword TLF   [Swords] 📷</a></b>
 <br/>
 ATK: 270 DEF: 5<br/><div class="ds"> Thunder element, ATK+15% MaxHP+15% MaxMP+15%, Small VIT up by Lv</div><div class="t_ds">Melee to Water +20% Melee to Wind +10% ATK +15% [Y = 0.05 * Lv] [VIT up by Y] MaxHP +15% MaxMP +15% </div><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind atk matk int magicpower">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_tma" id="mirror_sword_tma">Mirror Sword TMA   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_tma.html" id="mirror_sword_tma">Mirror Sword TMA   [Swords] 📷</a></b>
 <br/>
 ATK: 270<br/><div class="ds"> Thunder element, ATK+5% MATK+15% Small INT up by Lv Magic up by Lv</div><div class="t_ds">Melee to Water +20% Melee to Wind +10% ATK +5% MATK +15% [Y = 0.05 * Lv] [INT up by Y] [X = 4.00 * Lv] [Magic Power up by X] </div><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind atk str">
-<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword.html_tst" id="mirror_sword_tst">Mirror Sword TST   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/mirror_sword_tst.html" id="mirror_sword_tst">Mirror Sword TST   [Swords] 📷</a></b>
 <br/>
 ATK: 290<br/><div class="ds"> Thunder element, ATK+18% Small STR up by Lv Melee up by Lv</div><div class="t_ds">Melee to Water +20% Melee to Wind +10% ATK +18% [Y = 0.05 * Lv] [STR up by Y] [Melee up by Lv] </div><br/>
 </div>
@@ -1477,13 +1286,18 @@ ATK: 270 DEF: 10<br/><div class="ds"> Light element, Dark R +20% MaxHP+20%, Magi
 <br/>
 ATK: 220<br/><div class="ds"> ATK+10%, Bleed chance +8% Bleed damage +10% Triple attack chance</div><div class="t_ds">ATK +10% Bleed +8% Bleed dmg +10% Autoskill </div><br/>
 </div>
+<div class="Swords default_attr atk range absoluteevasion magicevasion bleed bleed meleeboss">
+<b><a href="/cache/http:/www.iruna-online.info/item/modified_scythe.html" id="modified_scythe">Modified Scythe   [Swords] </a></b>
+<br/>
+ATK: 272<br/><div class="ds"> ATK+16%, Range+1, Absolute&amp;Magic evasion+3%, Bleed+10%, Bleed damage+15% Melee +2% to Boss, Triple attack chance.</div><div class="t_ds">ATK +16% Range +1 Absolute Evasion +3% Magic Evasion +3% Bleed +10% Bleed dmg +15% Melee to boss +2% Autoskill </div><br/>
+</div>
 <div class="Swords default_attr dex agi reflect counteronevasion evasion">
 <b><a href="/cache/http:/www.iruna-online.info/item/moon_scimitar.html" id="moon_scimitar">Moon Scimitar   [Swords] 📷</a></b>
 <br/>
 ATK: 262 DEF: 20<br/><div class="ds"> DEX+23 AGI+8 Reflect+10% Evasion+7% Counter on evasion +12%, Melee counter chance by defense</div><div class="t_ds">DEX +23 AGI +8 Reflect +10% Counter on Evasion +12% Evasion +7% Autoskill </div>Notes: ATK = Shamshir+ +51 DEF = Shamshir+ +20<br/><br/>
 </div>
 <div class="Swords default_attr dex agi crt reflect counteronevasion evasion criticalrate criticaldamage">
-<b><a href="/cache/http:/www.iruna-online.info/item/moon_scimitar.html_ii" id="moon_scimitar_ii">Moon Scimitar II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/moon_scimitar_ii.html" id="moon_scimitar_ii">Moon Scimitar II   [Swords] 📷</a></b>
 <br/>
 ATK: 302 DEF: 20<br/><div class="ds"> DEX+46 AGI+32 CRT+28 Reflect+15% Counter on evasion +40% Evasion+20%, Critical up Melee counter chance by defense</div><div class="t_ds">DEX +46 AGI +32 CRT +28 Reflect +15% Counter on Evasion +40% Evasion +20% Critical rate +10 Critical damage +10% Autoskill </div><br/>
 </div>
@@ -1493,7 +1307,7 @@ ATK: 302 DEF: 20<br/><div class="ds"> DEX+46 AGI+32 CRT+28 Reflect+15% Counter o
 ATK: 205<br/><div class="ds"> Critical damage +14%, ASPD-200% Skill delay -0.5sec</div><div class="t_ds">Critical damage +14% Skill Delay -0.5s ASPD -200% ATK +5% Autoskill </div>Notes: (hidden performance: the time of the attack, adding attack ※ triggered when MP consumed in the probability)<br/><br/>
 </div>
 <div class="Swords default_attr criticaldamage skilldelay aspd atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/muramasa.html_shinuchi" id="muramasa_shinuchi">Muramasa Shinuchi   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/muramasa_shinuchi.html" id="muramasa_shinuchi">Muramasa Shinuchi   [Swords] 📷</a></b>
 <br/>
 ATK: 301<br/><div class="ds"> Critical damage +20%, ASPD-200% Skill delay -0.5sec</div><div class="t_ds">Critical damage +20% Skill Delay -0.5s ASPD -200% Autoskill ATK +5% </div><br/>
 </div>
@@ -1503,7 +1317,7 @@ ATK: 301<br/><div class="ds"> Critical damage +20%, ASPD-200% Skill delay -0.5se
 ATK: 203<br/><div class="ds"> CRT+20, Critical rate +20 Shell break rate +1% Water element</div><div class="t_ds">Melee to Fire +20% Melee to Water -20% Critical rate +20 CRT +20 Shell break +1% </div>Notes: Trade × ATK = Ichimonji +40?<br/><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater criticalrate crt criticaldamage shellbreak autoskill">
-<b><a href="/cache/http:/www.iruna-online.info/item/murasame.htmlmaru" id="murasamemaru">Murasamemaru   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/murasamemaru.html" id="murasamemaru">Murasamemaru   [Swords] 📷</a></b>
 <br/>
 ATK: 285<br/><div class="ds"> Water element, Critical rate +20 CRT+35, Critical damage +7%, Shell break +2%, Autoskill+5%</div><div class="t_ds">Melee to Fire +20% Melee to Water -20% Critical rate +20 CRT +35 Critical damage +7% Shell break +2% Autoskill +5% </div><br/>
 </div>
@@ -1555,7 +1369,7 @@ ATK: 280<br/><div class="ds"> Special sword, ATK+18% MaxHP+15% Skill delay +1sec
 <div class="Swords default_attr meleetofire meleetowater waterr watermagic">
 <b><a href="/cache/http:/www.iruna-online.info/item/ocean_sword.html" id="ocean_sword">Ocean Sword   [Swords] </a></b>
 <br/>
-ATK: 100 DEF: 10<br/><div class="ds"> 水属性　水耐性+30%　水魔法威力+20%</div><div class="t_ds">Melee to Fire +20% Melee to Water -20% Water R +30% Water Magic +20% </div><br/>
+ATK: 100 DEF: 10<br/><div class="ds"> Water element, Water R+30% Water magic+20%</div><div class="t_ds">Melee to Fire +20% Melee to Water -20% Water R +30% Water Magic +20% </div><br/>
 </div>
 <div class="Swords default_attr maxhp haterise mdef">
 <b><a href="/cache/http:/www.iruna-online.info/item/orichal_hammer.html" id="orichal_hammer">Orichal Hammer   [Swords] 📷</a></b>
@@ -1563,7 +1377,7 @@ ATK: 100 DEF: 10<br/><div class="ds"> 水属性　水耐性+30%　水魔法威�
 ATK: 164 DEF: 2<br/><div class="ds">MaxHP+10% MDEF+20%, Hate rise +25%</div><div class="t_ds">MaxHP +10% Hate Rise +25% MDEF +20% </div>Notes: Trade × ATK = Mythril Hammer +15<br/><br/>
 </div>
 <div class="Swords default_attr atk evasion meleer magicr atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/outrange.html" id="outrange">outrange   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/outrange.html" id="outrange">Outrange   [Swords] </a></b>
 <br/>
 ATK: 300<br/><div class="ds"> Special Sword, ATK+15%, Evasion+15% Melee&amp;Magic R+12% Small ATK up by AGI</div><div class="t_ds">ATK +15% Evasion +15% Melee R +12% Magic R +12% [X = 0.50 * AGI] [ATK up by X] </div><br/>
 </div>
@@ -1640,24 +1454,24 @@ ATK: 269<br/><div class="ds"> ATK+13% MDEF+20% Autoskill+5% MaxMP+10%, Melee pie
 ATK: 180<br/><div class="ds"> Evasion+10%, Critical damage +15% ASPD-10%</div><div class="t_ds">ASPD -10% Evasion +10% Critical damage +15% Autoskill </div>Notes: hidden performance: restore the natural recovery × 2 times the HP when it defeated the enemy<br/><br/>
 </div>
 <div class="Swords default_attr aspd evasion criticaldamage">
-<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu.html_ii" id="red_tengu_ii">Red Tengu II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu_ii.html" id="red_tengu_ii">Red Tengu II   [Swords] 📷</a></b>
 <br/>
 ATK: 190<br/><div class="ds"> Evasion+12%, Critical damage +15% Melee up based on STR ASPD-10%</div><div class="t_ds">ASPD -10% Evasion +12% Critical damage +15% [Melee up by STR] Autoskill </div>Notes: ATK = Red Tengu + 10<br/><br/>
 </div>
 <div class="Swords default_attr evasion criticaldamage aspd meleepierce atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu.html_iii" id="red_tengu_iii">Red Tengu III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu_iii.html" id="red_tengu_iii">Red Tengu III   [Swords] 📷</a></b>
 <br/>
 ATK: 260<br/><div class="ds"> Evasion+14%, Critical damage +17% ASPD-10%, Melee up based on STR Small Melee pierce up by Lv</div><div class="t_ds">Evasion +14% Critical damage +17% ASPD -10% [Melee up by STR] [X = 0.03 * Lv] [Melee Pierce up by X] ATK +7% Autoskill </div>Notes: ATK = Red Tengu II +70?<br/><br/>
 </div>
 <div class="Swords default_attr evasion criticaldamage aspd meleepierce atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu.html_iv" id="red_tengu_iv">Red Tengu IV   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu_iv.html" id="red_tengu_iv">Red Tengu IV   [Swords] 📷</a></b>
 <br/>
 ATK: 300<br/><div class="ds"> Evasion+16%, Critical damage +19% ASPD-10%, Melee up by STR x1.5 Small Melee pierce up by Lv</div><div class="t_ds">Evasion +16% Critical damage +19% ASPD -10% [X = 1.50 * STR] [Melee up by X] [X = 0.03 * Lv] [Melee Pierce up by X] ATK +7% Autoskill </div>Notes: ATK = Red Tengu III +40?<br/><br/>
 </div>
-<div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/remodeled_scythe.html" id="remodeled_scythe">Remodeled Scythe   [Swords] </a></b>
+<div class="Swords default_attr evasion criticaldamage aspd atk meleepierce atk">
+<b><a href="/cache/http:/www.iruna-online.info/item/red_tengu_v.html" id="red_tengu_v">Red Tengu V   [Swords] </a></b>
 <br/>
-ATK: 272<br/><div class="ds"> ATK+16%　射程+1　絶対・魔法回避+3% 出血発生+10%　出血ﾀﾞﾒｰｼﾞ+15% ﾎﾞｽに物理+2%　確率で３倍攻撃</div><div class="t_ds">ATK +16% Range +1 Absolute Evasion +3% Magic Evasion +3% Bleed +10% Bleed dmg +15% Melee to boss +2% Autoskill </div><br/>
+ATK: 330<br/><div class="ds"> 回避+23%　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+22%　ASPD-10% 物理威力とATKがSTRの1.5倍ほど増加 物理貫通がLvで少し増加</div><div class="t_ds">Evasion +23% Critical damage +22% ASPD -10% [X = 1.50 * STR] [Melee up by X] [ATK up by X] [X = 0.03 * Lv] [Melee Pierce up by X] ATK +7% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater evasion">
 <b><a href="/cache/http:/www.iruna-online.info/item/rime.html" id="rime">Rime   [Swords] 📷</a></b>
@@ -1674,10 +1488,20 @@ ATK: 201 DEF: 3<br/><div class="ds"> Critical rate +35, Magic evasion +5% Gaia e
 <br/>
 ATK: 296 DEF: 9<br/><div class="ds"> Gaia element, Small DEF up by STR Critical rate +50 Magic evasion +7%</div><div class="t_ds">Melee to Wind +20% Melee to Earth +10% Critical rate +50 Magic Evasion +7% [X = 0.50 * STR] [DEF up by X] MaxHP +3% VIT +5 Autoskill </div>Notes: ATK = Rock Sword Helshaft +95? DEF = Rock Sword Helshaft +9?<br/><br/>
 </div>
-<div class="Swords default_attr atk meleepierce maxhp bleed y atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/ruinmoto.html" id="ruinmoto">Ruinmoto   [Swords] </a></b>
+<div class="Swords default_attr maxhp magicr haterise ratecut atk alldamager">
+<b><a href="/cache/http:/www.iruna-online.info/item/rosen_locus.html" id="rosen_locus">rosen locus   [Swords] </a></b>
 <br/>
-ATK: 288<br/><div class="ds"> ATK+6%　物理貫通+12%　MaxHP-10% 出血発生+6%　ダブルアタックSLv+1 MaxHPが高いほどATKが増加 攻撃時、低確率で攻撃間隔が短縮</div><div class="t_ds">ATK +6% Melee Pierce +12% MaxHP -10% Bleed +6% [Y = 0.02 * VIT * 100] If [Y &gt; 500] then [Y = 500] [ATK up by Y] Autoskill </div><br/>
+ATK: 264<br/><div class="ds"> 特殊剣　MaxHP+25%　魔法耐性+9% ﾍｲﾄ増加+27%　割合軽減+12% ATK-5%　全ﾀﾞﾒｰｼﾞ軽減+4%</div><div class="t_ds">MaxHP +27% Magic R +13% Hate Rise +38% Rate cut +14% ATK -2% All damage R +4% </div><br/>
+</div>
+<div class="Swords default_attr atk meleepierce maxhp bleed y atk">
+<b><a href="/cache/http:/www.iruna-online.info/item/ruin_motor_saw.html" id="ruin_motor_saw">Ruin Motor Saw   [Swords] </a></b>
+<br/>
+ATK: 288<br/><div class="ds"> ATK +6%, Melee pierce +12% MaxHP -10% Bleed chance +6% Double attack SLv+1 ATK up based on MaxHP. Shortens attack interval at low probability rate by attack.</div><div class="t_ds">ATK +6% Melee Pierce +12% MaxHP -10% Bleed +6% [Y = 0.02 * VIT * 100] If [Y &gt; 500] then [Y = 500] [ATK up by Y] Autoskill </div><br/>
+</div>
+<div class="Swords default_attr atk meleepierce maxhp bleed y atk">
+<b><a href="/cache/http:/www.iruna-online.info/item/ruin_motor_saw_ii.html" id="ruin_motor_saw_ii">Ruin Motor Saw II   [Swords] </a></b>
+<br/>
+ATK: 320<br/><div class="ds"> ATK+11%　物理貫通+14%　MaxHP-10% 出血発生+6%　ダブルアタックSLv+1 MaxHPが高いほどATKが増加 攻撃時、低確率で攻撃間隔が短縮</div><div class="t_ds">ATK +11% Melee Pierce +14% MaxHP -10% Bleed +6% [Y = 0.02 * VIT * 100] If [Y &gt; 600] then [Y = 600] [ATK up by Y] Autoskill </div><br/>
 </div>
 <div class="Swords default_attr criticalrate maxmp">
 <b><a href="/cache/http:/www.iruna-online.info/item/sacrifice.html" id="sacrifice">Sacrifice   [Swords] 📷</a></b>
@@ -1700,54 +1524,59 @@ ATK: 110<br/><div class="ds"> Melee+20% to Water CRT+5</div><div class="t_ds">Me
 ATK: 145<br/><div class="ds">STR+3 VIT+3, Item delay -1sec</div><div class="t_ds">STR +3 VIT +3 Item Delay -1.0s </div><br/>
 </div>
 <div class="Swords default_attr atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_g1" id="sauro_blade_g1">Sauro Blade G1   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_g1.html" id="sauro_blade_g1">Sauro Blade G1   [Swords] 📷</a></b>
 <br/>
 ATK: 213<br/><div class="ds">ATK+5%</div><div class="t_ds">ATK +5% </div><br/>
 </div>
 <div class="Swords default_attr atk healreward maxhp skilldelay magicr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_g2" id="sauro_blade_g2">Sauro Blade G2   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_g2.html" id="sauro_blade_g2">Sauro Blade G2   [Swords] 📷</a></b>
 <br/>
 ATK: 263<br/><div class="ds"> ATK+16% MaxHP+15%, Heal reward +5% Skill delay -0.5sec, Magic R +5%</div><div class="t_ds">ATK +16% Heal Reward +5% MaxHP +15% Skill Delay -0.5s Magic R +5% </div>Notes: Trade X<br/><br/>
 </div>
 <div class="Swords default_attr atk healreward maxhp skilldelay magicr lightr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_g3" id="sauro_blade_g3">Sauro Blade G3   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_g3.html" id="sauro_blade_g3">Sauro Blade G3   [Swords] 📷</a></b>
 <br/>
 ATK: 268<br/><div class="ds"> ATK+18% MaxHP+17%, Heal reward +8% Skill delay -0.8sec, Magic R +6% Light R +5%</div><div class="t_ds">ATK +18% Heal Reward +8% MaxHP +17% Skill Delay -0.8s Magic R +6% Light R +5% </div>Notes: Trade X<br/><br/>
 </div>
 <div class="Swords default_attr atk healreward maxhp skilldelay magicr lightr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_g4" id="sauro_blade_g4">Sauro Blade G4   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_g4.html" id="sauro_blade_g4">Sauro Blade G4   [Swords] 📷</a></b>
 <br/>
 ATK: 273<br/><div class="ds"> ATK+20% MaxHP+22%, Heal reward +10% Skill delay -1sec, Magic R +7% Light R +5%</div><div class="t_ds">ATK +20% Heal Reward +10% MaxHP +22% Skill Delay -1.0s Magic R +7% Light R +5% </div>Notes: Trade X, Obtained from Sauro Golden Raid 400, Requires Sauro Weapon G3<br/><br/>
 </div>
 <div class="Swords default_attr str vit itemdelay">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_l2" id="sauro_blade_l2">Sauro Blade L2   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_l2.html" id="sauro_blade_l2">Sauro Blade L2   [Swords] 📷</a></b>
 <br/>
 ATK: 170<br/><div class="ds">STR+4 VIT+4 Item delay -1sec</div><div class="t_ds">STR +4 VIT +4 Item Delay -1.0s </div><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage str vit itemdelay">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_l3" id="sauro_blade_l3">Sauro Blade L3   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_l3.html" id="sauro_blade_l3">Sauro Blade L3   [Swords] 📷</a></b>
 <br/>
 ATK: 258<br/><div class="ds"> ATK+5%, Critical damage +15% STR&amp;VIT+5, Item delay -1.2sec</div><div class="t_ds">ATK +5% Critical damage +15% STR +5 VIT +5 Item Delay -1.2s </div><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage healreward str vit itemdelay meleer magicr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_l4" id="sauro_blade_l4">Sauro Blade L4   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_l4.html" id="sauro_blade_l4">Sauro Blade L4   [Swords] 📷</a></b>
 <br/>
 ATK: 272<br/><div class="ds"> ATK+5%, Critical damage +17% STR&amp;VIT+8, Item delay -1.5sec Heal reward +5%</div><div class="t_ds">ATK +5% Critical damage +17% Heal Reward +5% STR +8 VIT +8 Item Delay -1.5s [X = 0.03 * STR] [Melee R up by X] [Magic R up by X] </div>Notes: Trade ×<br/><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage healreward str vit itemdelay meleepierce meleer magicr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_l5" id="sauro_blade_l5">Sauro Blade L5   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_l5.html" id="sauro_blade_l5">Sauro Blade L5   [Swords] 📷</a></b>
 <br/>
 ATK: 310<br/><div class="ds"> Item delay -1.7sec, Melee pierce +5% H. reward +8%, Melee+400, STR&amp;VIT+10 ATK+5%, Critical damage +19%</div><div class="t_ds">ATK +5% Critical damage +19% Heal Reward +8% STR +10 VIT +10 Item Delay -1.7s Melee +400 Melee Pierce +5% [X = 0.05 * STR] [Melee R up by X] [Magic R up by X] </div><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage healreward str vit itemdelay meleepierce meleer magicr">
-<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade.html_l6" id="sauro_blade_l6">Sauro Blade L6   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sauro_blade_l6.html" id="sauro_blade_l6">Sauro Blade L6   [Swords] 📷</a></b>
 <br/>
 ATK: 318<br/><div class="ds"> Item delay -2sec, Melee pierce +6% H. reward +10%, Melee+600, STR&amp;VIT+10 ATK+6%, Critical damage +20%</div><div class="t_ds">ATK +6% Critical damage +20% Heal Reward +10% STR +10 VIT +10 Item Delay -2.0s Melee +600 Melee Pierce +6% [X = 0.05 * STR] [Melee R up by X] [Magic R up by X] </div><br/>
 </div>
 <div class="Swords default_attr atk criticaldamage skilldelay x x meleeboss magicboss">
 <b><a href="/cache/http:/www.iruna-online.info/item/savin_sword.html" id="savin_sword">Savin Sword   [Swords] </a></b>
 <br/>
-ATK: 300<br/><div class="ds"> ATK+8%　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+15% ｽｷﾙﾃﾞｨﾚｲ-1秒　ｱﾆﾊﾞｰｻﾘｰの闘技場に居る ボスに物理と魔法のﾀﾞﾒｰｼﾞ+20%</div><div class="t_ds">ATK +8% Critical damage +15% Skill Delay -1.0s [X = X / 100] Melee to boss +20% Magic to boss +20% </div><br/>
+ATK: 300<br/><div class="ds"> ATK+8% ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+15% ｽｷﾙﾃﾞｨﾚｲ-1秒 ｱﾆﾊﾞｰｻﾘｰの闘技場に居る ボスに物理と魔法のﾀﾞﾒｰｼﾞ+20%</div><div class="t_ds">ATK +8% Critical damage +15% Skill Delay -1.0s [X = X / 100] Melee to boss +20% Magic to boss +20% </div><br/>
+</div>
+<div class="Swords default_attr atk criticaldamage skilldelay x x meleeboss magicboss">
+<b><a href="/cache/http:/www.iruna-online.info/item/savin_sword_kai.html" id="savin_sword_kai">savin sword kai   [Swords] </a></b>
+<br/>
+ATK: 310<br/><div class="ds"> ATK+11%　ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+19% ｽｷﾙﾃﾞｨﾚｲ-1秒　ｱﾆﾊﾞｰｻﾘｰの闘技場に居る ボスに物理と魔法のﾀﾞﾒｰｼﾞ+25%</div><div class="t_ds">ATK +11% Critical damage +19% Skill Delay -1.0s [X = X / 100] Melee to boss +25% Magic to boss +25% </div><br/>
 </div>
 <div class="Swords default_attr dex reflect">
 <b><a href="/cache/http:/www.iruna-online.info/item/scimitar.html" id="scimitar">Scimitar   [Swords] 📷</a></b>
@@ -1765,7 +1594,7 @@ ATK: 80<br/><div class="ds">CRT+20 DEF-5%</div><div class="t_ds">CRT +20 DEF -5%
 ATK: 265<br/><div class="ds"> ATK+12% MaxMP+10% Autoskill+5% Absolute evasion +7%, Wind element</div><div class="t_ds">Melee to Water +20% Melee to Wind -20% ATK +12% MaxMP +10% Autoskill +5% Absolute Evasion +7% [X = AGI] [X = X · 8] [MaxHP up by X] </div><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind atk maxmp autoskill absoluteevasion meleetowater maxhp">
-<b><a href="/cache/http:/www.iruna-online.info/item/sea_breeze.html_ii" id="sea_breeze_ii">Sea Breeze II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sea_breeze_ii.html" id="sea_breeze_ii">Sea Breeze II   [Swords] 📷</a></b>
 <br/>
 ATK: 295<br/><div class="ds"> Wind element, ATK+15% MaxMP+15% Autoskill+8%, Absolute evasion +10% Melee+5% to Water if AGI&gt;299.</div><div class="t_ds">Melee to Water +20% Melee to Wind -20% ATK +15% MaxMP +15% Autoskill +8% Absolute Evasion +10% If [AGI &gt; 300] then Melee to Water +5% [X = 10.00 * AGI] [MaxHP up by X] </div>Notes: ATK = Sea Breeze +30?<br/><br/>
 </div>
@@ -1780,7 +1609,7 @@ ATK: 190<br/><div class="ds"> Critical damage +5%, INT+2 Skill delay -0.5sec, AS
 ATK: 151<br/><div class="ds">DEX+15, Reflect+5%</div><div class="t_ds">DEX +15 Reflect +5% </div>Notes: ATK = Scimitar +10/+15<br/><br/>
 </div>
 <div class="Swords default_attr dex reflect counteronevasion">
-<b><a href="/cache/http:/www.iruna-online.info/item/shamshir.html+" id="shamshir+">Shamshir+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/shamshir+.html" id="shamshir+">Shamshir+   [Swords] 📷</a></b>
 <br/>
 ATK: 211<br/><div class="ds"> DEX+20 Reflect+6% Counter chance by defense Counter on evasion +10%</div><div class="t_ds">DEX +20 Reflect +6% Counter on Evasion +10% Autoskill </div>Notes: ATK = Shamshir +55<br/><br/>
 </div>
@@ -1805,7 +1634,7 @@ ATK: 190<br/><div class="ds"> Critical damage +5%, CRT+2 Skill delay -0.5sec, AS
 ATK: 8<br/><br/>
 </div>
 <div class="Swords default_attr aspd aspd accuracy">
-<b><a href="/cache/http:/www.iruna-online.info/item/shortsword.html+" id="shortsword+">Shortsword+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/shortsword+.html" id="shortsword+">Shortsword+   [Swords] 📷</a></b>
 <br/>
 ATK: 95<br/><div class="ds">ASPD+30% Accuracy+10</div><div class="t_ds">ASPD +10% ASPD +20% Accuracy +10 </div><br/>
 </div>
@@ -1815,22 +1644,22 @@ ATK: 95<br/><div class="ds">ASPD+30% Accuracy+10</div><div class="t_ds">ASPD +10
 ATK: 129<br/><div class="ds"> AGI+12, No damage to Wind Wind element, Magic Sword</div><div class="t_ds">Melee to Water +20% Melee to Wind -120% AGI +12 </div>Notes: Obtained from Magic Lamp 2.5 per ATK rise = INT1, 1 and per DEX1<br/><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind agi criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/sinbad.html_ii" id="sinbad_ii">Sinbad II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sinbad_ii.html" id="sinbad_ii">Sinbad II   [Swords] 📷</a></b>
 <br/>
 ATK: 144<br/><div class="ds"> AGI+12, No damage to Wind Evasion rate up chance by attack Wind element, Magic Sword</div><div class="t_ds">Melee to Water +20% Melee to Wind -120% AGI +12 Critical rate +10 Autoskill </div>Notes: ATK = Sinbad +10/+13?　<br/><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind agi criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/sinbad.html_iii" id="sinbad_iii">Sinbad III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sinbad_iii.html" id="sinbad_iii">Sinbad III   [Swords] 📷</a></b>
 <br/>
 ATK: 174<br/><div class="ds"> -50% damage to Wind, AGI+24 Evasion rate up chance by attack Wind element, Magic Sword</div><div class="t_ds">Melee to Water +20% Melee to Wind -70% AGI +24 Critical rate +20 Autoskill </div>Notes: ATK = Sinbad II +30<br/><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind agi absoluteevasion magicevasion criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/sinbad.html_iv" id="sinbad_iv">Sinbad IV   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sinbad_iv.html" id="sinbad_iv">Sinbad IV   [Swords] 📷</a></b>
 <br/>
 ATK: 250<br/><div class="ds"> Magic Sword, Thunder element, AGI+24 Evasion rate up chance by attack Absolute&amp;magic evasion +5%</div><div class="t_ds">Melee to Water +20% Melee to Wind +10% AGI +24 Absolute Evasion +5% Magic Evasion +5% Autoskill Critical rate +20 </div>Notes: ATK = Sinbad III +76<br/><br/>
 </div>
 <div class="Swords default_attr meleetowater meleetowind absoluteevasion magicevasion x x x x atk matk agi criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/sinbad.html_v" id="sinbad_v">Sinbad V   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/sinbad_v.html" id="sinbad_v">Sinbad V   [Swords] 📷</a></b>
 <br/>
 ATK: 280<br/><div class="ds"> Magic Sword, Thunder element, Absolute&amp;magic evasion +10% ATK&amp;MATK up with basic ASPD AGI+48, Evasion rate up chance by attack</div><div class="t_ds">Melee to Water +25% Melee to Wind +15% Absolute Evasion +10% Magic Evasion +10% [X = 12] [X = X - ASPD] [X = X · 33] If [X &gt; 250] then [X = 250] [Feb] [ATK up by X] [MATK up by X] AGI +48 Autoskill Critical rate +20 </div><br/>
 </div>
@@ -1865,7 +1694,7 @@ ATK: 257<br/><div class="ds"> STR+15 ASPD-60% Shell break rate +3% if STR&gt;299
 ATK: 200<br/><div class="ds"> MP rec. by def with low HP. All magic +5%, Magic Sword, Magic pierce -10% MATK+7%, S. delay -0.5sec</div><div class="t_ds">Magic Pierce -10% Skill Delay -0.5s MATK +7% Neutral Magic +5% Fire Magic +5% Water Magic +5% Wind Magic +5% Earth Magic +5% Light Magic +5% Dark Magic +5% Autoskill </div><br/>
 </div>
 <div class="Swords default_attr magicpierce skilldelay matk neutralmagic firemagic watermagic windmagic earthmagic lightmagic darkmagic">
-<b><a href="/cache/http:/www.iruna-online.info/item/telas_scythe.html_ii" id="telas_scythe_ii">Telas Scythe II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/telas_scythe_ii.html" id="telas_scythe_ii">Telas Scythe II   [Swords] 📷</a></b>
 <br/>
 ATK: 320<br/><div class="ds"> Magic Sword, Magic pierce -10% MATK+21%, Skill delay -1sec All magic +10% MP recovery by def with low HP.</div><div class="t_ds">Magic Pierce -10% Skill Delay -1.0s MATK +21% Neutral Magic +10% Fire Magic +10% Water Magic +10% Wind Magic +10% Earth Magic +10% Light Magic +10% Dark Magic +10% Autoskill </div><br/>
 </div>
@@ -1880,7 +1709,7 @@ ATK: 255 DEF: 5<br/><div class="ds"> 回避+50% 盗賊メダル装備時、ド�
 ATK: 187<br/><div class="ds"> Item recovery +20%, Evasion+7% ASPD+10%, Thunder element</div><div class="t_ds">Melee to Wind +10% Melee to Water +20% Evasion +7% Item Recovery +20% Autoskill ASPD +10% Critical rate +10 </div>Notes: ATK = Indra +15 (hidden performance: attack at the time, magic attack with probability)<br/><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetowater evasion itemrecovery aspd criticalrate">
-<b><a href="/cache/http:/www.iruna-online.info/item/thunder_blade_indra.html+" id="thunder_blade_indra+">Thunder Blade Indra+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/thunder_blade_indra+.html" id="thunder_blade_indra+">Thunder Blade Indra+   [Swords] 📷</a></b>
 <br/>
 ATK: 200<br/><div class="ds"> Item recovery +25% ASPD+10% Evasion+10% Thunder element</div><div class="t_ds">Melee to Wind +10% Melee to Water +20% Evasion +10% Item Recovery +25% Autoskill ASPD +10% Critical rate +10 </div>Notes: ATK = Thunder Blade Indra +13? (hidden performance: attack at the time, magic attack with probability)<br/><br/>
 </div>
@@ -1890,7 +1719,7 @@ ATK: 200<br/><div class="ds"> Item recovery +25% ASPD+10% Evasion+10% Thunder el
 ATK: 260<br/><div class="ds"> Item rec. +28%, ASPD+20% Eva.+10% Critical rate +15, Thunder element Magic attack chance by attack</div><div class="t_ds">Melee to Wind +10% Melee to Water +20% Item Recovery +28% Evasion +10% ASPD +20% Critical rate +15 Autoskill </div><br/>
 </div>
 <div class="Swords default_attr meleetowind meleetowater itemrecovery evasion aspd criticalrate criticaldamage windmagic">
-<b><a href="/cache/http:/www.iruna-online.info/item/thunder_emperor_indra.html+" id="thunder_emperor_indra+">Thunder Emperor Indra+   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/thunder_emperor_indra+.html" id="thunder_emperor_indra+">Thunder Emperor Indra+   [Swords] </a></b>
 <br/>
 ATK: 300<br/><div class="ds"> Item rec. +35%, Eva.+15%, ASPD+30% Critical up, Thunder element Magic attack chance by attack</div><div class="t_ds">Melee to Wind +10% Melee to Water +20% Item Recovery +35% Evasion +15% ASPD +30% Critical rate +20 Critical damage +10% Autoskill If [Lv &gt; 300] then If [INT &gt; 400] then Wind Magic +5% </div><br/>
 </div>
@@ -1950,9 +1779,14 @@ ATK: 200<br/><div class="ds"> Always counter if Gladiator. Melee&amp;Magic R -10
 ATK: 190<br/><div class="ds"> Critical rate +100 Auto recovery -100%</div><div class="t_ds">Critical rate +100 Auto HP Recovery -100% Auto MP Recovery -100% [Melee up by Lv] Autoskill </div>Notes: Trade × (hidden performance: exhaustion was when, 10% to 20% of the little MP recovery ※ maximum MP?)<br/><br/>
 </div>
 <div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/utsura_flower_scene.html" id="utsura_flower_scene">utsura flower scene   [Swords] </a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/utsura_flower_scenery.html" id="utsura_flower_scenery">Utsura Flower Scenery   [Swords] </a></b>
 <br/>
-ATK: 250<br/><div class="ds"> ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+30%　ATKがAGIで増加</div><div class="t_ds">Critical damage +30% [ATK up by AGI] </div><br/>
+<div class="ds"> ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+40%　ATKがAGIで増加 ﾎﾞｽに物理+3%</div><br/>
+</div>
+<div class="Swords default_attr criticaldamage atk">
+<b><a href="/cache/http:/www.iruna-online.info/item/utsura_hanakage.html" id="utsura_hanakage">Utsura Hanakage   [Swords] </a></b>
+<br/>
+ATK: 250<br/><div class="ds"> Critical damage+30% ATK up by AGI</div><div class="t_ds">Critical damage +30% [ATK up by AGI] </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater meleetowind meleetoearth meleetolight meleetodark aspd maxhp">
 <b><a href="/cache/http:/www.iruna-online.info/item/valverna.html" id="valverna">Valverna   [Swords] 📷</a></b>
@@ -1960,14 +1794,19 @@ ATK: 250<br/><div class="ds"> ｸﾘﾃｨｶﾙﾀﾞﾒｰｼﾞ+30%　ATKがA
 ATK: 100 DEF: 2<br/><div class="ds"> ASPD-30%, MaxHP+250 All Elements</div><div class="t_ds">Melee to Fire +10% Melee to Water +10% Melee to Wind +10% Melee to Earth +10% Melee to Light +10% Melee to Dark +10% ASPD -30% MaxHP +250 </div>Notes: From: Party Coin Lottery Sale Price: 10,000 Not Tradeable<br/><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater meleetowind meleetoearth meleetolight meleetodark aspd maxhp">
-<b><a href="/cache/http:/www.iruna-online.info/item/valverna.html_ii" id="valverna_ii">Valverna II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/valverna_ii.html" id="valverna_ii">Valverna II   [Swords] 📷</a></b>
 <br/>
 ATK: 150 DEF: 2<br/><div class="ds"> ASPD-20% MaxHP+500 All Elements</div><div class="t_ds">Melee to Fire +10% Melee to Water +10% Melee to Wind +10% Melee to Earth +10% Melee to Light +10% Melee to Dark +10% ASPD -20% MaxHP +500 </div>Notes: From: Super Party Coin Lottery Sale Price: 10,000 Not Tradeable<br/><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetowater meleetowind meleetoearth meleetolight meleetodark aspd maxhp knockout">
-<b><a href="/cache/http:/www.iruna-online.info/item/valverna.html_iii" id="valverna_iii">Valverna III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/valverna_iii.html" id="valverna_iii">Valverna III   [Swords] 📷</a></b>
 <br/>
 ATK: 253 DEF: 2<br/><div class="ds"> ASPD-10% MaxHP+2000 KO+0.3%, All Elements</div><div class="t_ds">Melee to Fire +10% Melee to Water +10% Melee to Wind +10% Melee to Earth +10% Melee to Light +10% Melee to Dark +10% ASPD -10% MaxHP +2000 Knock out +0% </div>Notes: Trade × ATK = Baruberuna II +100/+103<br/><br/>
+</div>
+<div class="Swords default_attr meleetofire meleetowater meleetowind meleetoearth meleetolight meleetodark aspd maxhp knockout meleepierce">
+<b><a href="/cache/http:/www.iruna-online.info/item/valverna_iv.html" id="valverna_iv">Valverna IV   [Swords] 📷</a></b>
+<br/>
+ATK: 293 DEF: 2<br/><div class="ds"> 万能属性　ASPD-10%　MaxHP+4000 気絶発生+0.5%　物理貫通+10%</div><div class="t_ds">Melee to Fire +15% Melee to Water +15% Melee to Wind +15% Melee to Earth +15% Melee to Light +15% Melee to Dark +15% ASPD -10% MaxHP +4000 Knock out +1% Melee Pierce +10% </div><br/>
 </div>
 <div class="Swords default_attr accuracy reflect maxhp crt">
 <b><a href="/cache/http:/www.iruna-online.info/item/varietta.html" id="varietta">Varietta   [Swords] </a></b>
@@ -1980,17 +1819,17 @@ ATK: 296<br/><div class="ds"> Accuracy+30 Reflect+20% MaxHP+21% Additional attac
 ATK: 190 DEF: 2<br/><div class="ds"> MaxHP+20%, Rate cut +10% ATK up or down by STR&amp;base ASPD. Melee+20% to Neutral</div><div class="t_ds">Melee to Neutral +20% MaxHP +20% Rate cut +10% [X = 12] [X = X - ASPD] [X = X · 20] [ATK up by X] If [STR &gt; 128] then [X = STR] [X = X - 128] [Y = X] [Y = Y / 2] [Y = Y + X] [Y = Y · -1] [ATK up by Y] </div>Notes: ASPD fastest value (including vocational correction, etc.) to ATK + 20 for each AGI12, until STR127 ATK every STR1 + 3, ATK for each STR128 later STR1 + 1.5<br/><br/>
 </div>
 <div class="Swords default_attr meleetoneutral maxhp ratecut x x x atk x x y y y y atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/vermilion.html_ii" id="vermilion_ii">Vermilion II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/vermilion_ii.html" id="vermilion_ii">Vermilion II   [Swords] 📷</a></b>
 <br/>
 ATK: 195 DEF: 3<br/><div class="ds"> MaxHP+24%, Rate cut +12% ATK up or down by STR&amp;base ASPD. Melee+20% to Neutral</div><div class="t_ds">Melee to Neutral +20% MaxHP +24% Rate cut +12% [X = 12] [X = X - ASPD] [X = X · 22] [ATK up by X] If [STR &gt; 128] then [X = STR] [X = X - 128] [Y = X] [Y = Y / 2] [Y = Y + X] [Y = Y · -1] [ATK up by Y] </div>Notes: ATK = Vermilion +5<br/><br/>
 </div>
 <div class="Swords default_attr maxhp ratecut meleetoneutral x x x atk x x y y y y atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/vermilion.html_iii" id="vermilion_iii">Vermilion III   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/vermilion_iii.html" id="vermilion_iii">Vermilion III   [Swords] 📷</a></b>
 <br/>
 ATK: 271 DEF: 5<br/><div class="ds"> MaxHP+25%, Rate cut +14% ATK up or down by STR and base ASPD Melee+25% to Neutral</div><div class="t_ds">MaxHP +25% Rate cut +14% Melee to Neutral +25% [X = 12] [X = X - ASPD] [X = X · 24] [ATK up by X] If [STR &gt; 128] then [X = STR] [X = X - 128] [Y = X] [Y = Y / 2] [Y = Y + X] [Y = Y · -1] [ATK up by Y] </div>Notes: ATK = Vermilion II +76 DEF = Vermilion II +2<br/><br/>
 </div>
 <div class="Swords default_attr maxhp ratecut meleetoneutral x x x atk x x y y y y atk">
-<b><a href="/cache/http:/www.iruna-online.info/item/vermilion.html_iv" id="vermilion_iv">Vermilion IV   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/vermilion_iv.html" id="vermilion_iv">Vermilion IV   [Swords] 📷</a></b>
 <br/>
 ATK: 301 DEF: 5<br/><div class="ds"> MaxHP+30%, Rate cut +17% ATK up or down by STR and base ASPD Melee+30% to Neutral</div><div class="t_ds">MaxHP +30% Rate cut +17% Melee to Neutral +30% [X = 12] [X = X - ASPD] [X = X · 24] [ATK up by X] If [STR &gt; 128] then [X = STR] [X = X - 128] [Y = X] [Y = Y / 2] [Y = Y + X] [Y = Y · -1] [ATK up by Y] </div><br/>
 </div>
@@ -2004,10 +1843,10 @@ ATK: 270<br/><div class="ds"> Magic Sword, -50% damage to Dark. Magic pierce up 
 <br/>
 ATK: 20 DEF: 5<br/><div class="ds"> ASPD+20% Melee+100</div><div class="t_ds">ASPD +20% Melee +100 </div><br/>
 </div>
-<div class="Swords default_attr">
-<b><a href="/cache/http:/www.iruna-online.info/item/void.html" id="void">void   [Swords] </a></b>
+<div class="Swords default_attr atk meleer magicr y y y y y y y y y x x y atk meleer magicr">
+<b><a href="/cache/http:/www.iruna-online.info/item/void.html" id="void">Void   [Swords] </a></b>
 <br/>
-ATK: 300<br/><div class="ds"> ATK+40%, Melee&amp;Magic R-100% ATK-3%, Melee&amp;Magic R+18% more for each empty slot on equip</div><br/>
+ATK: 300<br/><div class="ds"> ATK+40%, Melee&amp;Magic R-100% ATK-3%, Melee&amp;Magic R+18% more for each empty slot on equip</div><div class="t_ds">ATK +40% Melee R -100% Magic R -100% [Y = 0] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [Unknown Condition] [Y = Y + 1] [X = Y] [X = X · -3] [Y = Y · </div><br/>
 </div>
 <div class="Swords default_attr meleetofire meleetoearth aspd accuracy">
 <b><a href="/cache/http:/www.iruna-online.info/item/vritra.html" id="vritra">Vritra   [Swords] 📷</a></b>
@@ -2019,13 +1858,18 @@ ATK: 130<br/><div class="ds">Flame element, ASPD-20%</div><div class="t_ds">Mele
 <br/>
 ATK: 284 DEF: 8<br/><div class="ds"> STR+14 DEX+14, Small MaxMP up by Lv HP recovery using MP by defense ATK+10% if STR&amp;VIT&gt;299.</div><div class="t_ds">STR +14 DEX +14 [X = 0.03 * Lv] [MaxMP up by X] If [STR &gt; 300] then If [VIT &gt; 300] then ATK +10% Autoskill Melee Pierce +8% </div>Notes: ATK = Battle Axe +19? DEF = Battle Axe +3?<br/><br/>
 </div>
+<div class="Swords default_attr meleetolight lightr criticaldamage meleeboss rangecut x atk">
+<b><a href="/cache/http:/www.iruna-online.info/item/was_berge.html" id="was_berge">Was Berge   [Swords] </a></b>
+<br/>
+ATK: 300<br/><div class="ds"> Dark element, Light R+10% Critical dmg+12%, Melee+2% to Boss Range cut+10%, ATK up by DEX</div><div class="t_ds">Melee to Light +20% Light R +10% Critical damage +12% Melee to boss +2% Range cut +10% [X = DEX] [ATK up by X] </div><br/>
+</div>
 <div class="Swords default_attr x x atk aspd maxmp maxmp">
 <b><a href="/cache/http:/www.iruna-online.info/item/wespel.html" id="wespel">Wespel   [Swords] 📷</a></b>
 <br/>
 ATK: 244<br/><div class="ds"> ATK up by 50% of STR MP heal in low HP ASPD-60%</div><div class="t_ds">[X = STR] [X = X / 2] [ATK up by X] ASPD -60% Autoskill MaxMP +500 MaxMP +1% </div>Notes: MaxMP + 505 ※ Warrior Lv88 pm (hidden correction: MaxMP +?)<br/><br/>
 </div>
 <div class="Swords default_attr atk aspd autoskill maxmp maxmp">
-<b><a href="/cache/http:/www.iruna-online.info/item/wespel.html_ii" id="wespel_ii">Wespel II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/wespel_ii.html" id="wespel_ii">Wespel II   [Swords] 📷</a></b>
 <br/>
 ATK: 265<br/><div class="ds"> MP heal in low HP ASPD-60% Autoskill+4%, ATK up by STR</div><div class="t_ds">[ATK up by STR] ASPD -60% Autoskill +4% Autoskill MaxMP +500 MaxMP +5% </div>Notes: ATK = Wespel +21 (hidden correction: MaxMP + 500?)<br/><br/>
 </div>
@@ -2045,7 +1889,7 @@ ATK: 20<br/><div class="ds"> ATK&amp;MATK+2% Autoskill+3% MATK based on Lv Magic
 ATK: 225<br/><div class="ds"> MaxHP+17% Reflect+10% DEF up by DEX Special Sword</div><div class="t_ds">MaxHP +17% Reflect +10% [X = 1.05 * DEX] [DEF up by X] [X = 0.02 * DEX] [DEF up by X] </div>Notes: ATK = Wound Transer +60, Defense Increase 1 DEX = 1 DEF<br/><br/>
 </div>
 <div class="Swords default_attr maxhp reflect def def">
-<b><a href="/cache/http:/www.iruna-online.info/item/wound_trance.html+" id="wound_trance+">Wound Trance+   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/wound_trance+.html" id="wound_trance+">Wound Trance+   [Swords] 📷</a></b>
 <br/>
 ATK: 267 DEF: 3<br/><div class="ds"> MaxHP+22% Reflect+13% DEF up by DEX Special Sword</div><div class="t_ds">MaxHP +22% Reflect +13% [X = 1.10 * DEX] [DEF up by X] [X = 0.02 * DEX] [DEF up by X] </div><br/>
 </div>
@@ -2065,7 +1909,7 @@ ATK: 172<br/><div class="ds">Melee+25% to Water, CRT+3 AGI+3</div><div class="t_
 ATK: 182 DEF: 3<br/><div class="ds">STR+10 ATK+5%</div><div class="t_ds">STR +10 ATK +5% </div><br/>
 </div>
 <div class="Swords default_attr str atk alldamager y y meleepierce">
-<b><a href="/cache/http:/www.iruna-online.info/item/zanbato.html_ii" id="zanbato_ii">Zanbato II   [Swords] 📷</a></b>
+<b><a href="/cache/http:/www.iruna-online.info/item/zanbato_ii.html" id="zanbato_ii">Zanbato II   [Swords] 📷</a></b>
 <br/>
 ATK: 222 DEF: 5<br/><div class="ds"> STR+15 ATK+7%, All damage cut -3% Small melee pierce up by STR&amp;DEX</div><div class="t_ds">STR +15 ATK +7% All damage R -3% [Y = STR] [Y = Y + DEX] [X = 0.01 * Y] [Melee Pierce up by X] </div><br/>
 </div>
